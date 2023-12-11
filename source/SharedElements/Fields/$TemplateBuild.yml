@@ -1,0 +1,105 @@
+---
+class: 1024
+flags: 0x0000
+unid: OF41DABFB4B99E3A77-ON003DF952802577C2
+items:
+  - name: $Fields
+    type: text
+    data: $TemplateBuild
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $INFO
+    type: text
+    data: $TemplateBuild
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2021-07-21T18:27:52.49+05:30"
+      - data: "2021-07-21T18:37:28.06+05:30"
+  - name: $TITLE
+    type: text
+    data: $TemplateBuild
+  - name: $TemplateBuild
+    type: text
+    data: 12.0.1
+    signed: true
+  - name: $TemplateBuildDate
+    type: time
+    data: "2021-09-21T15:29:28.00-05:00"
+    dst: true
+    signed: true
+  - name: $TemplateBuildName
+    type: text
+    data: StdR12TeamRoom
+    signed: true
+  - name: $TemplateBuildTool
+    type: text
+    data: CICO
+    signed: true
+  - name: $BODY
+    type: composite
+    signed: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 0
+        Flags: 0x0100
+        Flags2: 0x0000
+        JustifyMode: 0
+        LeftMargin: 0
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0x0000
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff8a
+        opaque: iv8yAIoAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAJFRlbXBsYXRlQnVpbGQ=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0x0000
+remaining: []

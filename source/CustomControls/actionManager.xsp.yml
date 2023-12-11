@@ -1,0 +1,137 @@
+---
+class: 4
+flags: 0x0000
+unid: OF7A878295AE8E0B44-ON005058AA80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 4724
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: actionManager.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2011-09-26T15:37:44.90+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:44.92+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:44.95+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:44.97+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:32.40+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:32.42+01:00"
+        dst: true
+      - data: "2011-10-06T16:05:22.62+01:00"
+        dst: true
+      - data: "2011-10-10T20:53:07.56+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:42.34+01:00"
+        dst: true
+      - data: "2011-10-26T11:43:02.43+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: actionManager.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAAB0EgAAAQAAAAAAAAAAAAAAYACGEgAAdBJ0EgAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      YWN0aW9uTWFuYWdlcjwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+YWN0aW9uTWFu
+      YWdlcjwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+L2FjdGlvbk1hbmFnZXIueHNw
+      PC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgICA8ZGVzaWduZXIt
+      ZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBhbGV0dGU+CiAgICAgIDwvZGVz
+      aWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgPHByb3BlcnR5LXR5
+      cGU+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPmFjdGlvbnM8L3Byb3BlcnR5LW5hbWU+CiAgICAgIDxwcm9w
+      ZXJ0eT4KICAgICAgICA8cHJvcGVydHktbmFtZT5zZWxlY3RlZEltYWdlPC9wcm9wZXJ0eS1uYW1lPgog
+      ICAgICAgIDxwcm9wZXJ0eS1jbGFzcz5zdHJpbmc8L3Byb3BlcnR5LWNsYXNzPgogICAgICAgIDxwcm9w
+      ZXJ0eS1leHRlbnNpb24+CiAgICAgICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgICAgICA8
+      ZWRpdG9yPmNvbS5pYm0ud29ya3BsYWNlLmRlc2lnbmVyLnByb3BlcnR5LmVkaXRvcnMuSW1hZ2VQaWNr
+      ZXI8L2VkaXRvcj4KICAgICAgICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgICAgPHJlcXVp
+      cmVkPnRydWU8L3JlcXVpcmVkPgogICAgICAgIDwvcHJvcGVydHktZXh0ZW5zaW9uPgogICAgICA8L3By
+      b3BlcnR5PgogICAgICA8cHJvcGVydHk+CiAgICAgICAgPHByb3BlcnR5LW5hbWU+ZGVzZWxlY3RlZElt
+      YWdlPC9wcm9wZXJ0eS1uYW1lPgogICAgICAgIDxwcm9wZXJ0eS1jbGFzcz5zdHJpbmc8L3Byb3BlcnR5
+      LWNsYXNzPgogICAgICAgIDxwcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgICAgICA8ZGVzaWduZXItZXh0
+      ZW5zaW9uPgogICAgICAgICAgICA8ZWRpdG9yPmNvbS5pYm0ud29ya3BsYWNlLmRlc2lnbmVyLnByb3Bl
+      cnR5LmVkaXRvcnMuSW1hZ2VQaWNrZXI8L2VkaXRvcj4KICAgICAgICAgIDwvZGVzaWduZXItZXh0ZW5z
+      aW9uPgogICAgICAgICAgPHJlcXVpcmVkPnRydWU8L3JlcXVpcmVkPgogICAgICAgIDwvcHJvcGVydHkt
+      ZXh0ZW5zaW9uPgogICAgICA8L3Byb3BlcnR5PgogICAgICA8cHJvcGVydHk+CiAgICAgICAgPHByb3Bl
+      cnR5LW5hbWU+c2VsZWN0ZWRWYWx1ZTwvcHJvcGVydHktbmFtZT4KICAgICAgICA8cHJvcGVydHktY2xh
+      c3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgICAgICA8cHJvcGVydHktZXh0ZW5zaW9uPgogICAg
+      ICAgICAgPHJlcXVpcmVkPnRydWU8L3JlcXVpcmVkPgogICAgICAgIDwvcHJvcGVydHktZXh0ZW5zaW9u
+      PgogICAgICA8L3Byb3BlcnR5PgogICAgICA8cHJvcGVydHktZXh0ZW5zaW9uPgogICAgICAgIDxjb250
+      YWluZXItY2xhc3M+amF2YS51dGlsLkNvbGxlY3Rpb248L2NvbnRhaW5lci1jbGFzcz4KICAgICAgICA8
+      Y29sbGVjdGlvbi1wcm9wZXJ0eT50cnVlPC9jb2xsZWN0aW9uLXByb3BlcnR5PgogICAgICA8L3Byb3Bl
+      cnR5LWV4dGVuc2lvbj4KICAgICAgPHByb3BlcnR5PgogICAgICAgIDxwcm9wZXJ0eS1uYW1lPmltYWdl
+      QWx0PC9wcm9wZXJ0eS1uYW1lPgogICAgICAgIDxwcm9wZXJ0eS1jbGFzcz5zdHJpbmc8L3Byb3BlcnR5
+      LWNsYXNzPgogICAgICAgIDxwcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgICAgICA8cmVxdWlyZWQ+dHJ1
+      ZTwvcmVxdWlyZWQ+CiAgICAgICAgPC9wcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgIDwvcHJvcGVydHk+
+      CiAgICAgIDxwcm9wZXJ0eS10eXBlPgogICAgICAgIDxwcm9wZXJ0eS1uYW1lPnBhcmFtczwvcHJvcGVy
+      dHktbmFtZT4KICAgICAgICA8cHJvcGVydHk+CiAgICAgICAgICA8cHJvcGVydHktbmFtZT5uYW1lPC9w
+      cm9wZXJ0eS1uYW1lPgogICAgICAgICAgPHByb3BlcnR5LWNsYXNzPnN0cmluZzwvcHJvcGVydHktY2xh
+      c3M+CiAgICAgICAgPC9wcm9wZXJ0eT4KICAgICAgICA8cHJvcGVydHk+CiAgICAgICAgICA8cHJvcGVy
+      dHktbmFtZT52YWx1ZTwvcHJvcGVydHktbmFtZT4KICAgICAgICAgIDxwcm9wZXJ0eS1jbGFzcz5zdHJp
+      bmc8L3Byb3BlcnR5LWNsYXNzPgogICAgICAgIDwvcHJvcGVydHk+CiAgICAgICAgPHByb3BlcnR5LWV4
+      dGVuc2lvbj4KICAgICAgICAgIDxjb250YWluZXItY2xhc3M+amF2YS51dGlsLkNvbGxlY3Rpb248L2Nv
+      bnRhaW5lci1jbGFzcz4KICAgICAgICAgIDxjb2xsZWN0aW9uLXByb3BlcnR5PnRydWU8L2NvbGxlY3Rp
+      b24tcHJvcGVydHk+CiAgICAgICAgPC9wcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgIDwvcHJvcGVydHkt
+      dHlwZT4KICAgIDwvcHJvcGVydHktdHlwZT4KICAgIDxwcm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5h
+      bWU+cmVmcmVzaElkPC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9w
+      cm9wZXJ0eS1jbGFzcz4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8cmVxdWlyZWQ+
+      ZmFsc2U8L3JlcXVpcmVkPgogICAgICA8L3Byb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgPGRlc2NyaXB0
+      aW9uPk11c3QgYmUgdGhlIGlkIG9mIGEgcGFyZW50IG9mIHRoaXMgYWN0aW9uIGdyb3VwPC9kZXNjcmlw
+      dGlvbj4KICAgIDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPmFj
+      dGlvbkdyb3VwTmFtZTwvcHJvcGVydHktbmFtZT4KICAgICAgPHByb3BlcnR5LWNsYXNzPnN0cmluZzwv
+      cHJvcGVydHktY2xhc3M+CiAgICAgIDxwcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgICAgPHJlcXVpcmVk
+      PnRydWU8L3JlcXVpcmVkPgogICAgICA8L3Byb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgPGRlc2NyaXB0
+      aW9uPlVuaXF1ZSBuYW1lIGZvciB0aGlzIGdyb3VwIG9mIGFjdGlvbnM8L2Rlc2NyaXB0aW9uPgogICAg
+      PC9wcm9wZXJ0eT4KICAgIDxwcm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5hbWU+cGFkQWN0aW9uczwv
+      cHJvcGVydHktbmFtZT4KICAgICAgPHByb3BlcnR5LWNsYXNzPmJvb2xlYW48L3Byb3BlcnR5LWNsYXNz
+      PgogICAgICA8cHJvcGVydHktZXh0ZW5zaW9uPgogICAgICAgIDxkZXNpZ25lci1leHRlbnNpb24+CiAg
+      ICAgICAgICA8ZWRpdG9yPmNvbS5pYm0uc3RkLkJvb2xlYW48L2VkaXRvcj4KICAgICAgICAgIDxkZWZh
+      dWx0LXZhbHVlPnRydWU8L2RlZmF1bHQtdmFsdWU+CiAgICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+
+      CiAgICAgICAgPHJlcXVpcmVkPnRydWU8L3JlcXVpcmVkPgogICAgICA8L3Byb3BlcnR5LWV4dGVuc2lv
+      bj4KICAgICAgPGRlc2NyaXB0aW9uPlByb3ZpZGVzIGEgNHB4IHBhZGRpbmcgc3BhY2UgYmV0d2VlbiBh
+      Y3Rpb24gaW1hZ2VzPC9kZXNjcmlwdGlvbj4KICAgIDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAg
+      ICAgIDxwcm9wZXJ0eS1uYW1lPmRlZmF1bHRTZWxlY3RlZFZhbHVlPC9wcm9wZXJ0eS1uYW1lPgogICAg
+      ICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgICAgPGRlc2NyaXB0aW9u
+      PlRoZSBkZWZhdWx0IHNlbGVjdGVkIGFjdGlvbiB2YWx1ZTwvZGVzY3JpcHRpb24+CiAgICAgIDxwcm9w
+      ZXJ0eS1leHRlbnNpb24+CiAgICAgICAgPHJlcXVpcmVkPnRydWU8L3JlcXVpcmVkPgogICAgICA8L3By
+      b3BlcnR5LWV4dGVuc2lvbj4KICAgIDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9w
+      ZXJ0eS1uYW1lPmR5bmFtaWNDb250ZW50SWQ8L3Byb3BlcnR5LW5hbWU+CiAgICAgIDxwcm9wZXJ0eS1j
+      bGFzcz5zdHJpbmc8L3Byb3BlcnR5LWNsYXNzPgogICAgPC9wcm9wZXJ0eT4KICAgIDxwcm9wZXJ0eT4K
+      ICAgICAgPHByb3BlcnR5LW5hbWU+ZGlzcGxheUxhYmVsPC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJv
+      cGVydHktY2xhc3M+Ym9vbGVhbjwvcHJvcGVydHktY2xhc3M+CiAgICAgIDxwcm9wZXJ0eS1leHRlbnNp
+      b24+CiAgICAgICAgPGRlc2lnbmVyLWV4dGVuc2lvbj4KICAgICAgICAgIDxlZGl0b3I+Y29tLmlibS5z
+      dGQuQm9vbGVhbjwvZWRpdG9yPgogICAgICAgICAgPGRlZmF1bHQtdmFsdWU+ZmFsc2U8L2RlZmF1bHQt
+      dmFsdWU+CiAgICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+CiAgICAgIDwvcHJvcGVydHktZXh0ZW5z
+      aW9uPgogICAgPC9wcm9wZXJ0eT4KICAgIDxwcm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5hbWU+bGFi
+      ZWxUZXh0PC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0
+      eS1jbGFzcz4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8bG9jYWxpemFibGU+dHJ1
+      ZTwvbG9jYWxpemFibGU+CiAgICAgICAgPGRlc2lnbmVyLWV4dGVuc2lvbj4KICAgICAgICAgIDxlZGl0
+      b3I+Y29tLmlibS5zdGQuU3RyaW5nPC9lZGl0b3I+CiAgICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+
+      CiAgICAgIDwvcHJvcGVydHktZXh0ZW5zaW9uPgogICAgPC9wcm9wZXJ0eT4KICA8L2NvbXBvc2l0ZS1j
+      b21wb25lbnQ+CjwvZmFjZXMtY29uZmlnPgo=
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF6EF635D949C2013C-ON004B8D0280257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: mobile_sl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K2
+  - name: $TITLE
+    type: text
+    data: mobile_sl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

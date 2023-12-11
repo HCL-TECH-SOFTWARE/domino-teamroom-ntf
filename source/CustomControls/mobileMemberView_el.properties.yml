@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFE2B28B5CD1E19AAB-ON004C8B8A80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: mobileMemberView_el.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: mobileMemberView_el.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

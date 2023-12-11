@@ -1,0 +1,11 @@
+.lotusFormTable .lotusFormFieldRow .dijitDateTextBox .dijitInputField .dijitInputInner {
+    width: 100% !important;
+}
+
+html[dir="rtl"] .lotusTitleBar .lotusSearch .lotusBtnImg {
+	padding:0px 0px 0px 1px;
+}
+html[dir="rtl"] .lotusTitleBar .lotusSearch .lotusSearchButton > img{
+	width:21px;
+	height:21px;
+}

@@ -1,0 +1,35 @@
+---
+class: 4
+flags: 0x0000
+unid: OF08494D52ADA045B7-ON003DF9B2802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: WebFont.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34C=Q
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data:
+      - WebFont
+      - WebFont
+    signed: true
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,277 @@
+---
+class: 512
+flags: 0x0000
+unid: OF3F36E579B7960214-ON006B1700802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      %REM ////////////////////////////////////////////////////////////////////////////////////
+      
+      	Upgrades existing docs in TeamRoom dbs:
+      	Creates "Abstract" items from existing "Body" items (used in XPages views)
+      
+      	© Copyright HCL Technologies. 2019
+      %END REM ////////////////////////////////////////////////////////////////////////////////
+      
+      Option Public
+      Option Declare
+      
+      Use "lsClassException"
+      
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Public Class cUpgrade
+      Declare Sub Initialize
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Private Const MODULE_NAME = "agUpgrade"
+      
+      Public Class cUpgrade
+      	
+      	Private m_session	As NotesSession
+      	Private m_db		As NotesDatabase
+      	
+      	'-------------
+      	Public Sub New
+      	'-------------
+      		
+      		On Error GoTo ERROR_HANDLER
+      		
+      		Set m_session	= New NotesSession
+      		Set m_db		= m_session.CurrentDatabase
+      		
+      		'requires at least DESIGNER access
+      		If Not Me.HasAccess(ACLLEVEL_DESIGNER) Then
+      			MsgBox NEED_DESIGNER_ACCESS, MB_OK + MB_ICONEXCLAMATION, m_db.Title
+      			Exit Sub
+      		End If
+      		
+      		'run the upgrade...
+      		Call Me.CreateAbstractFromBody()
+      		
+      		Exit Sub
+      		
+      ERROR_HANDLER:
+      		
+      		Call oException.RaiseError(MODULE_NAME, TypeName(Me), Null)
+      		Exit Sub
+      		
+      	End Sub
+      	
+      	'-------------------------
+      	Private Function HasAccess(iRequestedLevel As Integer) As Boolean
+      	'-------------------------
+      		
+      		On Error GoTo ERROR_HANDLER
+      		
+      		Dim iCurrentLevel As Integer
+      		
+      		If m_db.CurrentAccessLevel >= iRequestedLevel Then
+      			HasAccess = True
+      		End If
+      		
+      		Exit Function
+      		
+      ERROR_HANDLER:
+      		
+      		Call oException.RaiseError(MODULE_NAME, TypeName(Me), iRequestedLevel)
+      		Exit Function
+      		
+      	End Function
+      	
+      	'---------------------------------
+      	Private Sub CreateAbstractFromBody
+      	'---------------------------------
+      		
+      		On Error GoTo ERROR_HANDLER
+      		
+      		Const VIEW_NAME		= "xvwRecentActivity"
+      		Const COL_HASABSTRACT	= 6
+      		Const ITEM_BODY		= "Body"
+      		Const ITEM_ABSTRACT		= "Abstract"
+      		Const ABSTRACT_SIZE		= 300
+      		
+      		Dim view				As NotesView
+      		Dim vecoll			As NotesViewEntryCollection
+      		Dim viewEntry			As NotesViewEntry
+      		
+      		Dim doc				As NotesDocument
+      		Dim item				As NotesItem
+      		Dim sAbstract			As String
+      		Dim sEntryCount		As String
+      		Dim lConverted			As Long
+      		Dim vCols				As Variant
+      		
+      		Set view	= m_db.GetView(VIEW_NAME)
+      		If view Is Nothing Then Error 1000, sprintf1(ERR_VIEW_NOT_FOUND, VIEW_NAME)
+      		
+      		'bring the view up-to-date, then lock it
+      		Call view.Refresh()
+      		view.AutoUpdate = False
+      		
+      		sEntryCount	= CStr(view.EntryCount)
+      		Set vecoll	= view.AllEntries()
+      		Set viewEntry	= vecoll.GetFirstEntry()
+      		
+      		While Not(viewEntry Is Nothing)
+      			
+      			If viewEntry.IsValid Then
+      				
+      				'only process entries which don't yet have the new abstract item
+      				If viewEntry.ColumnValues(COL_HASABSTRACT) = 0 Then
+      					
+      					Set doc = viewEntry.Document
+      					
+      					'only process docs which actually have a body item we can abstract
+      					If doc.HasItem(ITEM_BODY) Then
+      						
+      						Set item	= doc.GetFirstItem(ITEM_BODY)
+      						sAbstract	= item.Abstract(ABSTRACT_SIZE, False, False)
+      						
+      						'in case we're truncating/clipping the last word
+      						If Len(sAbstract) = ABSTRACT_SIZE Then
+      							
+      							'get the text up to the last word before the last space
+      							sAbstract = StrLeftBack(sAbstract, " ", 5)
+      							
+      							'and append ellipsis "..."
+      							sAbstract = sprintf1(ABSTRACT_ELLIPSIS, sAbstract)
+      							
+      						End If
+      						
+      						'save the new abstract item
+      						Call doc.ReplaceItemValue(ITEM_ABSTRACT, sAbstract)
+      						Call doc.Save(True, False, True)
+      						
+      						'log progress
+      						lConverted = lConverted + 1
+      						Print sprintf2(UPGRADE_PROGRESS, CStr(lConverted), sEntryCount)
+      						
+      					End If
+      				End If
+      			End If
+      			
+      			Set viewEntry = vecoll.GetNextEntry(viewEntry)
+      		Wend
+      		
+      		'log status
+      		If lConverted = 0 Then
+      			MsgBox sprintf2("%s1\n\n%s2", UPGRADE_ALREADY_DONE, UPGRADE_NOT_AGAIN), MB_OK + MB_ICONINFORMATION, m_db.Title
+      		Else
+      			MsgBox sprintf2("%s1\n\n%s2", UPGRADE_COMPLETED, UPGRADE_NOT_AGAIN), MB_OK + MB_ICONINFORMATION, m_db.Title
+      		End If
+      		
+      		Exit Sub
+      		
+      ERROR_HANDLER:
+      		
+      		Call oException.RaiseError(MODULE_NAME, TypeName(Me), sAbstract)
+      		
+      	End Sub
+      	
+      End Class
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	
+      	On Error GoTo ERROR_HANDLER
+      	
+      	'Upgrade the database
+      	Dim oUpgrade As New cUpgrade
+      	
+      	Exit Sub
+      	
+      ERROR_HANDLER:
+      	
+      	Call oException.HandleError(MODULE_NAME, "", Null)
+      	Exit Sub
+      	
+      End Sub
+      
+      
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: Es
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      egViAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: Creates Abstracts for XPages Views
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: Upgrade Content|agUpgrade
+    signed: true
+remaining: []

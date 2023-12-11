@@ -1,0 +1,71 @@
+---
+class: 4
+flags: 0x0000
+unid: OF18D8B5EFDE006A8E-ON005065DE80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1907
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: topicThreadForum.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data: "2013-09-06T00:30:48.40+01:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: topicThreadForum.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAABzBwAAAQAAAAAAAAAAAAAAYACFBwAAcwd0BwAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      dG9waWNUaHJlYWRGb3J1bTwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+dG9waWNU
+      aHJlYWRGb3J1bTwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+L3RvcGljVGhyZWFk
+      Rm9ydW0ueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxwcm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5h
+      bWU+cmVmcmVzaElkPC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9w
+      cm9wZXJ0eS1jbGFzcz4KICAgIDwvcHJvcGVydHk+CiAgICA8Y29tcG9zaXRlLWV4dGVuc2lvbj4KICAg
+      ICAgPGRlc2lnbmVyLWV4dGVuc2lvbj4KICAgICAgICA8cmVuZGVyLW1hcmt1cC8+CiAgICAgIDwvZGVz
+      aWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgPHByb3BlcnR5Pgog
+      ICAgICA8cHJvcGVydHktbmFtZT5pc0ZvcmNlU2hvd1JvdzwvcHJvcGVydHktbmFtZT4KICAgICAgPHBy
+      b3BlcnR5LWNsYXNzPmphdmF4LmZhY2VzLmVsLk1ldGhvZEJpbmRpbmc8L3Byb3BlcnR5LWNsYXNzPgog
+      ICAgICA8cHJvcGVydHktZXh0ZW5zaW9uPgogICAgICAgIDxtZXRob2QtYmluZGluZy1wcm9wZXJ0eT50
+      cnVlPC9tZXRob2QtYmluZGluZy1wcm9wZXJ0eT4KICAgICAgPC9wcm9wZXJ0eS1leHRlbnNpb24+CiAg
+      ICA8L3Byb3BlcnR5PgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5pc0xvYWRCb2R5
+      QXJlYTwvcHJvcGVydHktbmFtZT4KICAgICAgPHByb3BlcnR5LWNsYXNzPmJvb2xlYW48L3Byb3BlcnR5
+      LWNsYXNzPgogICAgPC9wcm9wZXJ0eT4KICAgIDxwcm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5hbWU+
+      aXNTaG93Qm9keUFyZWE8L3Byb3BlcnR5LW5hbWU+CiAgICAgIDxwcm9wZXJ0eS1jbGFzcz5qYXZheC5m
+      YWNlcy5lbC5NZXRob2RCaW5kaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgICAgPHByb3BlcnR5LWV4dGVu
+      c2lvbj4KICAgICAgICA8bWV0aG9kLWJpbmRpbmctcHJvcGVydHk+dHJ1ZTwvbWV0aG9kLWJpbmRpbmct
+      cHJvcGVydHk+CiAgICAgIDwvcHJvcGVydHktZXh0ZW5zaW9uPgogICAgPC9wcm9wZXJ0eT4KICAgIDxw
+      cm9wZXJ0eT4KICAgICAgPHByb3BlcnR5LW5hbWU+aXNMb2FkRWRpdEFyZWE8L3Byb3BlcnR5LW5hbWU+
+      CiAgICAgIDxwcm9wZXJ0eS1jbGFzcz5ib29sZWFuPC9wcm9wZXJ0eS1jbGFzcz4KICAgIDwvcHJvcGVy
+      dHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPmlzU2hvd0VkaXRBcmVhPC9wcm9w
+      ZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+amF2YXguZmFjZXMuZWwuTWV0aG9kQmluZGlu
+      ZzwvcHJvcGVydHktY2xhc3M+CiAgICAgIDxwcm9wZXJ0eS1leHRlbnNpb24+CiAgICAgICAgPG1ldGhv
+      ZC1iaW5kaW5nLXByb3BlcnR5PnRydWU8L21ldGhvZC1iaW5kaW5nLXByb3BlcnR5PgogICAgICA8L3By
+      b3BlcnR5LWV4dGVuc2lvbj4KICAgIDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9w
+      ZXJ0eS1uYW1lPmlzTG9hZE1haW5FZGl0QXJlYTwvcHJvcGVydHktbmFtZT4KICAgICAgPHByb3BlcnR5
+      LWNsYXNzPmJvb2xlYW48L3Byb3BlcnR5LWNsYXNzPgogICAgPC9wcm9wZXJ0eT4KICA8L2NvbXBvc2l0
+      ZS1jb21wb25lbnQ+CjwvZmFjZXMtY29uZmlnPgoJ
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

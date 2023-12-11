@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFBC99E8DA00EC79E8-ON004A02E480257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: controlReadFormRichText_sk.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlReadFormRichText_sk.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

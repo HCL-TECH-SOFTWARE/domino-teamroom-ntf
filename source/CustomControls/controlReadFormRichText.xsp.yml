@@ -1,0 +1,65 @@
+---
+class: 4
+flags: 0x0000
+unid: OFE69DECAABB8692A3-ON00505B4F80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1803
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: controlReadFormRichText.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $TITLE
+    type: text
+    data: controlReadFormRichText.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAAALBwAAAQAAAAAAAAAAAAAAYAAdBwAACwcMBwAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      Y29udHJvbFJlYWRGb3JtUmljaFRleHQ8L2NvbXBvbmVudC10eXBlPgogICAgPGNvbXBvc2l0ZS1uYW1l
+      PmNvbnRyb2xSZWFkRm9ybVJpY2hUZXh0PC9jb21wb3NpdGUtbmFtZT4KICAgIDxjb21wb3NpdGUtZmls
+      ZT4vY29udHJvbFJlYWRGb3JtUmljaFRleHQueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3Np
+      dGUtZXh0ZW5zaW9uPgogICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRl
+      PnRydWU8L2luLXBhbGV0dGU+CiAgICAgICAgPHJlbmRlci1tYXJrdXA+Jmx0Oz94bWwgdmVyc2lvbj0i
+      MS4wIiBlbmNvZGluZz0iVVRGLTgiPyZndDsmI3hkOwombHQ7eHA6dmlldyB4bWxuczp4cD0iaHR0cDov
+      L3d3dy5pYm0uY29tL3hzcC9jb3JlIiZndDsmI3hkOwogICAgJmx0O3hwOmRpdiZndDsmI3hkOwogICAg
+      ICAmbHQ7eHA6bGFiZWwgJiN4ZDsKICAgICAgICB2YWx1ZT0iJmx0OyU9dGhpcy5sYWJlbD90aGlzLmxh
+      YmVsOid7bGFiZWx9JyUmZ3Q7IiYjeGQ7CiAgICAgICAgaWQ9ImxhYmVsMSIgJiN4ZDsKICAgICAgICBm
+      b3I9IiN7amF2YXNjcmlwdDpjb21wb3NpdGVEYXRhLmlucHV0SWR9IiYjeGQ7CiAgICAgICAgc3R5bGU9
+      ImZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEzcHQiJmd0OyYjeGQ7CiAgICAgICZsdDsveHA6bGFi
+      ZWwmZ3Q7JiN4ZDsKICAgICAgJmx0O3hwOmRpdiBzdHlsZT0ibWFyZ2luOjVweDsgbWFyZ2luLWJvdHRv
+      bToxMHB4IiZndDsmI3hkOwogICAgICAgICZsdDt4cDpjYWxsYmFjayBpZD0iY2IxIiZndDsmI3hkOwog
+      ICAgICAgICZsdDsveHA6Y2FsbGJhY2smZ3Q7JiN4ZDsKICAgICAgJmx0Oy94cDpkaXYmZ3Q7JiN4ZDsK
+      ICAgICZsdDsveHA6ZGl2Jmd0OyYjeGQ7CiZsdDsveHA6dmlldyZndDsmI3hkOwo8L3JlbmRlci1tYXJr
+      dXA+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgog
+      ICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5sYWJlbDwvcHJvcGVydHktbmFtZT4KICAg
+      ICAgPHByb3BlcnR5LWNsYXNzPnN0cmluZzwvcHJvcGVydHktY2xhc3M+CiAgICAgIDxwcm9wZXJ0eS1l
+      eHRlbnNpb24+CiAgICAgICAgPHJlcXVpcmVkPmZhbHNlPC9yZXF1aXJlZD4KICAgICAgPC9wcm9wZXJ0
+      eS1leHRlbnNpb24+CiAgICA8L3Byb3BlcnR5PgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHkt
+      bmFtZT5pbnB1dElkPC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9w
+      cm9wZXJ0eS1jbGFzcz4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8cmVxdWlyZWQ+
+      ZmFsc2U8L3JlcXVpcmVkPgogICAgICA8L3Byb3BlcnR5LWV4dGVuc2lvbj4KICAgIDwvcHJvcGVydHk+
+      CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPmF0dGFjaEVMPC9wcm9wZXJ0eS1uYW1l
+      PgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgIDwvcHJvcGVy
+      dHk+CiAgPC9jb21wb3NpdGUtY29tcG9uZW50Pgo8L2ZhY2VzLWNvbmZpZz4KKg==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

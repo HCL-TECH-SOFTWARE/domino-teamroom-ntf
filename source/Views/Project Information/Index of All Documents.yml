@@ -1,0 +1,1045 @@
+---
+class: 8
+flags: 0x0000
+unid: OFF365059B49C5FC4E-ON003DF57B802577C2
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVIndex")
+    opaque: |
+      XgAHAAoAAwBETlQABwAKAAMACTFTAAAAOAACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBAA4A
+      VGVhbVJvb21WSW5kZXjtBAMABwAQAAkACTBSNFM2UzhTAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: MgAEAABEAGYAAAAEAAhmBwQABAAAZgAIAAQAAGYADAAEACQxODckMTg0JDE4OCQxMjE=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Formula
+    type: formula
+    data: "REM {DNT Begin};  form != \"Interest Profile\""
+    opaque: |
+      Ig4CAFQBBAAkMTg3BQAEAGZvcm0BAAcATWlzc2lvbgAKAq8AMAEQAAAAAAAAAAAAFECuACABBQAEAGZv
+      cm0BABIAUGFydGljaXBhbnRQcm9maWxlCgKvAPwAEAAAAAAAAAAAACRArgDsAAUABABmb3JtAQAHAFN1
+      YnRlYW0ACgKvANIAEAAAAAAAAAAAAC5ArgDCAAUABABmb3JtAQAMAGFubm91bmNlbWVudAoCrwCkABAA
+      AAAAAAAAAAA0QK4AlAAFAAQAZm9ybQEABgBTdGF0dXMKAq8AfAAQAAAAAAAAAAAAOUCuAGwABQAEAGZv
+      cm0BAAcASW5kU3RhdAAKAq8AUgAQAAAAAAAAAAAAPkCuAEIABQAEAGZvcm0BAA0AU3VidGVhbVN0YXR1
+      cwAKAq8AIgAQAAAAAAAAAACAQUCuABIAAAAAAAAAAMBYQK4ABAC1DwMAAQAwABMATWlzc2lvblR4dADO
+      bVQAJIMlAAABABAALSBUZWFtUm9vbSBTZXR1cAMAAQA4ABAASW5kU3RhdADPbVQAJIMlAAEAGwAtIElu
+      ZGl2aWR1YWwgU3RhdHVzIFJlcG9ydHMAAwABADQAEgBTdGF0dXNUeHQA0G1UACSDJQABABUALSBUZWFt
+      IFN0YXR1cyBSZXBvcnRzAAMAAQBWABkAU3VidGVhbVN0YXR1c1R4dADRbVQAJIMlAAABAB4ALSBTdWJ0
+      ZWFtIFN0YXR1cyBSZXBvcnRzIGZvcjogBQALAFN1YnRlYW1OYW1lACICAwABADYAEwBQcm9maWxlVHh0
+      ANJtVAAkgyUAAAEAFgAtIFRlYW0gTWVtYmVyIFByb2ZpbGVzAwABADIAEQBFdmVudFR4dADTbVQAJIMl
+      AAABABMALSBNaWxlc3RvbmVzL0V2ZW50cwADAAEAKgATAFN1YnRlYW1UeHQA1G1UACSDJQAAAQAKAC0g
+      U3VidGVhbXMDAAEALAAPAEFublR4dADVbVQAJIMlAAABAA8ALSBBbm5vdW5jZW1lbnRzAAMAAQA2AA4A
+      TWFpbFAA1m1UACSDJQABABsAPj5NYWlsZWQvUGFzdGVkIERvY3VtZW50czw8AAMAAgA+AgQAJDE4NAUA
+      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
+      AwAHABAACgAJMFNMMVMyUzNT
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Revisions
+    type: time
+    data: "2019-11-05T09:50:03.05-05:00"
+  - name: $TITLE
+    type: text
+    data: "Project Information\\Index of All Documents|($All)"
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAGALwAjUwAAFZDCQAEABIAGAIAABQAAQAACQAAAAAAAAAAAAICAAAAVkMDBAQAAABGBQAAEAABAQ0J
+      AAEAAAAAAAAAAgIAAABWQwkABAAGADQDAAANAAEAAAkAAAAAAAAAAAACAgAAAFZDiQAEAAYApAAAAAsA
+      AQAACQAAAAAAAAAAAAICAAAAVkMQBAQAAABOAgAADQABAAAJACACAAAAAAAAAAIAACBWQwAEBAAFAIgF
+      AABRAQEAAAkAIAAAAAAAAAACAgAAICQxODdIaWRkZW4gZm9yIHNvcnRpbmcYAgcAQAA6AGZvciBzb3J0
+      aW5nIHRoZSBpbmRpdmlkdWFsIGZvcm1zIGluIG5vbi1hbHBoYWJldGljYWwgb3JkZXIHAAoAAwAJMVMA
+      BwAQAAkAQmVnaW4gRE5UAAcADAAFAAkwUjFTAAIAVAEEACQxODcFAAQAZm9ybQEABwBNaXNzaW9uAAoC
+      rwAwARAAAAAAAAAAAAAUQK4AIAEFAAQAZm9ybQEAEgBQYXJ0aWNpcGFudFByb2ZpbGUKAq8A/AAQAAAA
+      AAAAAAAAJECuAOwABQAEAGZvcm0BAAcAU3VidGVhbQAKAq8A0gAQAAAAAAAAAAAALkCuAMIABQAEAGZv
+      cm0BAAwAYW5ub3VuY2VtZW50CgKvAKQAEAAAAAAAAAAAADRArgCUAAUABABmb3JtAQAGAFN0YXR1cwoC
+      rwB8ABAAAAAAAAAAAAA5QK4AbAAFAAQAZm9ybQEABwBJbmRTdGF0AAoCrwBSABAAAAAAAAAAAAA+QK4A
+      QgAFAAQAZm9ybQEADQBTdWJ0ZWFtU3RhdHVzAAoCrwAiABAAAAAAAAAAAIBBQK4AEgAAAAAAAAAAwFhA
+      rgAEALUPAwAHAFwAVgAJMFIzUzRTNlM4UjlTMTBTMTNTMTRSMTVTMTZTMThTMjBSMjFTMjJTMjRTMjZS
+      MjdTMjhTMjlTMzBTMzJSMzNTMzRTMzZTMzhSMzlTNDBTNDJTNDRSUyQxODRGBQEAMAATAE1pc3Npb25U
+      eHQAzm1UACSDJQAAAQAQAC0gVGVhbVJvb20gU2V0dXADAAcADAAFAAkxUzJTAAEAOAAQAEluZFN0YXQA
+      z21UACSDJQABABsALSBJbmRpdmlkdWFsIFN0YXR1cyBSZXBvcnRzAAMABwAOAAcACTBSMVMyUwABADQA
+      EgBTdGF0dXNUeHQA0G1UACSDJQABABUALSBUZWFtIFN0YXR1cyBSZXBvcnRzAAMABwAOAAcACTBSMVMy
+      UwABAFYAGQBTdWJ0ZWFtU3RhdHVzVHh0ANFtVAAkgyUAAAEAHgAtIFN1YnRlYW0gU3RhdHVzIFJlcG9y
+      dHMgZm9yOiAFAAsAU3VidGVhbU5hbWUAIgIDAAcAEgALAAkwUjFTMlMzUzRTAAEANgATAFByb2ZpbGVU
+      eHQA0m1UACSDJQAAAQAWAC0gVGVhbSBNZW1iZXIgUHJvZmlsZXMDAAcADgAHAAkwUjFTMlMAAQAyABEA
+      RXZlbnRUeHQA021UACSDJQAAAQATAC0gTWlsZXN0b25lcy9FdmVudHMAAwAHAA4ABwAJMFIxUzJTAAEA
+      KgATAFN1YnRlYW1UeHQA1G1UACSDJQAAAQAKAC0gU3VidGVhbXMDAAcADgAHAAkwUjFTMlMAAQAsAA8A
+      QW5uVHh0ANVtVAAkgyUAAAEADwAtIEFubm91bmNlbWVudHMAAwAHAA4ABwAJMFIxUzJTAAEANgAOAE1h
+      aWxQANZtVAAkgyUAAQAbAD4+TWFpbGVkL1Bhc3RlZCBEb2N1bWVudHM8PAADAAcADgAHAAkwUjFTMlMA
+      BwAQAAkAQmVnaW4gRE5UAAcADAAFAAkwUjFTAAIAPgIEACQxODQFAAIAbXABAAEAMQAKAq8AIgIYAAUA
+      DgBNYWlsUADWbVQAJIMlAK4ACgIFAAQAZm9ybQEACQBNYWluVG9waWMACgKvAO4BEgAFAAcARG9jVHlw
+      ZQCuANwBBQAEAGZvcm0BAAcATWlzc2lvbgAKAq8AwgEeAAUAEwBNaXNzaW9uVHh0AM5tVAAkgyUAAK4A
+      pAEFAAQAZm9ybQEABgBTdGF0dXMKAq8AjAEcAAUAEgBTdGF0dXNUeHQA0G1UACSDJQCuAHABBQAEAGZv
+      cm0BAAcASW5kU3RhdAAKAq8AVgEaAAUAEABJbmRTdGF0AM9tVAAkgyUArgA8AQUABABmb3JtAQAMAGFu
+      bm91bmNlbWVudAoCrwAeARoABQAPAEFublR4dADVbVQAJIMlAACuAAQBBQAEAGZvcm0BAA0AU3VidGVh
+      bVN0YXR1cwAKAq8A5AAkAAUAGQBTdWJ0ZWFtU3RhdHVzVHh0ANFtVAAkgyUAAK4AwAAFAAQAZm9ybQEA
+      EgBQYXJ0aWNpcGFudFByb2ZpbGUKAq8AnAAeAAUAEwBQcm9maWxlVHh0ANJtVAAkgyUAAK4AfgAFAAQA
+      Zm9ybQEABwBTdWJ0ZWFtAAoCrwBkAB4ABQATAFN1YnRlYW1UeHQA1G1UACSDJQAArgBGAAUABABmb3Jt
+      AQAFAEV2ZW50AAoCrwAuABwABQARAEV2ZW50VHh0ANNtVAAkgyUAAK4AEgAFAAQAZm9ybWMBrgAEALUV
+      AwAHAIQAfQAJMFIyUjNTNFM3UzhSOVMxMFMxMlMxNFMxNVMxNlMxOFMyMFJTMjFTMjJTMjNTMjRTMjZS
+      MjdTMjhTMzBTMzJSMzNTMzRTMzZTMzhSMzlTNDBTNDJTNDRSNDVTNDZTNDhTNTBTNTFTNTJTNTRTNTZS
+      UzU3UzU4UzYwUzYyUwAkMTg4SGlkZGVuNAMHAFAASQBhbHdheXMgd2FudCB0aGUgW2luYWN0aXZlXSBk
+      b2N1bWVudHMgYXQgdGhlIGVuZCBvZiB0aGVpciByZXNwZWN0aXZlIGxpc3RzAAcACgADAAkxUwAHABAA
+      CQBCZWdpbiBETlQABwAMAAUACTBSMVMAAQA0AA4AU0xpc3QAdoRUACSDJQABAA0AU3VidGVhbVN0YXR1
+      cwABAAYAU3RhdHVzHwIDAAcAEgAMAAkwUlIxUzJTM1M0UwIA1AEEACQxODgFAAQAZm9ybQUADgBTTGlz
+      dAB2hFQAJIMlAHQCBQAGAHN0YXR1cwEAAQAxAAoCHAKvAJYBFAAFAAoAUmVwb3J0RGF0Za4AggEFAAQA
+      Zm9ybQUADgBTTGlzdAB2hFQAJIMlAHQCBQAGAFN0YXR1cwEAAQAwAAoCHAKvAE4BDAABAAEAegCuAEIB
+      BQAEAEZvcm0BABIAUGFydGljaXBhbnRQcm9maWxlCgIFAAYAU3RhdHVzAQABADEACgIcAq8ACgEOAAUA
+      AwBXaG8ArgD8AAUABABmb3JtBQAFAFBMaXN0AHQCBQAGAFN0YXR1cwEAAQAwAAoCHAKvANAADAABAAEA
+      egCuAMQABQAEAEZvcm0BAAcAU3VidGVhbQAKAgUABgBTdGF0dXMBAAEAMQAKAhwCrwCWABAABQAGAFNU
+      TmFtZa4AhgAFAAQAZm9ybQUABQBQTGlzdAB0AgUABgBTdGF0dXMBAAEAMAAKAhwCrwBaAAwAAQABAHoA
+      rgBOAAUABABmb3JtAQAFAEV2ZW50AAoCBQAGAFN0YXR1cwEAAQAxAAoCHAKvACIAFAAFAAkARXZlbnRE
+      YXRlAK4ADgABAAEAegCuAAQAtQ8DAAcAogCcAAkwUjZTOFM5UzEwUzExUzEzUzE1UzE5UzIxUzIyUzIz
+      UzI0UzI2UzI4UjI5UzMwUzMxUzMyUzMzUzM0UzM2UzM4UzQyUzQ0UzQ1UzQ2UzQ3UzQ5UzUxUjUyUzUz
+      UzU0UzU1UzU2UzU3UzU5UzYxUzY1UzY3UzY4UzY5UzcwUzcyUzc0Ujc1Uzc2Uzc3Uzc4Uzc5UzgwUzgy
+      Uzg0UyQxMjFIaWRkZW6kAAcAKAAhAHNvcnRzIHRoZSBNYWluL1Jlc3BvbnNlIGRvY3VtZW50cwAHAAoA
+      AwAJMVMABwAQAAkAQmVnaW4gRE5UAAcADAAFAAkwUjFTAAIAPgAEACQxMjEFAAQAZm9ybQEACQBNYWlu
+      VG9waWMACgJsAB0CrwAUAAgAaQCuAAwAAQAAAK4ABAC1AwMABwAWABAACTBSM1M0UzVTNlM4UzEwUyQx
+      NzJOAgEAKgATAFByaXZhdGVUeHQA24lUACSDJQAAAQAJAFBSSVZBVEU6IAADAAcADAAFAAkxUzJTAAEA
+      KgATAEV4cGlyZWRUeHQA3IlUACSDJQAAAQAJAEVYUElSRUQ6IAADAAcADgAHAAkwUjFTMlMAAQBaABMA
+      QXV0aG9yTmFtZQDdiVQAJIMlAAAFAAQARnJvbWgBHgGvADAAFAABAAkAQW5vbnltb3VzAK4AHAACAAUA
+      AAAAAAAABQAEAEZyb220Aq4ABAC1AwMABwAWABAACTBSMVMyUzEwUzEyUzE2UwcAEAAJAEJlZ2luIERO
+      VAAHAAwABQAJMFIxUwACAPwABAAkMTcyBQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVU
+      eHQA24lUACSDJQAArgBCAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQA3IlU
+      ACSDJQAArgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAABAAAACwKvACYAGgAFAAcAU3ViamVjdAABAAIA
+      ICAiAq4ADAABAAAArgAEALUDIgIBAAEAKAAiAgUAEwBBdXRob3JOYW1lAN2JVAAkgyUAACICAQABACAA
+      IgJpAAEABABEMlMwVgIiAgEAAQApACICAwAHAFYATwAJMFIzUzRTNlM4UzlTMTBTMTJTMTRTMTZTMTdT
+      MjBTMjFTMjNTMjRTMjVTMjdTMjlTMzBTMzFTMzJTMzNTMzRTMzVTMzZTNDBTNDJTNDNTACQxODNUb3Bp
+      Y4gFAQAsABQASW5hY3RpdmVUeHQAnY9UACSDJQABAAsAW0lOQUNUSVZFXSAAAwAHAAwABQAJMVMyUwAB
+      ACoAEwBQcml2YXRlVHh0AJ6PVAAkgyUAAAEACQBQUklWQVRFOiAAAwAHAA4ABwAJMFIxUzJTAAEAKgAT
+      AEV4cGlyZWRUeHQAn49UACSDJQAAAQAJAEVYUElSRUQ6IAADAAcADgAHAAkwUjFTMlMABwAQAAkAQmVn
+      aW4gRE5UAAcADAAFAAkwUjFTAAEAPgASAEF1dGhvclR4dACgj1QAJIMlAAEAAgAgKAIABQAAAAAAAAAF
+      AAQARnJvbbQCIgIBAAEAKQAiAgMABwAaABQACTBSUjFTMlMzUzRTOFMxMFMxMVMBAPgADwBBdXRob3IA
+      oY9UACSDJQAABQAEAGZvcm0BAAcATWlzc2lvbgAKAq8AyAAKAAEAAACuAL4ABQAEAGZvcm0BABIAUGFy
+      dGljaXBhbnRQcm9maWxlCgKvAJoACgABAAAArgCQAAUABABmb3JtAQAQAEludGVyZXN0IFByb2ZpbGUK
+      Aq8AbgAKAAEAAACuAGQABQAEAGZvcm0BAAUARXZlbnQACgKvAEwACgABAAAArgBCAAUABABmb3JtAQAH
+      AFN1YnRlYW0ACgKvACgACgABAAAArgAeAAUAEgBBdXRob3JUeHQAoI9UACSDJQCuAAQAtQsDAAcARgBA
+      AAkwUjFTMlM1UzZTOFMxMFMxMVMxMlMxNFMxNlMxN1MxOFMyMFMyMlMyM1MyNFMyNlMyOFMyOVMzMFMz
+      MlMzNFMBAHQADQBTdGF0AKKPVAAkgyUAAAUABgBTdGF0dXMBAAEAMAAKAgUAEQBGaWxlVGhpc1N0YXR1
+      c0RvYwABAAEAMQAKAh0CrwAqAB4ABQAUAEluYWN0aXZlVHh0AJ2PVAAkgyUArgAMAAEAAACuAAQAtQMD
+      AAcAJgAfAAkwUjFTMlM0UjVTNlM3UzhTOVMxMFMxMVMxMlMxNFMAAQB0ABAAUnB0RGF0ZQCjj1QAJIMl
+      AAUABABmb3JtAQAGAFN0YXR1c0cCBQAEAGZvcm0BAAcASW5kU3RhdAAKAh0CrwAuACIABQAKAFJlcG9y
+      dERhdGVLAVYBAQADACAtIAAiAq4ADAABAAAArgAEALUDAwAHACgAIQAJMFIxUzJTOFMxMFMxMVMxMlMx
+      M1MxNVMyMlMyM1MyNVMAAQDMAA0AU3ViagCkj1QAJIMlAAAFAAQAZm9ybQEAEgBQYXJ0aWNpcGFudFBy
+      b2ZpbGUKAq8AlAAaAAIABQAAAAAAAAAFAAMAV2hvALQCrgB6AAUABABmb3JtAQAFAEV2ZW50AAoCrwBi
+      ADgABQAMAEV2ZW50U3VtbWFyeQEAAgAgKCICBQAJAEV2ZW50RGF0ZQBWASICAQABACkAIgKuACoABQAQ
+      AFJwdERhdGUAo49UACSDJQAFAAcAU3ViamVjdAAiAq4ABAC1BQMABwA+ADcACTBSMVMyUzVTNlM4UzEy
+      UzE1UzE2UzE3UzE5UzIwUzIxUzIyUzIzUzI3UzI4UzMwUzMxUzMyUwACAL4ABAAkMTgzBQAHAHJlYWRl
+      cnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQAno9UACSDJQAArgBCAAUACgBFeHBpcmVEYXRlAQAA
+      AAsCrwAqAB4ABQATAEV4cGlyZWRUeHQAn49UACSDJQAArgAMAAEAAACuAAQAtQUFAA0AU3RhdACij1QA
+      JIMlAAAiAgUADQBTdWJqAKSPVAAkgyUAACICBQAPAEF1dGhvcgChj1QAJIMlAAAiAgMABwAuACgACTBS
+      M1M0UzZTOFM5UzEwUzEyUzE0UzE2UzE3UzE4UzE5UzIwUzIxUyYAAQAAAAEBAAkBAAgKAQEECgAAPwCt
+      KwQBAQABAQAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAA
+      AFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAA
+      AAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgAAAAAAAQD/
+      //8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wABAKjP1AAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAA
+      AAAAAQA=
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $HTMLDocumentStyles
+    signed: true
+    type: opaque
+    type_num: 1
+    opaque: 0ggBAAAA/wDSCAEA/wAAANIIAQCAAIAA
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001009b
+        IconIndex: 0
+        ShareId: 21
+        Type: 1
+        data: "REM {DNT Begin}; @PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: |
+          RgAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAAAIAACAOgDAAAAAAAAAQAJAE1haW5Ub3BpYwCxAgMA
+          BwAKAAMACTBTAA==
+        title: New Document
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 22
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          hgAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAgAMgABAAgAVGVtcFZhcnMBAAkAdmlld3RpdGxlAJ0A
+          AAAAAAAAAADwPxABawL4AwMABwAQAAoACTBSNFM2UzEwUwAAHgACAOgDAAAAAAAAAQAIAFJlc3BvbnNl
+          sQIDAAcACgADAAkwUgA=
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001408b
+        IconIndex: 0
+        ShareId: 23
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          agAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAcAEAAKAG5vdGVzIG9ubHkHAAwABQAJMFIxUwAAACgA
+          AgDoAwAAAAAAAAEAEgBSZXNwb25zZVRvUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        title: New Response to Response
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001419f
+        IconIndex: 0
+        ShareId: 16
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          @Command([ToolsRunMacro]; "(InactiveToActive)")
+        data_opaque: |
+          UAAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAAAKAACAKIPAAAAAAAAAQASAChJbmFjdGl2ZVRvQWN0
+          aXZlKe0CAwAHAAwABQAJMFI0UwA=
+        title: Mark Active
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 20
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 13
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 29
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001019f
+        IconIndex: 0
+        ShareId: 10
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+remaining: []

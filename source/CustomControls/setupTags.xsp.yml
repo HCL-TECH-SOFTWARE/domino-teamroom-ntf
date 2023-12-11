@@ -1,0 +1,64 @@
+---
+class: 4
+flags: 0x0000
+unid: OFFECADE5914F9721C-ON0050637880257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 571
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.2
+    signed: true
+  - name: $FileNames
+    type: text
+    data: setupTags.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-09-06T00:30:48.22+01:00"
+        dst: true
+      - data: "2014-08-13T13:06:38.08+01:00"
+        dst: true
+      - data: "2014-08-13T13:07:56.26+01:00"
+        dst: true
+      - data: "2014-08-13T13:07:56.96+01:00"
+        dst: true
+      - data: "2014-08-13T14:00:11.13+01:00"
+        dst: true
+      - data: "2014-08-13T14:00:26.57+01:00"
+        dst: true
+      - data: "2014-08-13T14:00:27.48+01:00"
+        dst: true
+      - data: "2014-08-13T14:00:31.77+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: setupTags.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAAA7AgAAAQAAAAAAAAAAAAAAYABNAgAAOwI8AgAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      c2V0dXBUYWdzPC9jb21wb25lbnQtdHlwZT4KICAgIDxjb21wb3NpdGUtbmFtZT5zZXR1cFRhZ3M8L2Nv
+      bXBvc2l0ZS1uYW1lPgogICAgPGNvbXBvc2l0ZS1maWxlPi9zZXR1cFRhZ3MueHNwPC9jb21wb3NpdGUt
+      ZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgog
+      ICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBhbGV0dGU+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5z
+      aW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogIDwvY29tcG9zaXRlLWNvbXBvbmVudD4KPC9m
+      YWNlcy1jb25maWc+Cgo=
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

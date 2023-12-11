@@ -1,0 +1,373 @@
+---
+class: 8
+flags: 0x0000
+unid: OFFBA65250B15673E2-ON003DF3F0802577C2
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVActiveDocs")
+    opaque: |
+      ZAAHAAoAAwBETlQABwAKAAMACTFTAAAAPgACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABMA
+      VGVhbVJvb21WQWN0aXZlRG9jcwDtBAMABwAQAAkACTBSNFM2UzhTAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: MgAEAABECGYHAAAEAABmAAQABAABZgAIAAQAAGYADAAEACQxMjYkMTIxJDEwNiQxMjE=
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EQABAABECGYHAAAEACQxMjY=
+  - name: $Collation2
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxMDY=
+  - name: $Collation3
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAWYAAAAEACQxMDY=
+  - name: $Collation4
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxMjc=
+  - name: $Collation5
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAWYAAAAEACQxMjc=
+  - name: $Collation6
+    type_num: 2
+    type: opaque
+    opaque: HwACAABEAGYAAAAHAABmAAcABABEb2NUeXBlJDEyNw==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Formula
+    type: formula
+    data: |
+      LCMtg := @LowerCase(defaultdoctype3);
+      LCDocType := @LowerCase(doctype);
+       MtgDate >= @Today | ((form = "MainTopic" & Status != "0" & LCMtg != LCDocType) & People != "" & Current_Status = "0") | @IsResponseDoc
+    opaque: |
+      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
+      NFMyNVMyNlMyOFMyOVM=
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $FormulaTV
+    type: text
+    data: ""
+    signed: true
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-07-24T08:40:49.73+01:00"
+        dst: true
+      - data: "2018-10-12T11:06:38.51-04:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: "Team Documents\\Open by Assignment |OpenAssignnment"
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      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
+      b3IAVM5pAIFmJQAAIgIDAAcAKAAiAAkwUjNTNFM2UzhTOVMxMFMxMlMxNFMxNlMxN1MxOFMxOVMkMTI3
+      RHVlhAACAGgABAAkMTI3BQAHAE10Z0RhdGUAAQAAAAsCrwBIABIABQAHAG10Z0RhdGUArgA2AAUABwBE
+      dWVEYXRlAAEAAAAKAq8AIAAKAAEAAACuABYABQAHAER1ZURhdGUASwGuAAQAtQUDAAcAGgAUAAkzUzRT
+      NlM4UzlTMTBTMTJTMTRTRG9jVHlwZVR5cGUeAAIAHAAHAERvY1R5cGUABQAHAERvY1R5cGUAAwAmAAEA
+      AAABAQAJAQAICgEBBAoAAD8ArSsBAAEAAQAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAJAAAA
+      AAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAA
+      AAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACQAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAA
+      AAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAA
+      AAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIA
+      AAkKmao8XhMRdUBtWQCLZSWFAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAA
+      AAAAAAcAAAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAEA7+/vAAEAAAAAAAAAAAAAAAEA
+      AQD///8AAQCoz9QAAAABAIAAAAABAAAA/wABAAAAAAAAAAgAAAAAAAEA
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0000408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

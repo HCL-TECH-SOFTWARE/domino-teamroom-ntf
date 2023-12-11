@@ -1,0 +1,43 @@
+---
+class: 4
+flags: 0x0000
+unid: OF6F98BF2FFEB3DB3F-ON003DF9D7802577C2
+items:
+  - name: $Comment
+    type: text
+    data: used in the outline elements when no graphic is desired
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34Ci
+  - name: $ImageNames
+    type: text
+    data: blank.gif
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data:
+      - blank.gif
+      - blank.gif
+    signed: true
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF4DC0B18A149D4FAB-ON0049F2BE80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: setupAdvancedOptions_zh.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: setupAdvancedOptions_zh.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,3280 @@
+---
+class: 4
+flags: 0x0000
+unid: OF450AB2131B589953-ON004981E7802577CB
+items:
+  - name: $$ScriptName
+    type: text
+    data: $ACTIONS
+    signed: true
+    nonsummary: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34yQC
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2019-11-05T09:50:04.73-05:00"
+      - data: "2021-03-18T11:38:30.45-05:00"
+        dst: true
+      - data: "2021-03-18T11:38:37.68-05:00"
+        dst: true
+      - data: "2021-03-18T11:38:43.94-05:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: $ACTIONS
+  - name: $BODY
+    type: composite
+    signed: true
+    encrypted: true
+    nonsummary: true
+    data:
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0000
+        Flags2: 0x0000
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 2
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+      - type: 0x00a6
+        Flags: 0x00000000
+        PABID: 2
+        StyleName: Normal
+      - type: 0x0081
+      - type: 0x0083
+        PABID: 2
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 17
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 2
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x0000001f
+        dwFlags: 0x00000001
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0xece9d8
+        BtnBorderDisplay: 0
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xece9d8
+        FontColor:
+          Flags: 0x0009
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x00000000
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+          Reserved: 0
+          Units: 0
+        dwFlags: 0x00000003
+        wAppletHeight: 31
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 1
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 1
+        Type: 7
+        hidewhen: |
+          REM {Hide if person clicked 'New doc' button};
+          w := @RightBack(QUERY_STRING_DECODED; "w=");
+          w != "1"
+        hidewhen_opaque: |
+          lgAHAC4AJwBIaWRlIGlmIHBlcnNvbiBjbGlja2VkICdOZXcgZG9jJyBidXR0b24ABwAKAAMACTFTAAEA
+          KgABAHcABQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQACAHc9ogIDAAcAEAAJAAkwUjFTMlM2UwAAABQA
+          BQABAHcAAQABADEACwIDAAcADgAHAAkwUjFTMlMA
+        opaque: ""
+        title: Cancel
+      - type: 0xfff9
+        ActionLength: 21
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8oAPn/FgAgTgAAAAAAAAAAd2luZG93LmNsb3NlKHNlbGYpDQ0AAA==
+      - type: 0xfff9
+        ActionLength: 115
+        ActionType: 4
+        EventType: 12
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P+GAPn/dAAgTgAAAAAAAAAALyoNb25seSB1c2VkIGluIFBhcnRpY2lwYW50LCBTdWJ0ZWFtLCBhbmQg
+          RXZlbnQgcHJvZmlsZXMNSGlkZGVuIGlmIHRoZXkgZGlkIG5vdCBjbGljayB0aGUgJ05ldyBkb2N1bWVu
+          dCcgYnV0dG9uDSovAAA=
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 2
+        Type: 1
+        data: |
+          REM {web new docs};
+          CurrentView := @GetProfileField("tempvars"; "viewtitle");
+          @Command([OpenView]; CurrentView)
+        data_opaque: |
+          jAAHABIADAB3ZWIgbmV3IGRvY3MHAAoAAwAJMVMAAQAwAAsAQ3VycmVudFZpZXcAAQAIAHRlbXB2YXJz
+          AQAJAHZpZXd0aXRsZQD3AgMABwAQAAkACTBSMVMyUzZTAAAAIgACAFkbAAAAAAAABQALAEN1cnJlbnRW
+          aWV3AO0CAwAHAAwABQAJMFI0UwA=
+        hidewhen: |
+          REM {Hide if person clicked 'New doc' button};
+          w := @RightBack(QUERY_STRING_DECODED; "w=");
+          w = "1" |
+          (Form != "Mission" & Form != "Interest Profile" & !@IsNewDoc)
+        hidewhen_opaque: |
+          7gAHAC4AJwBIaWRlIGlmIHBlcnNvbiBjbGlja2VkICdOZXcgZG9jJyBidXR0b24ABwAKAAMACTFTAAEA
+          KgABAHcABQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQACAHc9ogIDAAcAEAAJAAkwUjFTMlM2UwAAAFQA
+          BQABAHcAAQABADEACgIFAAQARm9ybQEABwBNaXNzaW9uAAsCBQAEAEZvcm0BABAASW50ZXJlc3QgUHJv
+          ZmlsZQsCHAKJAB4BHAIEAB0CAwAHACYAHwAJMFIxUzJTM1M0UjZTN1M4UzlTMTBTMTFTMTJTMTNTAA==
+        title: Cancel
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 3
+        Type: 1
+        data: |
+          REM {web only; saved docs};
+          REM {hidden if 'NewDoc' button was clicked for Participant, Event, or Subteam};
+          @Command([FileCloseWindow])
+        data_opaque: |
+          nAAHABoAFAB3ZWIgb25seTsgc2F2ZWQgZG9jcwcACgADAAkxUwAHAE4ASABoaWRkZW4gaWYgJ05ld0Rv
+          YycgYnV0dG9uIHdhcyBjbGlja2VkIGZvciBQYXJ0aWNpcGFudCwgRXZlbnQsIG9yIFN1YnRlYW0HAAwA
+          BQAJMFIxUwAAABIAAgD8EQAAAAAAAO0BAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {Hide if person clicked 'New doc' button};
+          w := @RightBack(QUERY_STRING_DECODED; "w=");
+          w = "1" | @IsNewDoc
+        hidewhen_opaque: |
+          ngAHAC4AJwBIaWRlIGlmIHBlcnNvbiBjbGlja2VkICdOZXcgZG9jJyBidXR0b24ABwAKAAMACTFTAAEA
+          KgABAHcABQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQACAHc9ogIDAAcAEAAJAAkwUjFTMlM2UwAAABgA
+          BQABAHcAAQABADEACgKJAB0CAwAHABIACwAJMFIxUzJTM1M0UwA=
+        title: Cancel
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001409b
+        IconIndex: 0
+        ShareId: 4
+        Type: 1
+        data: |
+          REM {Notes only};
+          REM {cannot issue the SaveOptions command below on the web};
+          FIELD SaveOptions := 0;
+          @Command([FileCloseWindow])
+        data_opaque: |
+          rgAHABAACgBOb3RlcyBvbmx5BwAKAAMACTFTAAcAPAA1AGNhbm5vdCBpc3N1ZSB0aGUgU2F2ZU9wdGlv
+          bnMgY29tbWFuZCBiZWxvdyBvbiB0aGUgd2ViAAcADAAFAAkwUjFTAAMAHgALAFNhdmVPcHRpb25zAAAA
+          AAAAAAAAAAADAAcAEAAJAAkwUjFTMlMzUwAAABIAAgD8EQAAAAAAAO0BAwAHAAoAAwAJMFIA
+        title: Cancel
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 5
+        Type: 1
+        data: "@Command([ToolsRunMacro]; \"(chatWithAll)\")"
+        data_opaque: MAAAACQAAgCiDwAAAAAAAAEADQAoY2hhdFdpdGhBbGwpAO0CAwAHAAoAAwAJNFMA
+        hidewhen: |
+          !@IsAvailable(form) |
+          (!@Contains(@LowerCase(form); @LowerCase("SubTeaM")) & People = "") |
+          (@Contains(@LowerCase(form); @LowerCase("SubTeaM")) & STMembers = "" ) | @LowerCase(form) = @LowerCase("EveNt")
+        hidewhen_opaque: |
+          0gAAAJIABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABwBTdWJUZWFNAGEBRwIeAQUABgBQZW9wbGUBAAAA
+          CgIcAgQAHQIFAAQAZm9ybWEBAQAHAFN1YlRlYU0AYQFHAgUACQBTVE1lbWJlcnMAAQAAAAoCHAIEAB0C
+          BQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAPgA4AAk1UzZSMTVTMjBTMjFTMjJTMjNTMjVTMjZS
+          MzRTMzlTNDBTNDFTNDJTNDNTNDRTNDVTNDlTNTBT
+        title: Chat with all
+      - type: 0xff5e
+        opaque: |
+          Xv8aAgAAAAAAAAAA/gEAAAAAAAAAAAAAAAAAAP4BAQAqAAgAeERpc2NSZWYBABUAQ2hhdCB3aXRoIFJl
+          dmlld2VyKHMpAAMABwAMAAUACTFTMlMAAQAqAAcAeEFjdGlvbgABABUAQ2hhdCB3aXRoIEFzc2lnbmVl
+          KHMpAAMABwAOAAcACTBSMVMyUwABACYABAB4TXRnAQAVAENoYXQgd2l0aCBBdHRlbmRlZShzKQADAAcA
+          DgAHAAkwUjFTMlMAAQAsAAMAeFNUAAEAGwBDaGF0IHdpdGggU3VidGVhbSBNZW1iZXIocykAAwAHAA4A
+          BwAJMFIxUzJTAAAA5gAFAAQAZm9ybQEABwBTdWJUZWFNAGMBCgKvAMYADgAFAAMAeFNUAK4AuAAFAAcA
+          RG9jVHlwZQAFAA8ARGVmYXVsdERvY1R5cGUxAAoCrwCSABIABQAIAHhEaXNjUmVmrgCAAAUABwBEb2NU
+          eXBlAAUADwBEZWZhdWx0RG9jVHlwZTIACgKvAFoAEgAFAAcAeEFjdGlvbgCuAEgABQAHAERvY1R5cGUA
+          BQAPAERlZmF1bHREb2NUeXBlMwAKAq8AIgAOAAUABAB4TXRnrgAUAAUACAB4RGlzY1JlZq4ABAC1CQMA
+          BwA6ADMACTBSUjJSM1M0UzlTMTFSMTJTMTNTMTVTMTdSMThTMTlTMjFTMjNSMjRTMjVTMjdTMjlSAA==
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 0
+        wEventId: 12091
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 6
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 7
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 8
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001400b
+        IconIndex: 0
+        ShareId: 9
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001019f
+        IconIndex: 0
+        ShareId: 10
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 11
+        Type: 1
+        data: |
+          REM {For all forms except Main Document form, which needs special casing for assignees to edit};
+          @Command([EditDocument])
+        data_opaque: |
+          iAAHAGAAWQBGb3IgYWxsIGZvcm1zIGV4Y2VwdCBNYWluIERvY3VtZW50IGZvcm0sIHdoaWNoIG5lZWRz
+          IHNwZWNpYWwgY2FzaW5nIGZvciBhc3NpZ25lZXMgdG8gZWRpdAAHAAoAAwAJMVMAAAASAAIA6AcAAAAA
+          AADtAQMABwAKAAMACTBSAA==
+        hidewhen: |
+          lcabAuthors := @LowerCase(@Name([Abbreviate]; Authors));
+          lcabFrom := @LowerCase(@Name([Abbreviate]; From));
+          lcabAltFrom := @LowerCase(@Name([Abbreviate]; AltFrom));
+          lcabUN := @LowerCase(@Name([Abbreviate]; @UserName));
+          Filename := @DbName;
+          Level := @V4UserAccess(Filename);
+          Getlevel := @TextToNumber(@Subset(Level; 1));
+          
+          getLevel < 4 &
+          (
+          !@Contains(lcabAuthors; lcabUN) |
+          !@Contains(lcabFrom; lcabUN) |
+          !@Contains(lcabAltFrom; lcabUN))
+        hidewhen_opaque: |
+          CAIBAC4ACwBsY2FiQXV0aG9ycwACAAUAAAAAAAAABQAHAEF1dGhvcnMAtAJhAQMABwAOAAcACTFTMlM4
+          UwABACYACABsY2FiRnJvbQIABQAAAAAAAAAFAAQARnJvbbQCYQEDAAcAEAAJAAkwUjFTMlM4UwABAC4A
+          CwBsY2FiQWx0RnJvbQACAAUAAAAAAAAABQAHAEFsdEZyb20AtAJhAQMABwAQAAkACTBSMVMyUzhTAAEA
+          HgAGAGxjYWJVTgIABQAAAAAAAAD0ALQCYQEDAAcAEAAJAAkwUjFTMlM4UwABABIACABGaWxlbmFtZYsA
+          AwAHAA4ABwAJMFIxUzJTAAEAHAAFAExldmVsAAUACABGaWxlbmFtZeoBAwAHAA4ABwAJMFIxUzJTAAEA
+          KAAIAEdldGxldmVsBQAFAExldmVsAAAAAAAAAAAA8D9rAlgBAwAHABAACQAJMFIxUzJTOFMAAAB8AAUA
+          CABnZXRMZXZlbAAAAAAAAAAAEEAOAgUACwBsY2FiQXV0aG9ycwAFAAYAbGNhYlVORwIeAQUACABsY2Fi
+          RnJvbQUABgBsY2FiVU5HAh4BHQIFAAsAbGNhYkFsdEZyb20ABQAGAGxjYWJVTkcCHgEdAgQAHAIDAAcA
+          KgAjAAkwUlIxUzJTM1M0UjVSMTBTMTJTMTNSMThTMjBTMjFSMjZTAA==
+        title: Edit Document
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 12
+        Type: 1
+        data: |
+          REM {for docs that are NOT participant, event, subteam};
+          @Command([EditDocument])
+        data_opaque: |
+          YAAHADgAMQBmb3IgZG9jcyB0aGF0IGFyZSBOT1QgcGFydGljaXBhbnQsIGV2ZW50LCBzdWJ0ZWFtAAcA
+          CgADAAkxUwAAABIAAgDoBwAAAAAAAO0BAwAHAAoAAwAJMFIA
+        hidewhen: |
+          REM {Hide if user has less than editor access and is not the author of the document};
+          Filename := @DbName;
+          Level := @V4UserAccess(Filename);
+          Getlevel := @TextToNumber(@Subset(Level; 1));
+          abAuthor := @Name([Abbreviate]; From);
+          abUser := @Name([Abbreviate]; @UserName);
+          LCName := @LowerCase(@Name([CN]; @UserName));
+          LCpeople := @LowerCase(people);
+          LCReviewedByNotDone := @LowerCase(ReviewedByNotDone);
+          
+          GetLevel < 4 & abUser != abAuthor & (!@Contains(LCReviewedByNotDone ; LCName) &
+          !@Contains(LCpeople; LCName))
+        hidewhen_opaque: |
+          hAIHAFQATgBIaWRlIGlmIHVzZXIgaGFzIGxlc3MgdGhhbiBlZGl0b3IgYWNjZXNzIGFuZCBpcyBub3Qg
+          dGhlIGF1dGhvciBvZiB0aGUgZG9jdW1lbnQHAAoAAwAJMVMAAQASAAgARmlsZW5hbWWLAAMABwAOAAcA
+          CTBSMVMyUwABABwABQBMZXZlbAAFAAgARmlsZW5hbWXqAQMABwAOAAcACTBSMVMyUwABACgACABHZXRs
+          ZXZlbAUABQBMZXZlbAAAAAAAAAAAAPA/awJYAQMABwAQAAkACTBSMVMyUzhTAAEAJAAIAGFiQXV0aG9y
+          AgAFAAAAAAAAAAUABABGcm9ttAIDAAcAEAAJAAkwUjFTMlM2UwABABwABgBhYlVzZXICAAUAAAAAAAAA
+          9AC0AgMABwAQAAkACTBSMVMyUzZTAAEAHgAGAExDTmFtZQIABgAAAAAAAAD0ALQCYQEDAAcAEAAJAAkw
+          UjFTMlM4UwABABwACABMQ3Blb3BsZQUABgBwZW9wbGVhAQMABwAOAAcACTBSMVMyUwABADQAEwBMQ1Jl
+          dmlld2VkQnlOb3REb25lAAUAEQBSZXZpZXdlZEJ5Tm90RG9uZQBhAQMABwAOAAcACTBSMVMyUwAAAH4A
+          BQAIAEdldExldmVsAAAAAAAAAAAQQA4CBQAGAGFiVXNlcgUACABhYkF1dGhvcgsCHAIFABMATENSZXZp
+          ZXdlZEJ5Tm90RG9uZQAFAAYATENOYW1lRwIeAQUACABMQ3Blb3BsZQUABgBMQ05hbWVHAh4BHAIEABwC
+          AwAHACoAIwAJMFJSMVMyUzNTNFM1UzZTN1M4UzEzUzE0UzE2UzE3UjIyUwA=
+        title: Edit Document
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 13
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Empty Trash
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 14
+        Type: 1
+        data: "@Command([MailForward])"
+        data_opaque: IAAAABIAAgDICwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00014019
+        IconIndex: 0
+        ShareId: 15
+        Type: 1
+        data: "@Command([Compose]; @MailDbName; \"Bookmark\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAKwAAQAIAEJvb2ttYXJr7QMDAAcADAAFAAk0UzZTAA==
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Forward as Bookmark
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001419f
+        IconIndex: 0
+        ShareId: 16
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          @Command([ToolsRunMacro]; "(InactiveToActive)")
+        data_opaque: |
+          UAAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAAAKAACAKIPAAAAAAAAAQASAChJbmFjdGl2ZVRvQWN0
+          aXZlKe0CAwAHAAwABQAJMFI0UwA=
+        title: Mark Active
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 17
+        Type: 1
+        data: |
+          REM {begin DNT};
+          FIELD readers:=@Trim(@Unique(From : @UserName)) : "LocalDomainServers";
+          @PostedCommand([RefreshHideFormulas]);@Command([ViewRefreshFields]);
+          REM {End DNT};
+        data_opaque: |
+          vgAHABAACQBiZWdpbiBETlQABwAKAAMACTFTAAMAOAAHAHJlYWRlcnMABQAEAEZyb230AB8CqwFeAQEA
+          EgBMb2NhbERvbWFpblNlcnZlcnMfAgMABwAWAA8ACTBSMVM4UzlTMTJTMTNTAAgAEgACAF4bAAAAAAAA
+          sQEDAAcACgADAAkwUgAAABIAAgCLEwAAAAAAAO0BAwAHAAwABQAJMFMwRQAHAA4ABwBFbmQgRE5UAAcA
+          DAAFAAkwUjFTAA==
+        hidewhen: "@Elements(readers)>0"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAAAADwIDAAcADAAFAAkwUzBFAA==
+        title: Mark Private
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 18
+        Type: 1
+        data: |
+          FIELD readers:=@DeleteField;
+          @PostedCommand([RefreshHideFormulas]);@Command([ViewRefreshFields])
+        data_opaque: |
+          WAADABIABwByZWFkZXJzAL4AAwAHAAoAAwAJMVMACAASAAIAXhsAAAAAAACxAQMABwAKAAMACTBSAAAA
+          EgACAIsTAAAAAAAA7QEDAAcADAAFAAkwUzBFAA==
+        hidewhen: "@Elements(readers)<1"
+        hidewhen_opaque: LgAAACAABQAHAHJlYWRlcnMAagEAAAAAAAAAAPA/DgIDAAcADAAFAAkwUzBFAA==
+        title: Mark Public
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00012116
+        IconIndex: 0
+        ShareId: 19
+        Type: 1
+        data: |
+          REM {Web documents only};
+          @Command([FileSave]);
+          UNID:=@Text(@DocumentUniqueID );
+          @URLOpen("/"+@ReplaceSubstring(@Subset(@WebDbName; -1);" ";"+")+"/WebExpire?OpenAgent&"+UNID)
+        data_opaque: |
+          wgAKAAQABwAYABIAV2ViIGRvY3VtZW50cyBvbmx5BwAKAAMACTFTAAgAEgACAMYLAAAAAAAA7QEDAAcA
+          CgADAAkwUgABABAABABVTklEkABWAQMABwAMAAUACTBSNVMAAABWAAEAAQAvAPsAMAEAAAAAAAAAAPA/
+          EAFrAgEAAQAgAAEAAQArAIQDIgIBABUAL1dlYkV4cGlyZT9PcGVuQWdlbnQmACICBQAEAFVOSUQiAuAB
+          AwAHAAwABgAJMFIxMFM=
+        hidewhen: "@IsNewDoc"
+        hidewhen_opaque: CgAAAAgAiQADAA==
+        title: Mark/Unmark Document as Expired
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 20
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Move to Trash
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001009b
+        IconIndex: 0
+        ShareId: 21
+        Type: 1
+        data: "REM {DNT Begin}; @PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: |
+          RgAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAAAIAACAOgDAAAAAAAAAQAJAE1haW5Ub3BpYwCxAgMA
+          BwAKAAMACTBTAA==
+        title: New Document
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 22
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          hgAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAgAMgABAAgAVGVtcFZhcnMBAAkAdmlld3RpdGxlAJ0A
+          AAAAAAAAAADwPxABawL4AwMABwAQAAoACTBSNFM2UzEwUwAAHgACAOgDAAAAAAAAAQAIAFJlc3BvbnNl
+          sQIDAAcACgADAAkwUgA=
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001408b
+        IconIndex: 0
+        ShareId: 23
+        Type: 1
+        data: |
+          REM {DNT Begin};
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          agAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAcAEAAKAG5vdGVzIG9ubHkHAAwABQAJMFIxUwAAACgA
+          AgDoAwAAAAAAAAEAEgBSZXNwb25zZVRvUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        title: New Response to Response
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001011f
+        IconIndex: 0
+        ShareId: 24
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @Command([Compose]; "SubteamStatus")
+        data_opaque: |
+          cgAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAkAAIA6AMAAAAAAAABAA0AU3VidGVhbVN0YXR1cwDtAgMABwAMAAUACTBSNFMA
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Subteam Status
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001011f
+        IconIndex: 0
+        ShareId: 25
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @Command([Compose]; "Status")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAcAAIA6AMAAAAAAAABAAYAU3RhdHVz7QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Team Status
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001418b
+        IconIndex: 0
+        ShareId: 26
+        Type: 1
+        data: |
+          REM {Notes only};
+          @Command([ShowHideParentPreview])
+        data_opaque: OAAHABAACgBOb3RlcyBvbmx5BwAKAAMACTFTAAAAEgACAOkXAAAAAAAA7QEDAAcACgADAAkwUgA=
+        title: Parent Preview
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001211e
+        IconIndex: 0
+        ShareId: 27
+        Type: 7
+        hidewhen: |
+          REM {Hide if 'New doc' button not clicked};
+          w := @RightBack(QUERY_STRING_DECODED; "w=");
+          w != "1"
+        hidewhen_opaque: |
+          kgAHACoAJABIaWRlIGlmICdOZXcgZG9jJyBidXR0b24gbm90IGNsaWNrZWQHAAoAAwAJMVMAAQAqAAEA
+          dwAFABQAUVVFUllfU1RSSU5HX0RFQ09ERUQBAAIAdz2iAgMABwAQAAkACTBSMVMyUzZTAAAAFAAFAAEA
+          dwABAAEAMQALAgMABwAOAAcACTBSMVMyUwA=
+        opaque: ""
+        title: Save & Close
+      - type: 0xfff9
+        ActionLength: 12
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: 3P8eAPn/DAAgTgAAAAAAAAAAdmFsaWRhdGUoKQ0A
+      - type: 0xfff9
+        ActionLength: 98
+        ActionType: 4
+        EventType: 12
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P90APn/YgAgTgAAAAAAAAAALyoNdXNlZCBvbmx5IGluIFBhcnRpY2lwYW50LCBFdmVudCwgYW5kIFN1
+          YnRlYW0gcHJvZmlsZXMNaGlkZGVuIGlmIE5ld0RvYyBoYXMgbm90IGJlZW4gY2xpY2tlZA0qLwA=
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x00010013
+        IconIndex: 0
+        ShareId: 28
+        Type: 1
+        data: |
+          REM {Can't use @isvalid on the web};
+          @If(
+          @ClientType != "Notes";
+          @Do(@Command([FileSave]); @Command([FileCloseWindow]));
+          @IsValid;
+          @Do(@Command([FileSave]); @Command([FileCloseWindow])); "")
+        data_opaque: |
+          vgAKAAQABwAkAB0AQ2FuJ3QgdXNlIEBpc3ZhbGlkIG9uIHRoZSB3ZWIABwAKAAMACTFTAAAAagD7AAUB
+          AQAFAE5vdGVzAAsCrwBSACAAAgDGCwAAAAAAAO0BAgD8EQAAAAAAAO0BswKuADIA5ACvACwAIAACAMYL
+          AAAAAAAA7QECAPwRAAAAAAAA7QGzAq4ADAABAAAArgAEALUFAwAHACAAGgAJMFIyUjNTNFM2UjEzUzE5
+          UjIxUjI4UzM0Uw==
+        hidewhen: |
+          REM {Hide if 'New doc' button was clicked};
+          w := @RightBack(QUERY_STRING_DECODED; "w=");
+          w = "1" |  (@ClientType != "Notes" & form = "MainTopic") | (@ClientType != "Notes" & form = "Mission") | (@ClientType != "Notes" & form = "IndStat")
+        hidewhen_opaque: |
+          YAEKAAQABwAqACQASGlkZSBpZiAnTmV3IGRvYycgYnV0dG9uIHdhcyBjbGlja2VkBwAKAAMACTFTAAEA
+          KgABAHcABQAUAFFVRVJZX1NUUklOR19ERUNPREVEAQACAHc9ogIDAAcAEAAJAAkwUjFTMlM2UwAAAJoA
+          BQABAHcAAQABADEACgL7AAUBAQAFAE5vdGVzAAsCBQAEAGZvcm0BAAkATWFpblRvcGljAAoCHAIEAB0C
+          +wAFAQEABQBOb3RlcwALAgUABABmb3JtAQAHAE1pc3Npb24ACgIcAgQAHQL7AAUBAQAFAE5vdGVzAAsC
+          BQAEAGZvcm0BAAcASW5kU3RhdAAKAhwCBAAdAgMABwBSAEsACTBSMVMyUzNTNFMyRTZTN1M4UzlTMTBT
+          MTFTMTNTMTRTMTZTMTdTMThTMTlTMjBTMjFTMjNTMjRTMjZTMjdTMjhTMjlTMzBTMzFTAA==
+        title: Save & Close
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 29
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001419f
+        IconIndex: 0
+        ShareId: 30
+        Type: 1
+        data: |
+          REM {variables to translate};
+          label := "Error";
+          message := "You must first select a document.  Note:  highlight bar cannot be on a category.";
+          REM {END variables to translate};
+          
+          @If(!@IsAvailable(form);
+          @Return(@Prompt([Ok]; label; message));
+          "");
+          
+          @Command([ToolsRunMacro]; "(SetStatusInactive)")
+        data_opaque: |
+          ggEHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAGAAFAGxhYmVsAAEABQBFcnJv
+          cgADAAcADgAHAAkwUjFTMlMAAQBkAAcAbWVzc2FnZQABAFAAWW91IG11c3QgZmlyc3Qgc2VsZWN0IGEg
+          ZG9jdW1lbnQuICBOb3RlOiAgaGlnaGxpZ2h0IGJhciBjYW5ub3QgYmUgb24gYSBjYXRlZ29yeS4DAAcA
+          DgAHAAkwUjFTMlMABwAgABoARU5EIHZhcmlhYmxlcyB0byB0cmFuc2xhdGUHAAwABQAJMFIxUwAIAEoA
+          BQAEAGZvcm1oAR4BrwA2ACoAAgANAAAAAAAAAAUABQBsYWJlbAAFAAcAbWVzc2FnZQCwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFgAPAAkwUlI4UjE0UzE2UzIwUgAAACoAAgCiDwAAAAAAAAEAEwAoU2V0U3RhdHVz
+          SW5hY3RpdmUpAO0CAwAHAAwABgAJMFJSNFM=
+        title: Set Status to Inactive
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x04016012
+        IconIndex: 0
+        ShareId: 31
+        Type: 1
+        data: |
+          FIELD MP := @Unavailable;
+          @Do(@Command([FileSave]);
+          @Command([RefreshHideFormulas]))
+        data_opaque: |
+          SAADAAwAAgBNUCgAAwAHAA4ABwAJMVMyUzNTAAAAIAACAMYLAAAAAAAA7QECAF4bAAAAAAAA7QGzAgMA
+          BwAMAAUACTBSN1IA
+        hidewhen: |
+          REM {Hide if user has less than editor access};
+          Filename := @DbName;
+          Level := @V4UserAccess(Filename);
+          Getlevel := @TextToNumber(@Subset(Level; 1));
+          
+          GetLevel < 4 | mp != "1"
+        hidewhen_opaque: |
+          AAEHAC4AKABIaWRlIGlmIHVzZXIgaGFzIGxlc3MgdGhhbiBlZGl0b3IgYWNjZXNzBwAKAAMACTFTAAEA
+          EgAIAEZpbGVuYW1liwADAAcADgAHAAkwUjFTMlMAAQAcAAUATGV2ZWwABQAIAEZpbGVuYW1l6gEDAAcA
+          DgAHAAkwUjFTMlMAAQAoAAgAR2V0bGV2ZWwFAAUATGV2ZWwAAAAAAAAAAADwP2sCWAEDAAcAEAAJAAkw
+          UjFTMlM4UwAAAC4ABQAIAEdldExldmVsAAAAAAAAAAAQQA4CBQACAG1wAQABADEACwIdAgMABwAWABAA
+          CTBSUjFTMlMzUzRTNVM2Uw==
+        title: Update Mailed/Pasted Doc
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+remaining: []

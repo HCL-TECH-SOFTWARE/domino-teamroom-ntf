@@ -1,0 +1,58 @@
+---
+class: 8
+flags: 0x0000
+unid: OF3B801E680682194A-ON003DF6C5802577C2
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: DwABAABEAGYAAAACACQw
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Formula
+    type: formula
+    data: |
+      REM {Begin DNT};
+       form = "Event" & Status = "1"
+    opaque: |
+      wAACADwAAgAkMAUADABFdmVudFN1bW1hcnkBAAIAICgiAgUACQBFdmVudERhdGUAVgEiAgEAAQApACIC
+      AwAFAB4AGQADAAIACQAEACQwJENvbmZsaWN0JFJFRgAEAAQABwAQAAkAQmVnaW4gRE5UAAcACgADAAkx
+      UwAAAC4ABQAEAGZvcm0BAAUARXZlbnQACgIFAAYAU3RhdHVzAQABADEACgIcAgMABwAYABIACTBSTDFT
+      MlMzUzRTNVM2UzdT
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (DelEventLookup)|DelEventLookup
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABAAEACAAAAFZDAQACAAEAUgAAAI8AAQAACgAAAAAAAAAAAAICAAAAJDAjUgACADwAAgAkMAUADABF
+      dmVudFN1bW1hcnkBAAIAICgiAgUACQBFdmVudERhdGUAVgEiAgEAAQApACICAwAHABQADQAJMVMyUzNT
+      NFM4UzlTACYAAQAAAAEBAAkBAAAKAQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAA
+      AAAAAAAAAAEAAAAAAAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUA////AAEAAAAAAAAAAAAA
+      AAAAAQD///8AAQD///8AAAABAAAAAAABAAAAAAABAAAAAAAAAAgAAAAAAAEA
+    signed: true
+remaining: []

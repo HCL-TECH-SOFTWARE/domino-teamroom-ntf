@@ -1,0 +1,85 @@
+---
+class: 8
+flags: 0x0000
+unid: OF4F5A73CED6287ACC-ON005A56208625869C
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: BgAAAABE
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ^Y
+  - name: $Formula
+    type: formula
+    data: "@All"
+    opaque: |
+      TgIBAC4AFQBfbXNnQW5ub3VuY2UAJVZaAJyGJQAAAQAMAEFubm91bmNlbWVudAMAAQAkABIAX21zZ0V2
+      ZW50ACZWWgCchiUAAQAFAEV2ZW50AAMAAQAmABMAX21zZ1N0YXR1cwAnVloAnIYlAAABAAYAU3RhdHVz
+      AwABACgAFABfbXNnTWVldGluZwAoVloAnIYlAAEABwBNZWV0aW5nAAMAAgB+AQcARG9jVHlwZQAFAAQA
+      Zm9ybQEACQBNYWluVG9waWMACgJsAB0CrwBQARIABQAHAERvY1R5cGUArgA+AQUABABmb3JtAQAMAGFu
+      bm91bmNlbWVudAoCrwAgASAABQAVAF9tc2dBbm5vdW5jZQAlVloAnIYlAACuAAABBQAEAGZvcm1hAQEA
+      BQBldmVudAAKAq8A5gAcAAUAEgBfbXNnRXZlbnQAJlZaAJyGJQCuAMoABQAEAGZvcm1hAQEABgBzdGF0
+      dXMKAq8AsAAeAAUAEwBfbXNnU3RhdHVzACdWWgCchiUAAK4AkgAFAAQAZm9ybWEBAQAHAG1lZXRpbmcA
+      CgKvAHYAHgAFABQAX21zZ01lZXRpbmcAKFZaAJyGJQCuAFgABQAEAGZvcm0BAA0AU3VidGVhbVN0YXR1
+      cwABAAcASW5kU3RhdAAfAgoCrwAqAB4ABQATAF9tc2dTdGF0dXMAJ1ZaAJyGJQAArgAMAAEAAACuAAQA
+      tQ0DAAUAIgAeAAMABwAJAAQARG9jVHlwZSRDb25mbGljdCRSRUYEAAQAAAAIAGYAAwA=
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2021-03-18T11:26:42.93-05:00"
+        dst: true
+      - data: "2021-03-18T11:26:42.95-05:00"
+        dst: true
+  - name: $SourceSeqTime
+    type: time
+    data: "2021-03-18T11:26:42.93-05:00"
+    dst: true
+    signed: true
+  - name: $SourceSequence
+    type: text
+    data: "00000001"
+    signed: true
+  - name: $TITLE
+    type: text
+    data: DocType|col.DocType
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABAAEACAAQAFZDAAAHAAcAsgIAAFAAAQAACgAAAAAAAAAAAAICAAAARG9jVHlwZURvY1R5cGWyAgEA
+      LgAVAF9tc2dBbm5vdW5jZQAlVloAnIYlAAABAAwAQW5ub3VuY2VtZW50AwAHAAwABQAJMVMyUwABACQA
+      EgBfbXNnRXZlbnQAJlZaAJyGJQABAAUARXZlbnQAAwAHAA4ABwAJMFIxUzJTAAEAJgATAF9tc2dTdGF0
+      dXMAJ1ZaAJyGJQAAAQAGAFN0YXR1cwMABwAOAAcACTBSMVMyUwABACgAFABfbXNnTWVldGluZwAoVloA
+      nIYlAAEABwBNZWV0aW5nAAMABwAOAAcACTBSMVMyUwAHABAACQBETlQgQmVnaW4ABwAMAAUACTBSMVMA
+      AgB+AQcARG9jVHlwZQAFAAQAZm9ybQEACQBNYWluVG9waWMACgJsAB0CrwBQARIABQAHAERvY1R5cGUA
+      rgA+AQUABABmb3JtAQAMAGFubm91bmNlbWVudAoCrwAgASAABQAVAF9tc2dBbm5vdW5jZQAlVloAnIYl
+      AACuAAABBQAEAGZvcm1hAQEABQBldmVudAAKAq8A5gAcAAUAEgBfbXNnRXZlbnQAJlZaAJyGJQCuAMoA
+      BQAEAGZvcm1hAQEABgBzdGF0dXMKAq8AsAAeAAUAEwBfbXNnU3RhdHVzACdWWgCchiUAAK4AkgAFAAQA
+      Zm9ybWEBAQAHAG1lZXRpbmcACgKvAHYAHgAFABQAX21zZ01lZXRpbmcAKFZaAJyGJQCuAFgABQAEAGZv
+      cm0BAA0AU3VidGVhbVN0YXR1cwABAAcASW5kU3RhdAAfAgoCrwAqAB4ABQATAF9tc2dTdGF0dXMAJ1Za
+      AJyGJQAArgAMAAEAAACuAAQAtQ0DAAcAQAA6AAkwUjJSUzNTNFM1UzZTOFMxMFJTMTFTMTJTMTRTMTZS
+      UzIzUzI1UlMzMlMzNFJTNDFTNDNSUzUxUlMmAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAAAAAA
+      AAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP//
+      /wAFAP///wABAAAAAAAAAAAAAAAAAAEA////AAEA////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAA
+      AAABAA==
+    signed: true
+remaining: []

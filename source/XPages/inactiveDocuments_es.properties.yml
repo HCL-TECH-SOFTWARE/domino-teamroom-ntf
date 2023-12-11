@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF4FB310E610093268-ON004A200880257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: inactiveDocuments_es.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K2
+  - name: $TITLE
+    type: text
+    data: inactiveDocuments_es.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

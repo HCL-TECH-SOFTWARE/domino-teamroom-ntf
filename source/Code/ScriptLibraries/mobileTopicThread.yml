@@ -1,0 +1,36 @@
+---
+class: 512
+flags: 0x2000
+unid: OF90420EA8428B4BF6-ON0050B7C780257917
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ".5834Q"
+  - name: $PublicAccess
+    type: text
+    data: "1"
+    signed: true
+  - name: $TITLE
+    type: text
+    data: mobileTopicThread
+    signed: true
+  - name: $ServerJavaScriptLibrary
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      +f8gAAAAAAAWAAQAwAEAAAAAAAAAAAAAAAAAAAAAAADc/9IB+f/AASBOAAAAAAAAAAAvLyC4IENvcHly
+      aWdodCBIQ0wgVGVjaG5vbG9naWVzLiAyMDE5DQoNCnZhciBsaXN0Ow0KdmFyIHRlbXAgPSAiIjsNCnZh
+      ciBwb3NpdGlvbiA9ICIiOw0KDQpmdW5jdGlvbiB0b3BpY1RocmVhZEluaXQoKQ0Kew0KCWxpc3QgPSBu
+      ZXcgamF2YS51dGlsLkhhc2hNYXAoKTsNCn0NCg0KZnVuY3Rpb24gc2V0UG9zaXRpb24ocG9zLCB2YWx1
+      ZSkNCnsNCgl0ZW1wID0gIiIgKyBwb3M7DQoJcG9zaXRpb24gPSB0ZW1wLnN1YnN0cih0ZW1wLmluZGV4
+      T2YoJy4nKSsxLCB0ZW1wLmxlbmd0aC0xKTsNCglsaXN0W3Bvc2l0aW9uXSA9IHZhbHVlOw0KfQ0KDQpm
+      dW5jdGlvbiBnZXRQb3NpdGlvbihwb3MpDQp7DQoJdGVtcCA9ICIiICsgcG9zOw0KCXBvc2l0aW9uID0g
+      dGVtcC5zdWJzdHIodGVtcC5pbmRleE9mKCcuJykrMSwgdGVtcC5sZW5ndGgtMSk7DQoJcmV0dXJuIGxp
+      c3RbcG9zaXRpb25dOwkNCn0A
+remaining: []

@@ -1,0 +1,42 @@
+---
+class: 4
+flags: 0x0000
+unid: OF62858ABC71733AA4-ON004081A88525744E
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ".classpath"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~Cg4
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2008-05-19T07:44:34.96-04:00"
+        dst: true
+      - data: "2010-10-20T12:16:37.57+01:00"
+        dst: true
+      - data: "2011-02-07T09:54:30.24-05:00"
+      - data: "2011-08-30T20:50:44.27-04:00"
+        dst: true
+      - data: "2011-10-06T16:05:44.45+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:59.69+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: ".classpath"
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

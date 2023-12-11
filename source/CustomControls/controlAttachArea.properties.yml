@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3958E3AA8714EA53-ON0038B9AB80257BB1
+items:
+  - name: $FileNames
+    type: text
+    data: controlAttachArea.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlAttachArea.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

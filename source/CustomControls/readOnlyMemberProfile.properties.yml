@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF5E8F31F09BBA8A95-ON0038B9E680257BB1
+items:
+  - name: $FileNames
+    type: text
+    data: readOnlyMemberProfile.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: readOnlyMemberProfile.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

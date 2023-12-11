@@ -1,0 +1,55 @@
+---
+class: 4
+flags: 0x0000
+unid: OFF0FE8F2D73E6D371-ON003DF984802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: oneuiv2_1.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34C=Q
+  - name: $MimeCharSet
+    type: text
+    data: UTF-8
+    signed: true
+  - name: $MimeType
+    type: text
+    data: text/css
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-08-23T13:03:20.67+01:00"
+        dst: true
+      - data: "2014-08-13T12:11:26.26+01:00"
+        dst: true
+      - data: "2014-08-13T12:13:13.80+01:00"
+        dst: true
+      - data: "2014-08-13T12:13:23.43+01:00"
+        dst: true
+      - data: "2014-08-13T13:11:26.90+01:00"
+        dst: true
+      - data: "2014-08-13T13:43:44.22+01:00"
+        dst: true
+      - data: "2014-08-13T13:44:41.82+01:00"
+        dst: true
+      - data: "2014-08-13T13:46:12.66+01:00"
+        dst: true
+      - data: "2014-08-13T13:49:34.19+01:00"
+        dst: true
+      - data: "2014-08-13T13:58:57.03+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: oneuiv2_1.css
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

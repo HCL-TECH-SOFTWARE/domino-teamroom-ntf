@@ -1,0 +1,47 @@
+---
+class: 4
+flags: 0x0000
+unid: OF763490DE1F547CF1-ON003DFA38802577C2
+items:
+  - name: $Comment
+    type: text
+    data: Used in main doc form
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34Ci
+  - name: $ImageNames
+    type: text
+    data: TRmaindocheader.gif
+    signed: true
+  - name: $ImagesColorize
+    type: number
+    data: 0
+    signed: true
+  - name: $ImagesHigh
+    type: number
+    data: 1
+    signed: true
+  - name: $ImagesWide
+    type: number
+    data: 1
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data:
+      - TRMainDocHeader.gif
+      - TRMainDocHeader.gif
+    signed: true
+  - name: $ImageData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

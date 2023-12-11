@@ -1,0 +1,67 @@
+---
+class: 4
+flags: 0x0000
+unid: OFF4D1952196FB06D0-ON00505DCA80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 624
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "8.5"
+    signed: true
+  - name: $FileNames
+    type: text
+    data: homeKeyDocumentsPanel.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2011-09-26T15:37:48.90+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:48.92+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:49.12+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:49.14+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:31.00+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:31.02+01:00"
+        dst: true
+      - data: "2011-10-06T16:05:24.64+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:44.37+01:00"
+        dst: true
+      - data: "2011-10-26T13:26:26.30+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: homeKeyDocumentsPanel.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAABwAgAAAQAAAAAAAAAAAAAAYACCAgAAcAJwAgAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4NCjxmYWNlcy1jb25maWc+DQogIDxmYWNlcy1jb25maWctZXh0ZW5z
+      aW9uPg0KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1l
+      c3BhY2UtdXJpPg0KICAgIDxkZWZhdWx0LXByZWZpeD54YzwvZGVmYXVsdC1wcmVmaXg+DQogIDwvZmFj
+      ZXMtY29uZmlnLWV4dGVuc2lvbj4NCiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+DQogICAgPGNvbXBvbmVu
+      dC10eXBlPmhvbWVLZXlEb2N1bWVudHNQYW5lbDwvY29tcG9uZW50LXR5cGU+DQogICAgPGNvbXBvc2l0
+      ZS1uYW1lPmhvbWVLZXlEb2N1bWVudHNQYW5lbDwvY29tcG9zaXRlLW5hbWU+DQogICAgPGNvbXBvc2l0
+      ZS1maWxlPi9ob21lS2V5RG9jdW1lbnRzUGFuZWwueHNwPC9jb21wb3NpdGUtZmlsZT4NCiAgICA8Y29t
+      cG9zaXRlLWV4dGVuc2lvbj4NCiAgICAgIDxkZXNpZ25lci1leHRlbnNpb24+DQogICAgICAgIDxpbi1w
+      YWxldHRlPnRydWU8L2luLXBhbGV0dGU+DQogICAgICA8L2Rlc2lnbmVyLWV4dGVuc2lvbj4NCiAgICA8
+      L2NvbXBvc2l0ZS1leHRlbnNpb24+DQogIDwvY29tcG9zaXRlLWNvbXBvbmVudD4NCjwvZmFjZXMtY29u
+      ZmlnPg0K
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

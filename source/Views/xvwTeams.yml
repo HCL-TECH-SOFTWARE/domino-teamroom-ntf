@@ -1,0 +1,694 @@
+---
+class: 8
+flags: 0x0000
+unid: OFE4AE01D1E6D2103A-ON004899C0802577ED
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVActiveDocs")
+    opaque: |
+      ZAAHAAoAAwBETlQABwAKAAMACTFTAAAAPgACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABMA
+      VGVhbVJvb21WQWN0aXZlRG9jcwDtBAMABwAQAAkACTBSNFM2UzhTAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: BgAAAABE
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.2
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $FormatNote
+    type: noteref
+    data:
+      - OF01FBDB8AFA3B0EFD-ON00621AB9802577DC
+    signed: true
+  - name: $Formula
+    type: formula
+    data: " (form = \"DefSubTeam\" | form = \"Subteam\") & Status = \"1\""
+    opaque: |
+      lgAFACIAHQADAAYACQAEAFNUTmFtZSRDb25mbGljdCRSRUYABAAEAAAATAAFAAQAZm9ybQEACgBEZWZT
+      dWJUZWFtCgIFAAQAZm9ybQEABwBTdWJ0ZWFtAAoCHQIEAAUABgBTdGF0dXMBAAEAMQAKAhwCAwAHACIA
+      HAAJTDFTM1M0UzVTNlM3UzhTMTBTMTFTMTJTMTNT
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $TITLE
+    type: text
+    data: xvwTeams
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABAJYAjEwAAFZDAAAGAAkAAAAAAFAAAQAACgAAAAAAAAAAAAICAAAAU1ROYW1lVGVhbSBOYW1lJgAB
+      AAAAAQEACQEACAoBAQQKAAA/AK0rBAEBAAEBAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAE
+      AAAAAAD//wAAAAAAAAAAAAAAAAAAQgAAAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wAB
+      AKjP1AAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0000408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 71
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 72
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 73
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0000408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 71
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 72
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 73
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

@@ -1,0 +1,52 @@
+---
+class: 4
+flags: 0x0000
+unid: OF6BEC5F8A32BDB93A-ON0050652B80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 592
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: statusTeamReport.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-09-06T00:30:48.32+01:00"
+        dst: true
+      - data: "2014-08-14T10:32:55.95+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: statusTeamReport.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAABQAgAAAQAAAAAAAAAAAAAAYABiAgAAUAJQAgAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      c3RhdHVzVGVhbVJlcG9ydDwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+c3RhdHVz
+      VGVhbVJlcG9ydDwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+L3N0YXR1c1RlYW1S
+      ZXBvcnQueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgICA8
+      ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBhbGV0dGU+CiAg
+      ICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogIDwvY29t
+      cG9zaXRlLWNvbXBvbmVudD4KPC9mYWNlcy1jb25maWc+Cg==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

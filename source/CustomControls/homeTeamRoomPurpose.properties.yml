@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF212230ACE33F07C6-ON0038B9C580257BB1
+items:
+  - name: $FileNames
+    type: text
+    data: homeTeamRoomPurpose.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: homeTeamRoomPurpose.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

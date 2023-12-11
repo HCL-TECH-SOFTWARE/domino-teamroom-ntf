@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFC577F28A090B7C8E-ON004C76C880257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: homeKeyDocumentsPanel_hu.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: homeKeyDocumentsPanel_hu.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

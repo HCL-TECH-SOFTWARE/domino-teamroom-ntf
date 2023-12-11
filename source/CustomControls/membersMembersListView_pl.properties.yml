@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF78B31EF21FD46AB6-ON0049BF5980257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: membersMembersListView_pl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: membersMembersListView_pl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

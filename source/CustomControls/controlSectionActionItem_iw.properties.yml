@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFC68EAAF4F912349F-ON004088BA80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: controlSectionActionItem_iw.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlSectionActionItem_iw.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

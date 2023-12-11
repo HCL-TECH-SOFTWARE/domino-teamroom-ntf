@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF42B244A98513D4E9-ON004D1A8F80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: topicPostTags_zh_TW.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: topicPostTags_zh_TW.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

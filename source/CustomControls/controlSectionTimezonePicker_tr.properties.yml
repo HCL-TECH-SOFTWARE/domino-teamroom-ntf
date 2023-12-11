@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF0B6C2EA26514D0FC-ON004C637E80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: controlSectionTimezonePicker_tr.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlSectionTimezonePicker_tr.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

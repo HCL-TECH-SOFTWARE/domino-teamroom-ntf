@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFB7CCA38B99346F65-ON004A163780257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: tagCloud_sl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: tagCloud_sl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,100 @@
+---
+class: 32784
+flags: 0x0000
+unid: OF0010AC8E85255A0A-ON001E8D4385254BD4
+items:
+  - name: $CSSExpires
+    type: text
+    data: "365"
+  - name: $DBTheme
+    type: text
+    data: oneuiv2_1_blue.theme
+  - name: $Daos
+    type: text
+    data: "0"
+  - name: $DefaultClientXPage
+    type: text
+    data: home.xsp
+  - name: $DefaultFrameset
+    type: text
+    data: TeamRoomFrameset
+  - name: $DefaultNavigator
+    type: text
+    data: TeamRoom Navigator
+  - name: $DefaultWebFrameset
+    type: text
+    data: webTeamRoomFrameset
+  - name: $DefaultWebNavigator
+    type: text
+    data: All Documents
+  - name: $DefaultXPage
+    type: text
+    data: main.xsp
+  - name: $FileExpires
+    type: text
+    data: "365"
+  - name: $Flags
+    type: text
+    data: J7F!f
+  - name: $FlagsNoRefresh
+    type: text
+    data: rv
+  - name: $ImageExpires
+    type: text
+    data: "365"
+  - name: $JSExpires
+    type: text
+    data: "365"
+  - name: $LANGUAGE
+    type: text
+    data: en
+  - name: $LargeSummary
+    type: text
+    data: "0"
+  - name: $LaunchWebViewName
+    type: text
+    data: ($All)
+  - name: $LaunchXPageRunOnServer
+    type: text
+    data: "0"
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2021-07-21T18:27:52.50+05:30"
+      - data: "2021-07-21T18:37:27.97+05:30"
+      - data: "2021-07-21T18:37:28.00+05:30"
+      - data: "2021-07-21T18:37:28.07+05:30"
+      - data: "2021-07-21T18:37:28.08+05:30"
+      - data: "2021-07-21T09:19:26.44-04:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: |
+      TeamRoom (12.0.1)
+      TeamRoom
+      #1StdR12TeamRoom
+  - name: $TemplateFileName
+    type: text
+    data: "c:\\data\\template\\6\\teamrm6.ntf"
+  - name: $TemplateModTime
+    type: time
+    data: "2001-12-13T08:38:12.79-05:00"
+  - name: $TemplateServerName
+    type: text
+    data: CN=Debbie Branco/OU=Westford/O=IBM
+  - name: IconBitmap
+    type_num: 6
+    type: opaque
+    opaque: |
+      AiAgAgUAgAAAAIAAAADAAAAA4AAAAfAAAAP4AAAH/AAAD/4AAB/+P44PxB+OD8QfjgjEH44IxB8GCMQf
+      BgiAAwAIgAMAAIADABCCAwAQggMAEIIBABCCAYBwg8GAcMfBgHDHwYB4x8HweMfB8Hj/wfB4/+P4///j
+      +P//4/j//+P4//////8OzMzMzMzMzMzMzMzMzMzMDuzs7Ozs7Ozs7Ozs7Ozs7ADmZmZmZmZmZmZmZmZm
+      Zm4ADmZmZmZmZmZmZmbp5mbgAADm/k729vb29vb2Oaz+AAAADmdKzGxsbGxsbDms4AAAAADnSszGxsbM
+      xsY5rgAAAAAAB0ru7u7u7u7vmaAAAAAAAA1KAAAABsoAA5meAAAA6+B0ROAAAAbKAAM5mgAAAFugfUSg
+      AAAGygADmZoO3gBboHREoAAADMoAAzmaB9oAW6B9RKAAAGzM4AOZmgfaALugdESgAABmzKADOZoH2gW7
+      vn1Erp4AbMyus5maDdoFW7p0RKOaAGbMpbk5mX3dBbu6t0RDmgBszKW6ycB33QVbugxM85oAZsylujmg
+      fd0Fu7oHSvmaAGzMq7o5oHfdBVu6B0o5meBmzMu7mcB93QW7ugxMM5mgDMxVu6AAd90LW7sAADmZoAbK
+      W7ugAH3dAMvgAAAzmaAGylW7oAB33QBboAAAOZmgDMxbu6AADNwAW6AAADOZoAAAVbugAAfaAMvAAAA5
+      maAAAFu7oAAH2gAAAAAA6ZmQAAC1u7AADNwAAAAAAAycAAAADr4AAAAAAAAAAAAJmgAAAAW6AAAAAAAA
+      AAAACZoAAAAFugAAAAAAAAAAAAycAAAADLwAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+remaining: []

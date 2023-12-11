@@ -1,0 +1,55 @@
+---
+class: 4
+flags: 0x0000
+unid: OF5BFD080A93B5C8FC-ON005C8D8D80257AEE
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: WEB-INF/classes/META-INF/services/com.ibm.xsp.extlib.social.PersonDataProvider
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $FlagsExt
+    type: text
+    data: w
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-04-23T19:59:15.46-04:00"
+        dst: true
+      - data: "2013-05-03T13:21:25.06+01:00"
+        dst: true
+      - data: "2013-05-03T13:21:25.08+01:00"
+        dst: true
+      - data: "2013-05-03T13:21:25.38+01:00"
+        dst: true
+      - data: "2013-05-03T13:21:29.99+01:00"
+        dst: true
+      - data: "2013-05-03T13:21:30.01+01:00"
+        dst: true
+      - data: "2013-09-10T14:45:42.17+01:00"
+        dst: true
+      - data: "2014-08-13T13:52:55.70+01:00"
+        dst: true
+      - data: "2014-08-13T13:52:55.72+01:00"
+        dst: true
+      - data: "2014-08-13T13:53:14.29+01:00"
+        dst: true
+      - data: "2014-08-13T14:14:26.38+01:00"
+        dst: true
+      - data: "2014-08-13T14:14:26.40+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: WEB-INF/classes/META-INF/services/com.ibm.xsp.extlib.social.PersonDataProvider
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,65 @@
+---
+class: 8
+flags: 0x0000
+unid: OFE793AB70B296B2BF-ON003DF6CD802577C2
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: DwABAABEAGYAAAACACQw
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Formula
+    type: formula
+    data: |
+      REM {Begin DNT};
+       form = "ParticipantProfile" : "Subteam" : "Event"
+    opaque: |
+      cAEBAEYACwBFdgAkelMAJIMlAAAFAAwARXZlbnRTdW1tYXJ5AQACACAoIgIFAAkARXZlbnREYXRlAFYB
+      IgIBAAEAKQAiAgMAAgCUAAIAJDAFAAQAZm9ybQEAEgBQYXJ0aWNpcGFudFByb2ZpbGUKAq8AaAAaAAIA
+      BQAAAAAAAAAFAAMAV2hvALQCrgBOAAUABABmb3JtAQAHAFN1YnRlYW0ACgKvADQAHAACAAUAAAAAAAAA
+      BQAGAFNUTmFtZbQCrgAYAAUACwBFdgAkelMAJIMlAACuAAQAtQUDAAUAHgAZAAMAAgAJAAQAJDAkQ29u
+      ZmxpY3QkUkVGAAQABAAHABAACQBCZWdpbiBETlQABwAKAAMACTFTAAAAQAAFAAQAZm9ybQEAEgBQYXJ0
+      aWNpcGFudFByb2ZpbGUBAAcAU3VidGVhbQAfAgEABQBFdmVudAAfAgoCAwAHABgAEgAJMFJMMVMyUzNT
+      NFM1UzZTN1M=
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (DelDocLookup)|DelDocLookup
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQABAAEACAAAAFZDAQACAAQAOgEAAHoAAQAACgAAAAAAAAAAAAICAAAAJDBpdGVtOgEHABAACQBCZWdp
+      biBETlQABwAKAAMACTFTAAEARgALAEV2ACR6UwAkgyUAAAUADABFdmVudFN1bW1hcnkBAAIAICgiAgUA
+      CQBFdmVudERhdGUAVgEiAgEAAQApACICAwAHABwAFQAJMFIxUzJTM1M0UzVTNlMxMFMxMVMAAgCUAAIA
+      JDAFAAQAZm9ybQEAEgBQYXJ0aWNpcGFudFByb2ZpbGUKAq8AaAAaAAIABQAAAAAAAAAFAAMAV2hvALQC
+      rgBOAAUABABmb3JtAQAHAFN1YnRlYW0ACgKvADQAHAACAAUAAAAAAAAABQAGAFNUTmFtZbQCrgAYAAUA
+      CwBFdgAkelMAJIMlAACuAAQAtQUDAAcAKAAhAAkwUjNTNFM2UzEwUzEzUzE0UzE1UzE3UzIwUzIxUzI0
+      UwAmAAEAAAABAQAJAQAACgEBDgoAAAEArSsBAAEAAQAAAAAAAAAAAFdDAQAACQAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA
+      ////AAEA////AAAAAQAAAAAAAQCAgIAAAQAAAAAAAAAIAAAAAAABAA==
+    signed: true
+remaining: []

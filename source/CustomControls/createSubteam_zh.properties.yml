@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFB27A1F9708ADD68B-ON0049F2AB80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: createSubteam_zh.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: createSubteam_zh.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

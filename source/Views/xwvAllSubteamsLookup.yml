@@ -1,0 +1,270 @@
+---
+class: 8
+flags: 0x0000
+unid: OFAEAAB3BF4FAF3F03-ON005D755C802577F1
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: EwABAABEAGYAAAAGAFNUTmFtZQ==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.2
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Formula
+    type: formula
+    data: " (form = \"DefSubTeam\" | form = \"Subteam\") & (Status = \"1\" | Status = \"0\")"
+    opaque: |
+      EgECABgABgBTVE5hbWUFAAYAU1ROYW1lAwACABwACABQb3NpdGlvbgUACABQb3NpdGlvbgMAAgAOAAIA
+      JDSQAFYBAwAFADoANgAGAAYACQAIAAIACQAEAFNUTmFtZVNUTWVtYmVyc1Bvc2l0aW9uJDQkQ29uZmxp
+      Y3QkUkVGBAAEAAAAYgAFAAQAZm9ybQEACgBEZWZTdWJUZWFtCgIFAAQAZm9ybQEABwBTdWJ0ZWFtAAoC
+      HQIEAAUABgBTdGF0dXMBAAEAMQAKAgUABgBTdGF0dXMBAAEAMAAKAh0CBAAcAgMABwAuACgACUwxUzNT
+      NFM1UzZTN1M4UzEwUzExUzEzUzE0UzE1UzE2UzE3UzE4Uw==
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: xwvAllSubteamsLookup|xwvAllSubteamsLookup
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAEAAEACEAAAFZDAQAGAAwAGgAAAE8AAQAACgAAAAAAAAAAAAICAAAAVkMAAAkABwAAAAAAGQEBAAAK
+      AAAAAAAAAAAAAgIAAABWQwAACAAEAB4AAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAACAAcAHAAAAFAA
+      AQAACQAAAAAAAAAAAAICAAAAU1ROYW1lU3VidGVhbSBOYW1lGgACABgABgBTVE5hbWUFAAYAU1ROYW1l
+      AwBTVE1lbWJlcnNNZW1iZXJzUG9zaXRpb25Sb2xlHgACABwACABQb3NpdGlvbgUACABQb3NpdGlvbgMA
+      JDREb2NVTklEHAACAA4AAgAkNJAAVgEDAAcADAAFAAkwUzBFACYAAQAAAAEBAAkBAAAKAQEECgAAAACt
+      KwEAAQABAAAAAAAAAAAAV0MBAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAA
+      AFdDAQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEAAAkAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAAAJAAAAAAAAAAAAAAAAAAAAAAAABAAA
+      AAAA//8AAAAAAAAAAAAAAAAAAEIAAAAAAAEA////AAUAAAAAAAEAAAAAAAAAAAAAAAAAAQD///8AAQD/
+      //8AAAABAAAAAAABAAAA/wABAAAAAAAAAAgAAAAAAAEA
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 15
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 0
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000000
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA+fA==
+        title: _Remove From Folder
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([FileCloseWindow])"
+        data_opaque: IAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Close View
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 15
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x00000000
+        HeightSpc: 0
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x00000000
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        BtnBorderDisplay: 0
+        BtnTextJustify: 0
+        BtnWidthStyle: 0
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc0c0c0
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x00000000
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+          Reserved: 0
+          Units: 0
+        dwFlags: 0x00000003
+        wAppletHeight: 31
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000019c
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQBOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AwADCg==
+        title: Send Docu_ment
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BAAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BQA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: BgA+fA==
+        title: _Remove From Folder
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([FileCloseWindow])"
+        data_opaque: IAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Close View
+remaining: []

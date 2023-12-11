@@ -1,0 +1,45 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3CAC314EC5CA94FF-ON0050597E80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 601
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 9.0.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: allDocsAllByTeamTab.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $TITLE
+    type: text
+    data: allDocsAllByTeamTab.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAABZAgAAAQAAAAAAAAAAAAAAYABrAgAAWQJaAgAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      YWxsRG9jc0FsbEJ5VGVhbVRhYjwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+YWxs
+      RG9jc0FsbEJ5VGVhbVRhYjwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+L2FsbERv
+      Y3NBbGxCeVRlYW1UYWIueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9u
+      PgogICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBh
+      bGV0dGU+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9u
+      PgogIDwvY29tcG9zaXRlLWNvbXBvbmVudD4KPC9mYWNlcy1jb25maWc+CmU=
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

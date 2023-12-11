@@ -1,0 +1,36 @@
+---
+class: 4
+flags: 0x0000
+unid: OF123DB70B10F8F42F-ON00507C8780257917
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: mobile.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34C=Q
+  - name: $MimeCharSet
+    type: text
+    data: UTF-8
+    signed: true
+  - name: $MimeType
+    type: text
+    data: text/css
+    signed: true
+  - name: $Revisions
+    type: time
+    data: "2013-08-15T16:02:35.15+01:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: mobile.css
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

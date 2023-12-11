@@ -1,0 +1,111 @@
+---
+class: 1024
+flags: 0x0000
+unid: OFDDC5DC78B38FE343-ON003DF804802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "6"
+    signed: true
+  - name: $Fields
+    type: text
+    data: TeamRoomName
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: TeamRoomName
+  - name: TeamRoomName
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: $BODY
+    type: composite
+    signed: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xff8a
+        opaque: |
+          iv9YAogBAAUAMAIAAAAAAAACAQAOCCgCAAAAAAAADAAAAAAAKAIHABwAFQBWYXJpYWJsZSB0byB0cmFu
+          c2xhdGUABwAKAAMACTFTAAEAUgADAFR4dAABAEIAPFRoZSBUZWFtUm9vbSBTZXR1cCBmb3IgdGhpcyBU
+          ZWFtUm9vbSBoYXMgbm90IHlldCBiZWVuIGNvbXBsZXRlZC4+AwAHAAwABQAJMFIxUwABAEYACgBOb1Rl
+          YW1OYW1lAQAwAC0tTm8gdGVhbSBuYW1lIHNwZWNpZmllZCBpbiB0aGUgVGVhbVJvb20gU2V0dXAtLQMA
+          BwAOAAcACTBSMVMyUwAHACAAGQBFbmQgdmFyaWFibGUgdG8gdHJhbnNsYXRlAAcADAAFAAkwUjFTAAEA
+          HgAEAFZpZXcBAA0ATWlzc2lvbkxvb2t1cAADAAcADgAIAAkwUlIxUzJTAQBMAA4AVGVhbU5hbWVMb29r
+          dXABAAAAAQAHAE5vQ2FjaGUAHwIBAAAABQAEAFZpZXcBAAcATWlzc2lvbgAAAAAAAAAAAABAgwUDAAcA
+          HAAWAAkwUjFTMlM1UzZTOFMxMFMxMlMxNFMAAHQABQAOAFRlYW1OYW1lTG9va3VwWgGvAFgADgAFAAMA
+          VHh0AK4ASgAFAA4AVGVhbU5hbWVMb29rdXABAAAACgKvAC4AFAAFAAoATm9UZWFtTmFtZa4AGgAFAA4A
+          VGVhbU5hbWVMb29rdXCuAAQAtQUDAAcAGgATAAkwUjdTOVMxMFMxMVMxM1MxNVMAVGVhbVJvb21OYW1l
+      - type: 0xff7a
+        ID: TeamRoomName
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF8BE30979CB0599CC-ON004B3B87802579A7
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: expand.png
+    signed: true
+  - name: $Flags
+    type: text
+    data: 345CgQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $TITLE
+    type: text
+    data: expand.png
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

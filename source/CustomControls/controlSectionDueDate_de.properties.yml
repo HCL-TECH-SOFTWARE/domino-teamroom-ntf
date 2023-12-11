@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF40BA1F4F5B6E54F2-ON004068C880257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: controlSectionDueDate_de.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlSectionDueDate_de.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

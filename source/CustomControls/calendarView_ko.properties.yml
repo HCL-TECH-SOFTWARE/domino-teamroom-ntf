@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFAA7E8E7608B2B442-ON004C3DC380257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: calendarView_ko.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: calendarView_ko.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

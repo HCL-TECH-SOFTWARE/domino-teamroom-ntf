@@ -1,0 +1,819 @@
+---
+class: 8
+flags: 0x0000
+unid: OFCB40AD9113B2B4D2-ON002F862280257911
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVCalendar")
+    opaque: |
+      YgAHAAoAAwBETlQABwAKAAMACTFTAAAAPAACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABEA
+      VGVhbVJvb21WQ2FsZW5kYXIA7QQDAAcAEAAJAAkwUjRTNlM4UwA=
+    signed: true
+  - name: $CalendarFormat
+    type_num: 24
+    type: opaque
+    opaque: |
+      AT8BAAAJAQAACQEBDQrWAIYAEiA/AKQBdAQ8AAEAfsK8AAEA7+/vAAQA7+/vAP///wD///8A////ACMD
+      AQDv7+8AAQD///8AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA/gIAAAQAACQAAAAAAAAAAAAAAAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: LQADAABEiGYHAAADAABmAAMACwAAZgAOAAQAJDc3Q2FsRGF0ZVRpbWVJY29u
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: Y
+  - name: $Formula
+    type: formula
+    data: " Status != \"0\" & (DueDate != \"\" | MtgDate != \"\" | form = \"Event\")"
+    opaque: |
+      9gcBAIYAEQB0ZW1wRGF0ZQBv7C8ASnklAAAFAAQAZm9ybQEABQBFdmVudAAKAq8AVgAWAAUACQBFdmVu
+      dERhdGUAVgGuAEAABQAHAER1ZURhdGUAAQAAAAsCrwAqABQABQAHAER1ZURhdGUAVgGuABYABQAHAE10
+      Z0RhdGUAVgGuAAQAtQUDAAIAPAADACQ3NwACAEIAAAAAAAAAAAAAAAAAAAAmQAEAAAAFABEAdGVtcERh
+      dGUAb+wvAEp5JQAA3gQDAAEAWAARAHRlbXBUaW1lAMBuKADodyUAAAUABwBNdGdEYXRlAAEAAAALAq8A
+      KgAUAAUABwBNdGdUaW1lAFYBrgAWAAIAAOtBAP////9MAVYBrgAEALUDAwABAIYAEQB0ZW1wRGF0ZQDB
+      bigA6HclAAAFAAQAZm9ybQEABQBFdmVudAAKAq8AVgAWAAUACQBFdmVudERhdGUAVgGuAEAABQAHAER1
+      ZURhdGUAAQAAAAsCrwAqABQABQAHAER1ZURhdGUAVgGuABYABQAHAE10Z0RhdGUAVgGuAAQAtQUDAAEA
+      SgALAERUAMJuKADodyUAAAUAEQB0ZW1wRGF0ZQDBbigA6HclAAABAAEAIAAiAgUAEQB0ZW1wVGltZQDA
+      bigA6HclAAAiAgMAAgAmAAsAQ2FsRGF0ZVRpbWUABQALAERUAMJuKADodyUAAFcBAwABACIADQBkYXRl
+      APV7KADodyUAAAUABwBEdWVkYXRlAAMAAQAcAA0AZG9uZQD2eygA6HclAAABAAEAMQADAAEAKAASAExD
+      RG9jVHlwZQD3eygA6HclAAUABwBEb2NUeXBlAGEBAwABACwADgBMQ010ZwD4eygA6HclAAUADwBEZWZh
+      dWx0RG9jVHlwZTMAYQEDAAIARgEEAEljb24FABIATENEb2NUeXBlAPd7KADodyUABQAOAExDTXRnAPh7
+      KADodyUACgKvAA4BEAAAAAAAAAAAwGNArgD+AAUADgBjdXJyZW50X3N0YXR1cwUADQBkb25lAPZ7KADo
+      dyUAAAoCrwDUABAAAAAAAAAAAIBUQK4AxAAFAA0ARGF0ZQD1eygA6HclAAABAAAACgKvAKgACgABAAAA
+      rgCeAAUADQBEYXRlAPV7KADodyUAAC0ADgKvAIQAEAAAAAAAAAAAwGJArgB0AAUADQBEYXRlAPV7KADo
+      dyUAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAATQcOAq8AHAAQAAAAAAAAAAAAUECuAAwAAQAAAK4ABAC1CwMAAgAcAAwAU2FtZXRpbWVJbmZv
+      BQAEAGZyb20DAAEAJAARAEV2ZW50VHh0AJSBKADodyUAAAEABQBFdmVudAADAAEALAAQAERpc2N0eHQA
+      lYEoAOh3JQAFAA8ARGVmYXVsdERvY1R5cGUxAAMAAQAyABYAQWN0aW9uSXRlbVR4dACWgSgA6HclAAUA
+      DwBEZWZhdWx0RG9jVHlwZTIAAwABACwADwBNdGdUeHQAl4EoAOh3JQAABQAPAERlZmF1bHREb2NUeXBl
+      MwADAAEAIgENAFR5cGUAmIEoAOh3JQAABQAEAGZvcm0BAAUARXZlbnQACgKvAPYAHAAFABEARXZlbnRU
+      eHQAlIEoAOh3JQAArgDaAAUABwBEb2NUeXBlAAUADwBEZWZhdWx0RG9jVHlwZTEACgKvALQAGgAFABAA
+      RGlzY1R4dACVgSgA6HclAK4AmgAFAAcARG9jVHlwZQAFAA8ARGVmYXVsdERvY1R5cGUyAAoCrwB0ACAA
+      BQAWAEFjdGlvbkl0ZW1UeHQAloEoAOh3JQCuAFQABQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBl
+      MwAKAq8ALgAaAAUADwBNdGdUeHQAl4EoAOh3JQAArgAUAAUABwBEb2NUeXBlAK4ABAC1CQMAAQBWAA0A
+      U3ViagCZgSgA6HclAAAFAAQAZm9ybQEABQBFdmVudAAKAq8AKgAWAAUADABFdmVudFN1bW1hcnmuABQA
+      BQAHAFN1YmplY3QArgAEALUDAwABAGAADgBNVGltZQCagSgA6HclAAUABwBNdGdUaW1lAAEAAAALAq8A
+      NgAqAAEAAgAgKAUABwBNdGdUaW1lAAEAAgBUMVYCIgIBAAEAKQAiAq4ADAABAAAArgAEALUDAwACAE4A
+      AwBGb3IABQANAFR5cGUAmIEoAOh3JQAAAQACADogIgIFAA0AU3ViagCZgSgA6HclAAAiAgUADgBNVGlt
+      ZQCagSgA6HclACICAwACACIABQBDaGFpcgACAAYAAAAAAAAABQAEAEZyb220AgMABQBwAGwACwADAAsA
+      BAAHAAQADAADAA0ACwAFAAkAJDc3Q2FsRGF0ZVRpbWVGb3JtRG9jVHlwZUljb25TYW1ldGltZUluZm9G
+      b3JTdGFydERhdGVUaW1lRW5kRGF0ZVRpbWVDaGFpciRDb25mbGljdAQABAAAAFgABQAGAFN0YXR1cwEA
+      AQAwAAsCBQAHAER1ZURhdGUAAQAAAAsCBQAHAE10Z0RhdGUAAQAAAAsCHQIFAAQAZm9ybQEABQBFdmVu
+      dAAKAh0CBAAcAgMABwAuACcACUwxUzJTM1M0UzVTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMTVTMTZTAA==
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $FormulaTV
+    type: text
+    data: ""
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: calendarOutlineUpcoming|myTestCalendar
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAKAFAAjk0AAFZDAwADAAQA9AAAAFAAAQAACgABAAAAAAAAAAICAAAAVkOBAAsACwCmAQAAcwABAAAJ
+      AAAAAAAABAAAAgIAAABWQwAABAAEAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZDAAAHAAcAAAAAAFAA
+      AQAACgAAAAAAAAAAAAICAAAAVkPBAAQABABkAgAAEAABAAAJAAAAAAAAAAAAAgIAACBWQwgADAAMAB4A
+      AABoAAEAAAoAAAAACAAAAAACAgAAAFZDgAADAAMAlgMAAMQAAQAECQAAAAAAAAAAAAICAAAgVkMAAA0A
+      CQAAAAAAUAABAAAKAAAAAAAAAAAAAgIAAABWQwAACwAHAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAAFZD
+      AAAFAAUAMAAAAFAAAQAACgAAAAAAAAAAAAICAAAAJDc3RGF0ZfQAAQCGABEAdGVtcERhdGUAb+wvAEp5
+      JQAABQAEAGZvcm0BAAUARXZlbnQACgKvAFYAFgAFAAkARXZlbnREYXRlAFYBrgBAAAUABwBEdWVEYXRl
+      AAEAAAALAq8AKgAUAAUABwBEdWVEYXRlAFYBrgAWAAUABwBNdGdEYXRlAFYBrgAEALUFAwAHACAAGgAJ
+      MVMyUzVTNlM4UzEzUzE0UzE1UzE3UzIyUwIAPAADACQ3NwACAEIAAAAAAAAAAAAAAAAAAAAmQAEAAAAF
+      ABEAdGVtcERhdGUAb+wvAEp5JQAA3gQDAAcAEAAJAAkwUjRTNlM4UwBDYWxEYXRlVGltZUNhbERhdGVU
+      aW1lpgEBAFgAEQB0ZW1wVGltZQDAbigA6HclAAAFAAcATXRnRGF0ZQABAAAACwKvACoAFAAFAAcATXRn
+      VGltZQBWAa4AFgACAADrQQD/////TAFWAa4ABAC1AwMABwAUAA4ACTFTMlM1UzZTOFMxM1MBAIYAEQB0
+      ZW1wRGF0ZQDBbigA6HclAAAFAAQAZm9ybQEABQBFdmVudAAKAq8AVgAWAAUACQBFdmVudERhdGUAVgGu
+      AEAABQAHAER1ZURhdGUAAQAAAAsCrwAqABQABQAHAER1ZURhdGUAVgGuABYABQAHAE10Z0RhdGUAVgGu
+      AAQAtQUDAAcAIgAcAAkwUjFTMlM1UzZTOFMxM1MxNFMxNVMxN1MyMlMBAEoACwBEVADCbigA6HclAAAF
+      ABEAdGVtcERhdGUAwW4oAOh3JQAAAQABACAAIgIFABEAdGVtcFRpbWUAwG4oAOh3JQAAIgIDAAcAFgAP
+      AAkwUjFTMlMzUzRTNVM2UwACACYACwBDYWxEYXRlVGltZQAFAAsARFQAwm4oAOh3JQAAVwEDAAcACgAD
+      AAkwUgBGb3JtRm9ybURvY1R5cGVEb2NUeXBlSWNvbkljb25kAgEAIgANAGRhdGUA9XsoAOh3JQAABQAH
+      AER1ZWRhdGUAAwAHAAwABQAJMVMyUwABABwADQBkb25lAPZ7KADodyUAAAEAAQAxAAMABwAOAAcACTBS
+      MVMyUwABACgAEgBMQ0RvY1R5cGUA93soAOh3JQAFAAcARG9jVHlwZQBhAQMABwAOAAcACTBSMVMyUwAB
+      ACwADgBMQ010ZwD4eygA6HclAAUADwBEZWZhdWx0RG9jVHlwZTMAYQEDAAcADgAHAAkwUjFTMlMAAgBG
+      AQQASWNvbgUAEgBMQ0RvY1R5cGUA93soAOh3JQAFAA4ATENNdGcA+HsoAOh3JQAKAq8ADgEQAAAAAAAA
+      AADAY0CuAP4ABQAOAGN1cnJlbnRfc3RhdHVzBQANAGRvbmUA9nsoAOh3JQAACgKvANQAEAAAAAAAAAAA
+      gFRArgDEAAUADQBEYXRlAPV7KADodyUAAAEAAAAKAq8AqAAKAAEAAACuAJ4ABQANAERhdGUA9XsoAOh3
+      JQAALQAOAq8AhAAQAAAAAAAAAADAYkCuAHQABQANAERhdGUA9XsoAOh3JQAALQAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNBw4CrwAcABAAAAAA
+      AAAAAABQQK4ADAABAAAArgAEALULAwAHAFQATgAJMFIyUjNTNFM2UzhSOVMxMFMxMlMxNFMxNVMxNlMx
+      OFMyMFMyMVMyMlMyNFMyNlMyN1MyOFMzMlMzNFMzNlMzOFM0MFM0MlM0NVM0N1NTYW1ldGltZUluZm9T
+      YW1ldGltZUluZm8eAAIAHAAMAFNhbWV0aW1lSW5mbwUABABmcm9tAwBGb3JGb3KWAwEAJAARAEV2ZW50
+      VHh0AJSBKADodyUAAAEABQBFdmVudAADAAcADAAFAAkxUzJTAAEALAAQAERpc2N0eHQAlYEoAOh3JQAF
+      AA8ARGVmYXVsdERvY1R5cGUxAAMABwAOAAcACTBSMVMyUwABADIAFgBBY3Rpb25JdGVtVHh0AJaBKADo
+      dyUABQAPAERlZmF1bHREb2NUeXBlMgADAAcADgAHAAkwUjFTMlMAAQAsAA8ATXRnVHh0AJeBKADodyUA
+      AAUADwBEZWZhdWx0RG9jVHlwZTMAAwAHAA4ABwAJMFIxUzJTAAEAIgENAFR5cGUAmIEoAOh3JQAABQAE
+      AGZvcm0BAAUARXZlbnQACgKvAPYAHAAFABEARXZlbnRUeHQAlIEoAOh3JQAArgDaAAUABwBEb2NUeXBl
+      AAUADwBEZWZhdWx0RG9jVHlwZTEACgKvALQAGgAFABAARGlzY1R4dACVgSgA6HclAK4AmgAFAAcARG9j
+      VHlwZQAFAA8ARGVmYXVsdERvY1R5cGUyAAoCrwB0ACAABQAWAEFjdGlvbkl0ZW1UeHQAloEoAOh3JQCu
+      AFQABQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAq8ALgAaAAUADwBNdGdUeHQAl4EoAOh3
+      JQAArgAUAAUABwBEb2NUeXBlAK4ABAC1CQMABwA6ADQACTBSMVMyUzVTNlM4UzEwUzExUzEyUzE0UzE2
+      UzE3UzE4UzIwUzIyUzIzUzI0UzI2UzI4UwEAVgANAFN1YmoAmYEoAOh3JQAABQAEAGZvcm0BAAUARXZl
+      bnQACgKvACoAFgAFAAwARXZlbnRTdW1tYXJ5rgAUAAUABwBTdWJqZWN0AK4ABAC1AwMABwAWABAACTBS
+      MVMyUzVTNlM4UzEwUwEAYAAOAE1UaW1lAJqBKADodyUABQAHAE10Z1RpbWUAAQAAAAsCrwA2ACoAAQAC
+      ACAoBQAHAE10Z1RpbWUAAQACAFQxVgIiAgEAAQApACICrgAMAAEAAACuAAQAtQMDAAcAJAAeAAkwUjFT
+      MlM1UzZTOFM5UzEwUzE0UzE2UzE3UzE5UwIATgADAEZvcgAFAA0AVHlwZQCYgSgA6HclAAABAAIAOiAi
+      AgUADQBTdWJqAJmBKADodyUAACICBQAOAE1UaW1lAJqBKADodyUAIgIDAAcAFgAPAAkwUjFTMlMzUzRT
+      NVM2UwBTdGFydERhdGVUaW1lU3RhcnRUaW1lRW5kRGF0ZVRpbWVFbmRUaW1lQ2hhaXJDaGFpcjAAAgAi
+      AAUAQ2hhaXIAAgAGAAAAAAAAAAUABABGcm9ttAIDAAcADAAFAAkwUzBFACYAAQAAAAEBCgkBAAgKAQEE
+      CgAAPwCtKwMBAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAA
+      AAAAAAAAAFdDAQAACQAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkA
+      AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAA
+      AAAABAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAA
+      AAAAAAAAAAAAAABXQwEAAAkAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAD//wAAAAAAAAAAAAAAAAAAV0MC
+      AAAJo6/+TRajE6qqdH4Ak2ElhQAAAIgAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAA
+      AAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD/
+      /wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAAAAAAAAAA
+      AEIAIAAAAAEA////AAEA7+/vAAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAIAAAAABAAAA/wAB
+      AAAAAAAAAAgAAAAAAAEAYEMoAAIAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAFNhbWV0aW1lSW5mb2FDZAAA
+      AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAACRTVEFSVERBVEUkPXRydWVhQ2gAAAAAAAAAAAATAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk
+      U0FNRVRJTUVJTkZPJD10cnVlAGFDbAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACRBR0dSRUdBVEVEU1VCSkVD
+      VCQ9dHJ1ZQ==
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000411f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; \"Event\")"
+        data_opaque: KAAAABwAAgDoAwAAAAAAAAEABQBFdmVudADtAgMABwAKAAMACTRTAA==
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Event
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"1\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQAxAO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Day"
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"2\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQAyAO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\Two Days"
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"7\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQA3AO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Week"
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"14\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAgAxNO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\Two Weeks"
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"30\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAgAzMO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Month"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 71
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 72
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 73
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000411f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; \"Event\")"
+        data_opaque: KAAAABwAAgDoAwAAAAAAAAEABQBFdmVudADtAgMABwAKAAMACTRTAA==
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Event
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"1\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQAxAO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Day"
+      - type: 0xfff6
+        opaque: |
+          9v9DAAAAAAADABMAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAEZ1bGxDYWxlbmRhci5naWZ8RnVsbENhbGVu
+          ZGFyLmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"2\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQAyAO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\Two Days"
+      - type: 0xfff6
+        opaque: |
+          9v9DAAAAAAADABMAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAEZ1bGxDYWxlbmRhci5naWZ8RnVsbENhbGVu
+          ZGFyLmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"7\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAQA3AO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Week"
+      - type: 0xfff6
+        opaque: |
+          9v9DAAAAAAADABMAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAEZ1bGxDYWxlbmRhci5naWZ8RnVsbENhbGVu
+          ZGFyLmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"14\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAgAxNO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\Two Weeks"
+      - type: 0xfff6
+        opaque: |
+          9v9DAAAAAAADABMAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAEZ1bGxDYWxlbmRhci5naWZ8RnVsbENhbGVu
+          ZGFyLmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010219f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([CalendarFormat]; \"30\")"
+        data_opaque: JAAAABgAAgD8FwAAAAAAAAEAAgAzMO0CAwAHAAoAAwAJNFMA
+        title: "Calendar Format\\One Month"
+      - type: 0xfff6
+        opaque: |
+          9v9DAAAAAAADABMAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAEZ1bGxDYWxlbmRhci5naWZ8RnVsbENhbGVu
+          ZGFyLmdpZg==
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 71
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 72
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 73
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

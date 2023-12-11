@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF77A4C2CCA2C17C7D-ON004A5BE780257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: homeDocTypeIcon_tr.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: homeDocTypeIcon_tr.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

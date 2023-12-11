@@ -1,0 +1,498 @@
+---
+class: 512
+flags: 0x0000
+unid: OF287AE4F138D4131D-ON006B16FE802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      ' © Copyright HCL Technologies. 2019
+      Use "wStringResource"
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      Declare Sub Terminate
+      Declare Function GetURL
+      Declare Sub BuildTotalQuery
+      Declare Sub DoFormulaSearch
+      Declare Sub BuildTextList(n As Variant)
+      Declare Sub DoFTSearch
+      Declare Function GetDBPath
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      'Send Newsletters: 
+      
+      
+      'Send Newsletters: 
+      
+      Dim s As NotesSession
+      Dim db As NotesDatabase 
+      Dim view As NotesView
+      Dim note As NotesDocument
+      Dim profile As NotesDocument
+      Dim newnote As NotesDocument
+      Dim newsletter As NotesDocument
+      Dim collection As NotesDocumentCollection
+      Dim pPersonName As Variant
+      Dim pCategories As Variant
+      Dim pEvents As Variant
+      Dim pAuthors As Variant
+      Dim pStrings As Variant
+      Dim pMyName As Variant
+      Dim pSubteams As Variant
+      Dim pThreads As Variant
+      Dim searchtype As String
+      Dim query As String
+      Dim textlist As String
+      Dim totalquery As String
+      Dim failed As Integer
+      
+      Dim pInactive As Variant 
+      
+      
+      
+      
+      
+      
+      
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	On Error Goto ErrorCleanup
+      	
+      	Set s = New NotesSession
+      	Set db = s.CurrentDatabase
+      	Set view = db.GetView("($Profiles)")
+      	Set profile = view.GetFirstDocument
+      	If profile Is Nothing Then Exit Sub
+      	Failed = False
+      	
+      	Dim partAddress As String
+      	
+      	getWebAddress = getURL
+      	
+      	FormName = profile.Form
+      	If FormName(0) <> "Interest Profile" Then Set profile = view.GetNextDocument(profile)
+      	
+      	dbpath = getdbpath
+      	
+      	Do Until profile Is Nothing
+      		FormName = profile.Form
+      		pPersonName = profile.PersonName
+      		pSendTo = profile.FullPersonName
+      		pCategories = profile.ProfileCategories
+      		pSubteams = profile.ProfileSubteams
+      		pEvents = profile.ProfileEvents
+      		pAuthors = profile.ProfileAuthors
+      		pStrings = profile.ProfileStrings
+      		pMyName = profile.ProfileMyName
+      		pThreads = profile.ProfileThreads
+      		pInactive = profile.SkipInactive
+      		
+      		If pCategories(0) = "" And pAuthors(0) = "" And pStrings(0) = "" And pMyName(0) = "" And pThreads(0) = ""  And pEvents(0) = "" And pSubteams(0) = "" Then
+                     'if all the fields are blank, don't bother to search               
+      		Else
+      			If db.IsFTIndexed = True Then
+      				DoFTSearch
+      			Else
+      				DoFormulaSearch
+      			End If
+      			
+      			If collection.Count > 0 Then
+      				Set newsletter = New NotesDocument(db)
+      				Set rtitem = New NotesRichTextItem( newsletter, "Body")
+      				If getWebAddress = "" Then
+      					Call rtitem.appendtext(getString(59) & Chr(13) & Chr(13))
+      				End If		
+      				
+      				
+      				newsletter.Subject = getstring(46) & db.Title
+      				newsletter.Form = "Memo"
+      	'get address from Participant profile, if available
+      				Dim hierName As New notesname(pSendTo(0))
+      				Set peopleView = db.getview("PeopleLookup")
+      				
+      				Set partdoc = peopleview.getdocumentbykey(hiername.abbreviated)
+      				
+      				If partDoc Is Nothing Then
+      					Set partdoc = peopleview.getdocumentbykey(hiername.common)	
+      				End If
+      				
+      				If Not partDoc Is Nothing Then
+      					partAddress = partdoc.getitemvalue("email")(0)					
+      				End If
+      				
+      				If partAddress <> "" Then
+      					newsletter.SendTo = partAddress
+      				Else
+      					newsletter.SendTo = pSendTo(0)
+      				End If
+      				For i = 1 To collection.Count
+      					Set currentnote = collection.getnthdocument(i)
+      					collSubject = currentnote.subject(0)
+      					
+      					If currentnote.isresponse Then
+      						collDocType = getString(11)
+      					Else
+      						collDocType = currentnote.DocType(0)						
+      					End If
+      					collStr = getString(59)			
+      					
+      					Call rtitem.appendtext(collDocType + ": ")
+      					Call rtitem.appendtext(collSubject)
+      					Call rtitem.AddNewline(1)
+      					Call rtitem.AppendDocLink ( currentnote, db.Title)
+      					
+      					If getWebAddress = "" Then
+      						wMail = ""
+      					Else
+      						wMail = "  http://" + getwebAddress +"/"+ dbpath+"/$All/"+ currentnote.universalid
+      					End If	
+      					
+      					Call rtitem.appendtext(wMail)
+      					Call rtitem.AddNewline(2)
+      				Next
+      				newsletter.Send True
+      			End If
+      		End If
+      ErrorReset:
+      		Set profile = view.GetNextDocument(profile)
+      	Loop
+      	
+      	Exit Sub
+      	
+      ErrorCleanup:
+      	If Err = 4294 Or Err = 4295 Then
+      		Goto ErrorReset
+      	Else
+      		Failed = True
+      		Msgbox Error
+      		Exit Sub		
+      	End If
+      	
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:Terminate:1:10
+      Sub Terminate
+      	If Not (failed) Then
+      		Set collection = db.UnprocessedDocuments
+      		For n = 1 To collection.Count
+      			Set note = collection.GetNthDocument(n)
+      			Call s.UpdateProcessedDoc(note)
+      		Next
+      		
+      	End If     
+      End Sub
+      
+      '++LotusScript Development Environment:2:1:GetURL:1:8
+      Function GetURL
+      	Dim s As New notessession
+      	Set SetupView = db.getview("MissionLookup")
+      	Set setupDoc = SetupView.GetDocumentBYKey("Mission")
+      	
+      	GetURL = setupdoc.getitemvalue("URLAddress")(0)
+      End Function
+      
+      '++LotusScript Development Environment:2:2:BuildTotalQuery:1:8
+      Sub BuildTotalQuery
+      	
+      	If totalquery = "" Then
+      		totalquery = query
+      	Else
+      		If searchtype = "FT" Then
+      			totalquery = totalquery & " or " & query
+      		Else
+      			totalquery = totalquery & " | " & query
+      		End If
+      		query = ""
+      	End If
+      	
+      	textlist = ""
+      	
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:DoFormulaSearch:1:8
+      Sub DoFormulaSearch
+      	searchtype = "Formula"
+      	totalquery = ""
+      	
+      	If pCategories(0) <> "" Then
+      		Forall n In pCategories
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "(@Contains(@UpperCase(Categories); @UpperCase(" & textlist &_
+      			")) )"
+      			BuildTotalQuery         
+      		End If
+      	End If
+      	
+      	If pSubteams(0) <> "" Then
+      		Forall n In pSubteams
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "(@Contains(@UpperCase(SubteamInterest); @UpperCase(" & textlist &_
+      			")) )"
+      			BuildTotalQuery         
+      		End If
+      	End If
+      	
+      	If pEvents(0) <> "" Then
+      		Forall n In pEvents
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "(@Contains(@UpperCase(Milestones); @UpperCase(" & textlist &_
+      			")) )"
+      			BuildTotalQuery         
+      		End If
+      	End If
+      	
+      	If pAuthors(0) <> "" Then
+      		Forall n In pAuthors
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "@Contains(@UpperCase(AbbreviateFrom); @UpperCase(" & textlist & "))"
+      			BuildTotalQuery
+      		End If
+      	End If
+      	
+      	If pStrings(0) <> "" Then
+      		Forall n In pStrings
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "@Contains(@UpperCase(Body); @UpperCase(" & textlist &_
+      			")) | @Contains(@UpperCase(Subject); @UpperCase(" & textlist & "))"
+      			BuildTotalQuery
+      		End If
+      	End If
+      	
+      	If pMyName(0) <> "" Then
+      		query = "@Contains(@UpperCase(Body); @UpperCase(" & """" & pPersonName(0) & """" &_
+      		")) | @Contains(@UpperCase(Subject); @UpperCase(" & """" & pPersonName(0) & """" & "))"
+      		BuildTotalQuery
+      	End If
+      	
+      	If pThreads(0) <> "" Then
+      		Forall n In pThreads
+      			BuildTextList(n)
+      		End Forall
+      		If textlist <> "" Then
+      			query = "@Contains(@UpperCase(ThreadId); @UpperCase(" & textlist & "))"
+      			BuildTotalQuery         
+      		End If
+      	End If
+      	
+      	If pInactive(0) = "" Then
+      		totalquery = totalquery & " & @isavailable(NewsletterSubject) & (form = ""MainTopic"" | form = ""Response""| form = ""ResponseToResponse""   ) & (readers = """")"
+      	Elseif pInactive(0) = "1" Then
+      		totalquery = totalquery & "&  !@isavailable(DateFiled) & @isavailable(NewsletterSubject) & (form = ""MainTopic"" | form = ""Response"" | form = ""ResponseToResponse"" ) & (readers = """")" 	
+      	End If
+      	
+      	Set collection = db.UnprocessedSearch(totalquery, Nothing, 0)
+      	
+      	
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:BuildTextList:1:8
+      Sub BuildTextList(n As Variant)
+      	
+      	If searchtype = "FT" Then
+      		If textlist = "" Then
+      			textlist = n
+      		Else
+      			textlist = textlist & ", " & n
+      		End If
+      	Else
+      		nvalue = """" & n & """"                       
+      		If textlist = "" Then
+      			textlist = nvalue
+      		Else
+      			textlist = textlist & " : " & nvalue
+      		End If
+      	End If
+      	
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:DoFTSearch:1:8
+      Sub DoFTSearch
+      	searchtype = "FT"
+      	totalquery = ""
+      	
+      	Forall n  In pCategories
+      		BuildTextList(n)
+      	End Forall
+      	If textlist <> "" Then
+      		query = "field Categories contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If          
+      	
+      	Forall n  In pSubteams
+      		BuildTextList(n)
+      	End Forall
+      	If textlist <> "" Then
+      		query = "field SubteamInterest contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If          
+      	
+      	Forall n  In pEvents
+      		BuildTextList(n)
+      	End Forall
+      	If textlist <> "" Then
+      		query = "field Milestones contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If          
+      	
+      	Forall n In pAuthors
+      		BuildTextList(n)
+      	End Forall
+      	If textlist <> "" Then
+      		query = "field AbbreviateFrom contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If          
+      	
+      	Forall n In pStrings
+      		BuildTextList(n)
+      	End Forall
+      	If pMyName(0) <> "" Then
+      		Forall n In pPersonName
+      			BuildTextList(n)
+      		End Forall
+      	End If
+      	If textlist <> "" Then
+      		query = "field Body contains (" & textlist & ") or field Subject contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If          
+      	
+      	Forall n In pThreads
+      		BuildTextList(n)
+      	End Forall
+      	If textlist <> "" Then
+      		query = "field ThreadId contains (" & textlist & ")"
+      		BuildTotalQuery         
+      	End If
+      	
+      	If pInactive(0) = "1" Then
+      		totalquery = "(" & totalquery & |) and (not(Field status = "0"))   and (field Form contains MainTopic or field Form contains Response or field Form contains ResponseToResponse) |
+      	Elseif pInactive(0) = "" Then
+      		totalquery = "(" & totalquery & ") and (field Form contains MainTopic or field Form contains Response or field Form contains ResponseToResponse) "
+      	End If
+      	
+      	Set collection = db.UnprocessedFTSearch(totalquery, 0)
+      	
+      End Sub
+      
+      '++LotusScript Development Environment:2:1:GetDBPath:1:8
+      Function GetDBPath
+      'check to see if the database is in a directory and swap the slash directions
+      	Dim tmpPath As String     
+      	tmpPath = db.filepath
+      	Do While Instr(tmpPath,"\") > 0
+      		tmpPath = Left$(tmpPath, Instr(tmpPath,"\")-1) + "/" + Right$(tmpPath,Len(tmpPath)-Instr(tmpPath,"\"))
+      	Loop
+      	
+      'check and see if there are any embedded spaces and replace them with +     
+      	Do While Instr(tmpPath," ") > 0
+      		tmpPath = Left$(tmpPath, Instr(tmpPath," ")-1) + "+" + Right$(tmpPath,Len(tmpPath)-Instr(tmpPath," "))
+      	Loop
+      	
+      	GetDbPath = tmpPath
+      	
+      End Function
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: s
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQABAAMAAgABAEB+BQDAV34AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      Tg9iAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "1"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: Enable/Disable this agent through the TeamRoom Setup
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: SfL3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $MachineName
+    type: text
+    data: CN=taurus/O=renovations
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: Send Newsletters
+    signed: true
+remaining: []

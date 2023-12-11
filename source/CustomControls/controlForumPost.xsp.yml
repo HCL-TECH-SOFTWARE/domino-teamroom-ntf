@@ -1,0 +1,88 @@
+---
+class: 4
+flags: 0x0000
+unid: OF51D7EC4FCD77BCF5-ON00505ADD80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1888
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "8.5"
+    signed: true
+  - name: $FileNames
+    type: text
+    data: controlForumPost.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2011-09-26T15:37:46.30+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:46.32+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:46.35+01:00"
+        dst: true
+      - data: "2011-09-26T15:37:46.37+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:31.84+01:00"
+        dst: true
+      - data: "2011-10-06T14:41:31.86+01:00"
+        dst: true
+      - data: "2011-10-06T16:05:23.58+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:43.30+01:00"
+        dst: true
+      - data: "2011-10-26T12:04:37.41+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: controlForumPost.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAABgBwAAAQAAAAAAAAAAAAAAYAByBwAAYAdgBwAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4NCjxmYWNlcy1jb25maWc+DQogIDxmYWNlcy1jb25maWctZXh0ZW5z
+      aW9uPg0KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1l
+      c3BhY2UtdXJpPg0KICAgIDxkZWZhdWx0LXByZWZpeD54YzwvZGVmYXVsdC1wcmVmaXg+DQogIDwvZmFj
+      ZXMtY29uZmlnLWV4dGVuc2lvbj4NCiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+DQogICAgPGNvbXBvbmVu
+      dC10eXBlPmNvbnRyb2xGb3J1bVBvc3Q8L2NvbXBvbmVudC10eXBlPg0KICAgIDxjb21wb3NpdGUtbmFt
+      ZT5jb250cm9sRm9ydW1Qb3N0PC9jb21wb3NpdGUtbmFtZT4NCiAgICA8Y29tcG9zaXRlLWZpbGU+L2Nv
+      bnRyb2xGb3J1bVBvc3QueHNwPC9jb21wb3NpdGUtZmlsZT4NCiAgICA8Y29tcG9zaXRlLWV4dGVuc2lv
+      bj4NCiAgICAgIDxkZXNpZ25lci1leHRlbnNpb24+DQogICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2lu
+      LXBhbGV0dGU+DQogICAgICAgIDxyZW5kZXItbWFya3VwPiZsdDs/eG1sIHZlcnNpb249IjEuMCIgZW5j
+      b2Rpbmc9IlVURi04Ij8mZ3Q7JiN4ZDsKJmx0O3hwOnZpZXcgeG1sbnM6eHA9Imh0dHA6Ly93d3cuaWJt
+      LmNvbS94c3AvY29yZSImZ3Q7JiN4ZDsKCSZsdDt4cDp0YWJsZSBzdHlsZT0iYmFja2dyb3VuZC1jb2xv
+      cjojQjRENUZDIiZndDsmI3hkOwoJCSZsdDt4cDp0ciZndDsmI3hkOwoJCQkmbHQ7eHA6dGQmZ3Q7JiN4
+      ZDsKCQkJCSZsdDtkaXYmZ3Q7JiN4ZDsKCQkJCQkmbHQ7eHA6Y2FsbGJhY2sgZmFjZXROYW1lPSJhdXRo
+      b3JBdmF0YXIiJmd0OyZsdDsveHA6Y2FsbGJhY2smZ3Q7JiN4ZDsKCQkJCSZsdDsvZGl2Jmd0OyYjeGQ7
+      CgkJCQkmbHQ7ZGl2Jmd0OyYjeGQ7CgkJCQkJJmx0O3hwOmNhbGxiYWNrIGZhY2V0TmFtZT0iYXV0aG9y
+      TmFtZSImZ3Q7Jmx0Oy94cDpjYWxsYmFjayZndDsmI3hkOwoJCQkJJmx0Oy9kaXYmZ3Q7JiN4ZDsKCQkJ
+      CSZsdDtkaXYmZ3Q7JiN4ZDsKCQkJCQkmbHQ7eHA6Y2FsbGJhY2sgZmFjZXROYW1lPSJhdXRob3JNZXRh
+      IiZndDsmbHQ7L3hwOmNhbGxiYWNrJmd0OyYjeGQ7CgkJCQkmbHQ7L2RpdiZndDsmI3hkOwoJCQkmbHQ7
+      L3hwOnRkJmd0OyYjeGQ7CgkJCSZsdDt4cDp0ZCBzdHlsZT0id2lkdGg6IDEwMCUiJmd0OyYjeGQ7CgkJ
+      CQkmbHQ7ZGl2Jmd0OyYjeGQ7CgkJCQkJJmx0O3hwOmNhbGxiYWNrIGZhY2V0TmFtZT0icG9zdFRpdGxl
+      IiBpZD0iY2FsbGJhY2szIiZndDsmbHQ7L3hwOmNhbGxiYWNrJmd0OyYjeGQ7CgkJCQkmbHQ7L2RpdiZn
+      dDsmI3hkOwoJCQkJJmx0O2RpdiZndDsmI3hkOwoJCQkJCSZsdDt4cDpjYWxsYmFjayBmYWNldE5hbWU9
+      InBvc3RNZXRhIiBpZD0iY2FsbGJhY2s2IiZndDsmbHQ7L3hwOmNhbGxiYWNrJmd0OyYjeGQ7CgkJCQkm
+      bHQ7L2RpdiZndDsmI3hkOwoJCQkJJmx0O2RpdiZndDsmI3hkOwoJCQkJCSZsdDt4cDpjYWxsYmFjayBm
+      YWNldE5hbWU9InBvc3REZXRhaWxzIiBpZD0iY2FsbGJhY2s0IiZndDsmbHQ7L3hwOmNhbGxiYWNrJmd0
+      OyYjeGQ7CgkJCQkmbHQ7L2RpdiZndDsmI3hkOwoJCQkJJmx0O2RpdiZndDsmI3hkOwoJCQkJCSZsdDt4
+      cDpjYWxsYmFjayBmYWNldE5hbWU9InBvc3RBY3Rpb25zIiBpZD0iY2FsbGJhY2s1IiZndDsmbHQ7L3hw
+      OmNhbGxiYWNrJmd0OyYjeGQ7CgkJCQkmbHQ7L2RpdiZndDsmI3hkOwoJCQkmbHQ7L3hwOnRkJmd0OyYj
+      eGQ7CgkJJmx0Oy94cDp0ciZndDsmI3hkOwoJJmx0Oy94cDp0YWJsZSZndDsmI3hkOwombHQ7L3hwOnZp
+      ZXcmZ3Q7JiN4ZDsKPC9yZW5kZXItbWFya3VwPg0KICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+DQog
+      ICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPg0KICA8L2NvbXBvc2l0ZS1jb21wb25lbnQ+DQo8L2ZhY2Vz
+      LWNvbmZpZz4NCg==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

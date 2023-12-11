@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF1EA5B6E981CFE2BE-ON004912C480257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: controlSectionShared_kk.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: controlSectionShared_kk.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

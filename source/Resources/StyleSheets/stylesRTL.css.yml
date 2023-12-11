@@ -1,0 +1,57 @@
+---
+class: 4
+flags: 0x0000
+unid: OFA62ACEF6A40B44EC-ON003F3D0680257AD8
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: stylesRTL.css
+    signed: true
+  - name: $Flags
+    type: text
+    data: 34C=Q
+  - name: $MimeCharSet
+    type: text
+    data: UTF-8
+    signed: true
+  - name: $MimeType
+    type: text
+    data: text/css
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-08-15T16:25:17.00+01:00"
+        dst: true
+      - data: "2014-08-13T12:11:33.65+01:00"
+        dst: true
+      - data: "2014-08-13T12:13:33.84+01:00"
+        dst: true
+      - data: "2014-08-13T12:13:48.93+01:00"
+        dst: true
+      - data: "2014-08-13T13:44:07.62+01:00"
+        dst: true
+      - data: "2014-08-13T13:44:22.87+01:00"
+        dst: true
+      - data: "2014-08-13T13:44:31.86+01:00"
+        dst: true
+      - data: "2014-08-13T13:46:11.12+01:00"
+        dst: true
+      - data: "2014-08-13T13:49:40.22+01:00"
+        dst: true
+      - data: "2014-08-13T13:54:34.12+01:00"
+        dst: true
+      - data: "2014-08-13T13:59:03.93+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: stylesRTL.css
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

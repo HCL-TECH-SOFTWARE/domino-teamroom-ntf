@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF284DF0B596EE54EF-ON00388A7C80257BB1
+items:
+  - name: $FileNames
+    type: text
+    data: statusReports.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K2
+  - name: $TITLE
+    type: text
+    data: statusReports.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

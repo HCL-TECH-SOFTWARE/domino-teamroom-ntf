@@ -1,0 +1,129 @@
+---
+class: 512
+flags: 0x0000
+unid: OFECFC38F1DF071241-ON006B16FA802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65412
+    opaque: |
+      gQKE/zYFAAAAACwFLAUHACgAIgC4IENvcHlyaWdodCBIQ0wgVGVjaG5vbG9naWVzLiAyMDE5BwAKAAMA
+      CTFTAAcAWABRAFRoaXMgYWdlbnQgZmlsZXMgdGhvc2UgZG9jdW1lbnRzIHdob3NlIGZpbGVkLWJ5LWRh
+      dGUgaXMgZXF1YWwgb3Igb2xkZXIgdGhhbiB0b2RheQAHAAwABQAJMFIxUwAHABwAFgB2YXJpYWJsZXMg
+      dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAwAAgARmlsZWR0eHQBABwAVGhpcyBkb2N1bWVudCB3YXMg
+      ZmlsZWQgb246IAMABwAOAAcACTBSMVMyUwAHABAACQBETlQgQmVnaW4ABwAMAAUACTBSMVMABwAyACsA
+      Q2hlY2sgdG8gc2VlIGlmIE9wZW4gZG9jdW1lbnRzIGNhbiBiZSBmaWxlZAAHAAwABgAJMFJSMVMBAB4A
+      BAB2aWV3AQANAE1pc3Npb25Mb29rdXAAAwAHAA4ABwAJMFIxUzJTAAEAGAADAEtleQABAAcATWlzc2lv
+      bgADAAcADgAHAAkwUjFTMlMAAQBMAAwARmlsZU9wZW5Eb2NzAQAAAAEABwBOb0NhY2hlAB8CAQAAAAUA
+      BABWaWV3BQADAEtleQABAAwARmlsZU9wZW5Eb2NzgwUDAAcAHAAWAAkwUjFTMlM1UzZTOFMxMFMxMlMx
+      NFMBACAACgBGaWxpbmdEYXRlBQAKAEZpbGVCeURhdGUDAAcADgAIAAkwUlIxUzJTAQBwAAoAQ2FuQmVG
+      aWxlZAUADABGaWxlT3BlbkRvY3MBAAEAMQAKAq8ARAAMAAEAAQB5AK4AOAAFAA4AQ3VycmVudF9TdGF0
+      dXMBAAEAMQAKAq8AGgAMAAEAAQB5AK4ADgABAAEAbgCuAAQAtQUDAAcAIgAcAAkwUjFTMlM1UzZTOFMx
+      MFMxMVMxMlMxNFMxNlMAAHgABQAJAERhdGVGaWxlZABoAR4BBQAKAGZpbGluZ2RhdGUBAAAACwIcAgUA
+      CgBDYW5CZUZpbGVkAQABAHkACgIcAi0ASwEFAAoARmlsaW5nRGF0ZUsBDQIcAgUABABmb3JtAQAJAE1h
+      aW5Ub3BpYwAKAhwCAwAHADgAMgAJMFJMMVM2UzdTOFM5UzEwUzExUzEyUzEzUzE0UzE1UzE5UzIwUzI0
+      UzI1UzI2UzI3UwcASABCAERvbid0IGZpbGUgdGhpcyBpZiB0aGVyZSdzIGEgZHVlIGRhdGUgYW5kIHRo
+      ZSBzdGF0dXMgaXMgc3RpbGwgb3BlbgcADAAFAAkwUjFTAAgAaAAFAAcARHVlRGF0ZQABAAAACwIFAA4A
+      Q3VycmVudF9TdGF0dXMBAAEAMAAKAhwCBQAMAEZpbGVPcGVuRG9jcwEAAQAwAAoCHAKvABgADAABAAAA
+      wgGuAAwAAQAAAK4ABAC1AwMABwAmACAACTBSM1M0UzVTNlM3UzhTOVMxMFMxMVMxMlMxNFMxOVMDABQA
+      BgBTdGF0dXMBAAEAMAADAAcAEAAJAAkwUjFTMlMzUwADABQACQBEYXRlRmlsZWQALAADAAcAEAAJAAkw
+      UjFTMlMzUwABABoABABkYXRlBQAJAERhdGVGaWxlZAADAAcADgAHAAkwUjFTMlMAAwBAAA0AVmlld0Rh
+      dGVGaWxlZAAFAAQAZGF0ZQEAAAAKAq8AGgAKAAEAAACuABAABQAEAERhdGWuAAQAtQMDAAcAGAASAAkw
+      UjFTMlMzUzZTN1M5UzExUw==
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: s
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQABAAEAAgABAEB+BQDAV34AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      alRhAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "1"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65412
+    signed: true
+  - name: $Comment
+    type: text
+    data: Enable/Disable this agent through the TeamRoom Setup
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: Sf3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $LeftToDo
+    type: object
+    obj_type: 0x0003
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: BAAAAAAAAAABAAAAAAAAAAAACmxEADxmJYVXfWQAq2UlhQ==
+  - name: $MachineName
+    type: text
+    data: "*"
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: AutoFileAgent
+    signed: true
+remaining: []

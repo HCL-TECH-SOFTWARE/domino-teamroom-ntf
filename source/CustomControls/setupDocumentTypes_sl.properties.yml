@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3DDBD4FA667D4B88-ON004A162A80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: setupDocumentTypes_sl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: setupDocumentTypes_sl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

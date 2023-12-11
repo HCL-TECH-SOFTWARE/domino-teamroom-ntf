@@ -1,0 +1,35 @@
+---
+class: 4
+flags: 0x0000
+unid: OF3EEA0F8BF3B5EA20-ON00557CB68025785C
+items:
+  - name: $CSSFiles
+    type: text
+    data:
+      - oneuiv2_1.css
+      - stylesIE06.css
+      - stylesIE78.css
+      - stylesIE910.css
+      - stylesFF.css
+      - stylesRTL.css
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: oneuiv2_1_purple.theme
+    signed: true
+  - name: $Flags
+    type: text
+    data: "34567Cg~`"
+  - name: $TITLE
+    type: text
+    data: oneuiv2_1_purple.theme
+    signed: true
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

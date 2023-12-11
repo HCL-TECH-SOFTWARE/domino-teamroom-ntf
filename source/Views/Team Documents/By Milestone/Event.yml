@@ -1,0 +1,312 @@
+---
+class: 8
+flags: 0x0000
+unid: OF834627182AAE6EAB-ON003DF414802577C2
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVActiveDocs")
+    opaque: |
+      ZAAHAAoAAwBETlQABwAKAAMACTFTAAAAPgACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABMA
+      VGVhbVJvb21WQWN0aXZlRG9jcwDtBAMABwAQAAkACTBSNFM2UzhTAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: JwADAABECGYHAAAEAAFmAAQABAAAZgAIAAQAJDEyNSQxMDYkMTIx
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxMDY=
+  - name: $Collation2
+    type_num: 2
+    type: opaque
+    opaque: HwACAABEAGYAAAAHAABmAAcABABEb2NUeXBlJDEyNA==
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Formula
+    type: formula
+    data: "(form = \"MainTopic\" & Status != \"0\") & Milestones != \"\" | @IsResponseDoc"
+    opaque: |
+      KgUBAEgAEQBPbGRUaXRsZQDk2UEAG2klAAAFAAoARXZlbnRUaXRsZQEAAgAgKCICBQAHAGdldERhdGUA
+      VgEiAgEAAQApACICAwACAGQABAAkMTI1BQAKAEV2ZW50VGl0bGVoAQUABwBnZXREYXRlAAEAAAALAhwC
+      rwAyABwABQARAE9sZFRpdGxlAOTZQQAbaSUAR64AFgAFAAoATWlsZXN0b25lc64ABAC1AwMAAgAkAAQA
+      JDEwNmwArwAUAAoAAQAAAK4ACgBpAK4ABAC1AwMAAgA0AAQAJDExNmwArwAkAAoAAQAAAK4AGgABAAAA
+      AQABACUAAQABACUAlQOuAAQAtQMDAAIADgAEACQxMjFpAAMAAQAqABMAUHJpdmF0ZVR4dAAlqWkAgWYl
+      AAQBAAkAUFJJVkFURTogAAMAAQAqABMARXhwaXJlZFR4dAAmqWkAgWYlAAQBAAkARVhQSVJFRDogAAMA
+      AQBaABMAQXV0aG9yTmFtZQAnqWkAgWYlAAQFAAQARnJvbWgBHgGvADAAFAABAAkAQW5vbnltb3VzAK4A
+      HAACAAUAAAAAAAAABQAEAEZyb220Aq4ABAC1AwMAAgD8AAQAJDEyMgUABwByZWFkZXJzAAEAAAALAq8A
+      YAAeAAUAEwBQcml2YXRlVHh0ACWpaQCBZiUABK4AQgAFAAoARXhwaXJlRGF0ZQEAAAALAq8AKgAeAAUA
+      EwBFeHBpcmVkVHh0ACapaQCBZiUABK4ADAABAAAArgAEALUFBQAHAFN1YmplY3QAAQAAAAsCrwAmABoA
+      BQAHAFN1YmplY3QAAQACACAgIgKuAAwAAQAAAK4ABAC1AyICAQABACgAIgIFABMAQXV0aG9yTmFtZQAn
+      qWkAgWYlAAQiAgEAAQAgACICaQABAAQARDJTMFYCIgIBAAEAKQAiAgMAAQAqABMAUHJpdmF0ZVR4dACk
+      qmkAgWYlAAQBAAkAUFJJVkFURTogAAMAAQAqABMARXhwaXJlZFR4dAClqmkAgWYlAAQBAAkARVhQSVJF
+      RDogAAMAAQBuAA8AQXV0aG9yAKaqaQCBZiUABAUABABmb3JtAQAQAEludGVyZXN0IFByb2ZpbGUKAq8A
+      NgAKAAEAAACuACwAAQACACAoAgAFAAAAAAAAAAUABABGcm9ttAIiAgEAAQApACICrgAEALUDAwACAKQA
+      BAAkMTIzBQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQApKppAIFmJQAErgBCAAUA
+      CgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQApappAIFmJQAErgAMAAEAAACuAAQA
+      tQUFAAcAU3ViamVjdAAiAgUADwBBdXRob3IApqppAIFmJQAAIgIDAAIAaAAEACQxMjQFAAcATXRnRGF0
+      ZQABAAAACwKvAEgAEgAFAAcAbXRnRGF0ZQCuADYABQAHAER1ZURhdGUAAQAAAAoCrwAgAAoAAQAAAK4A
+      FgAFAAcARHVlRGF0ZQBLAa4ABAC1BQMABQBMAEgACgAEAAQABAAEAAQABAAEAAcACQAEACQxMjUkMTA2
+      JDExNiQxMjEkMTIyJDEyMyQxMjREb2NUeXBlJENvbmZsaWN0JFJFRgQABAAAAE4ABQAEAGZvcm0BAAkA
+      TWFpblRvcGljAAoCBQAGAFN0YXR1cwEAAQAwAAsCHAIEAAUACgBNaWxlc3RvbmVzAQAAAAsCHAJsAB0C
+      AwA=
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: "Team Documents\\By Milestone/Event|ActiveEvent"
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAIAH4AjAwAAFZDAwQEAAAA4AAAAB0AAQENCQABAAAAAAAAAAICAAAAVkMFBQQABAAyAAAASAABAAAJ
+      AAABAIgAAAAAAAEAACBWQ4AABAAAAEgAAAAQAAEAAAkAAAAAAAAAAAACAgAAAFZDiQAEAAAAEAAAAAgA
+      AQAACQAAAAAAAAAAAAICAAAAVkMQBAQAAAAwAgAADQABAAAJACACAAAAAAAAAAIAACBWQwAABAAFANAB
+      AADRAAEADQkAIAAAAAAAAAACAgAAIFZDAAgEAAMAhAAAAEsAAQAACQAAAAAAAAAAAAACAAAAVkMAEQcA
+      BAAAAAAAUAABAAAJAAAAAAAAAAAAAgIAAAAkMTI14AABAEgAEQBPbGRUaXRsZQDk2UEAG2klAAAFAAoA
+      RXZlbnRUaXRsZQEAAgAgKCICBQAHAGdldERhdGUAVgEiAgEAAQApACICAwAHABoAEwAJMVMyUzNTNFM1
+      UzZTMTBTMTFTAAIAZAAEACQxMjUFAAoARXZlbnRUaXRsZWgBBQAHAGdldERhdGUAAQAAAAsCHAKvADIA
+      HAAFABEAT2xkVGl0bGUA5NlBABtpJQBHrgAWAAUACgBNaWxlc3RvbmVzrgAEALUDAwAHABgAEQAJMFI2
+      UzdTOFM5UzExUzEzUwAkMTA2RGF0ZTIAAgAkAAQAJDEwNmwArwAUAAoAAQAAAK4ACgBpAK4ABAC1AwMA
+      BwAMAAUACTRTNlMAJDExNkgAAgA0AAQAJDExNmwArwAkAAoAAQAAAK4AGgABAAAAAQABACUAAQABACUA
+      lQOuAAQAtQMDAAcAEgALAAk0UzZTMTBTMTJTACQxMjEQAAIADgAEACQxMjFpAAMAJDEyMjACAQAqABMA
+      UHJpdmF0ZVR4dAAlqWkAgWYlAAQBAAkAUFJJVkFURTogAAMABwAMAAUACTFTMlMAAQAqABMARXhwaXJl
+      ZFR4dAAmqWkAgWYlAAQBAAkARVhQSVJFRDogAAMABwAOAAcACTBSMVMyUwABAFoAEwBBdXRob3JOYW1l
+      ACepaQCBZiUABAUABABGcm9taAEeAa8AMAAUAAEACQBBbm9ueW1vdXMArgAcAAIABQAAAAAAAAAFAAQA
+      RnJvbbQCrgAEALUDAwAHABYAEAAJMFIxUzJTMTBTMTJTMTZTAgD8AAQAJDEyMgUABwByZWFkZXJzAAEA
+      AAALAq8AYAAeAAUAEwBQcml2YXRlVHh0ACWpaQCBZiUABK4AQgAFAAoARXhwaXJlRGF0ZQEAAAALAq8A
+      KgAeAAUAEwBFeHBpcmVkVHh0ACapaQCBZiUABK4ADAABAAAArgAEALUFBQAHAFN1YmplY3QAAQAAAAsC
+      rwAmABoABQAHAFN1YmplY3QAAQACACAgIgKuAAwAAQAAAK4ABAC1AyICAQABACgAIgIFABMAQXV0aG9y
+      TmFtZQAnqWkAgWYlAAQiAgEAAQAgACICaQABAAQARDJTMFYCIgIBAAEAKQAiAgMABwBUAE0ACTBSM1M0
+      UzZTOVMxMFMxMlMxNFMxNlMxN1MyMFMyMVMyM1MyNFMyNVMyN1MyOVMzMFMzMVMzMlMzM1MzNFMzNVMz
+      NlM0MFM0MlM0M1MAJDEyM1RvcGlj0AEBACoAEwBQcml2YXRlVHh0AKSqaQCBZiUABAEACQBQUklWQVRF
+      OiAAAwAHAAwABQAJMVMyUwABACoAEwBFeHBpcmVkVHh0AKWqaQCBZiUABAEACQBFWFBJUkVEOiAAAwAH
+      AA4ABwAJMFIxUzJTAAEAbgAPAEF1dGhvcgCmqmkAgWYlAAQFAAQAZm9ybQEAEABJbnRlcmVzdCBQcm9m
+      aWxlCgKvADYACgABAAAArgAsAAEAAgAgKAIABQAAAAAAAAAFAAQARnJvbbQCIgIBAAEAKQAiAq4ABAC1
+      AwMABwAmAB8ACTBSMVMyUzVTNlM4UzEwUzExUzEyUzE2UzE4UzE5UwACAKQABAAkMTIzBQAHAHJlYWRl
+      cnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQApKppAIFmJQAErgBCAAUACgBFeHBpcmVEYXRlAQAA
+      AAsCrwAqAB4ABQATAEV4cGlyZWRUeHQApappAIFmJQAErgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAAi
+      AgUADwBBdXRob3IApqppAIFmJQAAIgIDAAcAKAAiAAkwUjNTNFM2UzhTOVMxMFMxMlMxNFMxNlMxN1Mx
+      OFMxOVMkMTI0RHVlhAACAGgABAAkMTI0BQAHAE10Z0RhdGUAAQAAAAsCrwBIABIABQAHAG10Z0RhdGUA
+      rgA2AAUABwBEdWVEYXRlAAEAAAAKAq8AIAAKAAEAAACuABYABQAHAER1ZURhdGUASwGuAAQAtQUDAAcA
+      GgAUAAkzUzRTNlM4UzlTMTBTMTJTMTRTRG9jVHlwZVR5cGUmAAEAAAABAQAJAQAICgEBBAoAAD8ArSsE
+      AQEAAQEAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAP//AAAAAAAAAAAAAAAAAABX
+      QwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAA
+      AAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACXb7kHQ9
+      CNYB4/M9AMJ3JYAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAABgAA
+      AAAAAAD//wAAAAAAAAAAAAAAAAAAQgAAAAAAAQD///8AAQDv7+8AAQAAAAAAAAAAAAAAAQABAP///wAB
+      AKjP1AAAAAEAgAAAAAEAAAD/AAEAAAAAAAAACAAAAAAAAQA=
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0000408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

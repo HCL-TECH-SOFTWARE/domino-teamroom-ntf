@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF1DC501795B5859B2-ON0040952780257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: announcementForm_hu.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: announcementForm_hu.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

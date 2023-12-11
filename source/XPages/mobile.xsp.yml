@@ -1,0 +1,24 @@
+---
+class: 4
+flags: 0x0000
+unid: OFCD21B8E00C129606-ON00504EA180257917
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "8.5"
+    signed: true
+  - name: $FileNames
+    type: text
+    data: mobile.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K
+  - name: $TITLE
+    type: text
+    data: mobile.xsp
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

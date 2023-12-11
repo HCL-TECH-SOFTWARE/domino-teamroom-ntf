@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFECC2C6073B2CED61-ON0040482880257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: allDocsAllByDateTab_fi.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: allDocsAllByDateTab_fi.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

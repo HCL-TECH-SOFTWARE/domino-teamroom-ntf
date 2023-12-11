@@ -1,0 +1,85 @@
+---
+class: 4
+flags: 0x0000
+unid: OFC53BFF4F6F51239E-ON0050659580257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1023
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: topicPost.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-10-02T15:42:36.18+01:00"
+        dst: true
+      - data: "2014-08-13T14:12:08.32+01:00"
+        dst: true
+      - data: "2014-08-13T14:13:12.49+01:00"
+        dst: true
+      - data: "2014-08-13T14:13:27.55+01:00"
+        dst: true
+      - data: "2014-08-13T14:13:36.92+01:00"
+        dst: true
+      - data: "2014-08-13T14:14:01.50+01:00"
+        dst: true
+      - data: "2014-08-13T14:14:20.45+01:00"
+        dst: true
+      - data: "2014-08-13T14:15:01.10+01:00"
+        dst: true
+      - data: "2014-08-13T14:15:12.74+01:00"
+        dst: true
+      - data: "2014-08-13T14:15:18.74+01:00"
+        dst: true
+      - data: "2014-08-13T14:15:24.23+01:00"
+        dst: true
+      - data: "2014-08-14T09:25:10.11+01:00"
+        dst: true
+      - data: "2014-08-14T09:25:25.23+01:00"
+        dst: true
+      - data: "2014-08-14T09:25:36.09+01:00"
+        dst: true
+      - data: "2014-08-14T12:06:31.01+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: topicPost.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAAD/AwAAAQAAAAAAAAAAAAAAYAARBAAA/wMABAAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      dG9waWNQb3N0PC9jb21wb25lbnQtdHlwZT4KICAgIDxjb21wb3NpdGUtbmFtZT50b3BpY1Bvc3Q8L2Nv
+      bXBvc2l0ZS1uYW1lPgogICAgPGNvbXBvc2l0ZS1maWxlPi90b3BpY1Bvc3QueHNwPC9jb21wb3NpdGUt
+      ZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgog
+      ICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBhbGV0dGU+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5z
+      aW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVy
+      dHktbmFtZT5sb2FkZWRUeXBlPC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3Ry
+      aW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8ZGVz
+      aWduZXItZXh0ZW5zaW9uPgogICAgICAgICAgPGVkaXRvcj5jb20uaWJtLndvcmtwbGFjZS5kZXNpZ25l
+      ci5wcm9wZXJ0eS5lZGl0b3JzLmNvbWJvUGFyYW1ldGVyRWRpdG9yPC9lZGl0b3I+CiAgICAgICAgICA8
+      ZWRpdG9yLXBhcmFtZXRlcj5kb2N1bWVudCYjeGQ7CnJvd0RldGFpbCYjeGQ7CnJvd1N1bW1hcnk8L2Vk
+      aXRvci1wYXJhbWV0ZXI+CiAgICAgICAgPC9kZXNpZ25lci1leHRlbnNpb24+CiAgICAgICAgPHJlcXVp
+      cmVkPnRydWU8L3JlcXVpcmVkPgogICAgICA8L3Byb3BlcnR5LWV4dGVuc2lvbj4KICAgIDwvcHJvcGVy
+      dHk+CiAgPC9jb21wb3NpdGUtY29tcG9uZW50Pgo8L2ZhY2VzLWNvbmZpZz4KAA==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

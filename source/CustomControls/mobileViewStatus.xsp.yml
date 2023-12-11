@@ -1,0 +1,71 @@
+---
+class: 4
+flags: 0x0000
+unid: OF55BA9CE1958685E9-ON0050627D80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1515
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.2
+    signed: true
+  - name: $FileNames
+    type: text
+    data: mobileViewStatus.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2013-09-06T12:37:56.07+01:00"
+        dst: true
+      - data: "2014-08-13T12:56:35.45+01:00"
+        dst: true
+      - data: "2014-08-13T12:56:53.75+01:00"
+        dst: true
+      - data: "2014-08-13T12:56:54.60+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: mobileViewStatus.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAADrBQAAAQAAAAAAAAAAAAAAYAD9BQAA6wXsBQAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      bW9iaWxlVmlld1N0YXR1czwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+bW9iaWxl
+      Vmlld1N0YXR1czwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+L21vYmlsZVZpZXdT
+      dGF0dXMueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgICA8
+      ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRlPnRydWU8L2luLXBhbGV0dGU+CiAg
+      ICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUtZXh0ZW5zaW9uPgogICAgPHBy
+      b3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT52aWV3TmFtZTwvcHJvcGVydHktbmFtZT4KICAgICAg
+      PHByb3BlcnR5LWNsYXNzPnN0cmluZzwvcHJvcGVydHktY2xhc3M+CiAgICAgIDxkaXNwbGF5LW5hbWU+
+      dmlld05hbWU8L2Rpc3BsYXktbmFtZT4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8
+      ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgICAgPGVkaXRvcj5jb20uaWJtLndvcmtwbGFjZS5kZXNp
+      Z25lci5wcm9wZXJ0eS5lZGl0b3JzLmRhdGFTb3VyY2VQaWNrZXI8L2VkaXRvcj4KICAgICAgICA8L2Rl
+      c2lnbmVyLWV4dGVuc2lvbj4KICAgICAgPC9wcm9wZXJ0eS1leHRlbnNpb24+CiAgICA8L3Byb3BlcnR5
+      PgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5jb250ZW50Q29sdW1uPC9wcm9wZXJ0
+      eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAgICAg
+      PGRpc3BsYXktbmFtZT5jb250ZW50Q29sdW1uPC9kaXNwbGF5LW5hbWU+CiAgICA8L3Byb3BlcnR5Pgog
+      ICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT50aXRsZUNvbHVtbjwvcHJvcGVydHktbmFt
+      ZT4KICAgICAgPHByb3BlcnR5LWNsYXNzPnN0cmluZzwvcHJvcGVydHktY2xhc3M+CiAgICA8L3Byb3Bl
+      cnR5PgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5kZXRhaWxzQ29sdW1uPC9wcm9w
+      ZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4KICAg
+      IDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPnBhZ2VOYW1lPC9w
+      cm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4K
+      ICAgIDwvcHJvcGVydHk+CiAgPC9jb21wb3NpdGUtY29tcG9uZW50Pgo8L2ZhY2VzLWNvbmZpZz4KZQ==
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

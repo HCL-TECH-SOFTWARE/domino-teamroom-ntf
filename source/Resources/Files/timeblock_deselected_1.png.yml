@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF59EDE5CC4D86419F-ON004D0603802577E0
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: timeblock_deselected_1.png
+    signed: true
+  - name: $Flags
+    type: text
+    data: 345CgQ
+  - name: $FlagsExt
+    type: text
+    data: D
+    signed: true
+  - name: $TITLE
+    type: text
+    data: timeblock_deselected_1.png
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

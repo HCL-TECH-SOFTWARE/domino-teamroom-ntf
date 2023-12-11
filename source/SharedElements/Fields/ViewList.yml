@@ -1,0 +1,107 @@
+---
+class: 1024
+flags: 0x0000
+unid: OFF6701D45DB9404F5-ON003DF7F9802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "6"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: ViewList
+  - name: $BODY
+    type: composite
+    signed: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xff8a
+        opaque: |
+          iv/CA4ABAAUAMAIAAAAAAAACAQAACpYDAAAAAAAACAAAAAAAlgMHABwAFgB2YXJpYWJsZXMgdG8gdHJh
+          bnNsYXRlBwAKAAMACTFTAAEAGgAGAEdvQmFjawEABwBHbyBCYWNrAAMABwAOAAcACTBSMVMyUwABACoA
+          BwBBbGxWaWV3AAEAFgBJbmRleCBvZiBBbGwgRG9jdW1lbnRzAwAHAA4ABwAJMFIxUzJTAAEAKgALAE1p
+          c3Npb25WaWV3AAEAEQBUZWFtUm9vbSBPdmVydmlldwADAAcAEAAJAAkwUjFTMlMyRQABAB4ACgBBY3Rp
+          dmVWaWV3AQAHAEJ5IERhdGUAAwAHAA4ABwAJMFIxUzJTAAEAFAAEAEhlbHABAAQASGVscAMABwAOAAcA
+          CTBSMVMyUwAHACAAGgBlbmQgdmFyaWFibGVzIHRvIHRyYW5zbGF0ZQcADAAFAAkwUjFTAAEANgACAERC
+          iwAAAAAAAAAAAPA/EAFrAgEAAQAgAAEAAQArAIQDAQABAFwAAQABAC8AhAMDAAcAEgALAAkwUlIxUzJT
+          MTBTAAAAqgEBABEAWzxocj48Yj48YSBocmVmPS8ABQACAERCIgIBAAEALwAiAgEAEAAoJEFsbCk/T3Bl
+          blZpZXc+IgIFAAcAQWxsVmlldwAiAgEAHAA8L2E+PC9iPiZuYnNwJm5ic3AmbmJzcCZuYnNwIgIBAAwA
+          PGI+PGEgaHJlZj0vIgIFAAIAZGIiAgEAFwAvVGVhbU92ZXJ2aWV3P09wZW5WaWV3PgAiAgUACwBNaXNz
+          aW9uVmlldwAiAgEAHAA8L2E+PC9iPiZuYnNwJm5ic3AmbmJzcCZuYnNwIgIBAAwAPGI+PGEgaHJlZj0v
+          IgIFAAIAZGIiAgEAFQAvQWN0aXZlRGF0ZT9PcGVuVmlldz4AIgIFAAoAQWN0aXZlVmlldyICAQAcADwv
+          YT48L2I+Jm5ic3AmbmJzcCZuYnNwJm5ic3AiAgEAMAA8Yj48YSBocmVmPSJqYXZhc2NyaXB0OiBvbkNs
+          aWNrPWhpc3RvcnkuYmFjaygpIj4iAgUABgBHb0JhY2siAgEAHAA8L2E+PC9iPiZuYnNwJm5ic3AmbmJz
+          cCZuYnNwIgIDAAcAaABiAAkwUjFTMlMzUzRTNVM2UzdTOFMyRTlTMTBTMkUxMVMxMlIxM1MxNFMxNVMx
+          NlMxOFMxOVMyMVMyMlIyM1MyNFMyNVMyNlMyOFMyOVMyRTMxUzMyUjMzUzM0UzJFMzVTMzZTVmlld0xp
+          c3Q=
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

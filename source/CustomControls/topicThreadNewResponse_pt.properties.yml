@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF4450BA01E5C6C62E-ON0040A1E380257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: topicThreadNewResponse_pt.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: topicThreadNewResponse_pt.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

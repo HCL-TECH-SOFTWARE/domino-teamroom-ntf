@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFA5CD4F7A6D63A242-ON0040576980257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: announcementConfirmDelete_fr.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: announcementConfirmDelete_fr.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

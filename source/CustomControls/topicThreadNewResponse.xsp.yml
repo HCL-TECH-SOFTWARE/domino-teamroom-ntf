@@ -1,0 +1,55 @@
+---
+class: 4
+flags: 0x0000
+unid: OF9EEE29FD288DDD80-ON005065FF80257917
+items:
+  - name: $ConfigSize
+    type: number
+    data: 1159
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.2
+    signed: true
+  - name: $FileNames
+    type: text
+    data: topicThreadNewResponse.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;
+  - name: $TITLE
+    type: text
+    data: topicThreadNewResponse.xsp
+  - name: $ConfigData
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      YQAYAAAAAACHBAAAAQAAAAAAAAAAAAAAYACZBAAAhwSIBAAAAAAAAAAAPD94bWwgdmVyc2lvbj0iMS4w
+      IiBlbmNvZGluZz0iVVRGLTgiPz4KPGZhY2VzLWNvbmZpZz4KICA8ZmFjZXMtY29uZmlnLWV4dGVuc2lv
+      bj4KICAgIDxuYW1lc3BhY2UtdXJpPmh0dHA6Ly93d3cuaWJtLmNvbS94c3AvY3VzdG9tPC9uYW1lc3Bh
+      Y2UtdXJpPgogICAgPGRlZmF1bHQtcHJlZml4PnhjPC9kZWZhdWx0LXByZWZpeD4KICA8L2ZhY2VzLWNv
+      bmZpZy1leHRlbnNpb24+CiAgPGNvbXBvc2l0ZS1jb21wb25lbnQ+CiAgICA8Y29tcG9uZW50LXR5cGU+
+      dG9waWNUaHJlYWROZXdSZXNwb25zZTwvY29tcG9uZW50LXR5cGU+CiAgICA8Y29tcG9zaXRlLW5hbWU+
+      dG9waWNUaHJlYWROZXdSZXNwb25zZTwvY29tcG9zaXRlLW5hbWU+CiAgICA8Y29tcG9zaXRlLWZpbGU+
+      L3RvcGljVGhyZWFkTmV3UmVzcG9uc2UueHNwPC9jb21wb3NpdGUtZmlsZT4KICAgIDxjb21wb3NpdGUt
+      ZXh0ZW5zaW9uPgogICAgICA8ZGVzaWduZXItZXh0ZW5zaW9uPgogICAgICAgIDxpbi1wYWxldHRlPnRy
+      dWU8L2luLXBhbGV0dGU+CiAgICAgIDwvZGVzaWduZXItZXh0ZW5zaW9uPgogICAgPC9jb21wb3NpdGUt
+      ZXh0ZW5zaW9uPgogICAgPHByb3BlcnR5PgogICAgICA8cHJvcGVydHktbmFtZT5kb2N1bWVudElkPC9w
+      cm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFzcz4K
+      ICAgIDwvcHJvcGVydHk+CiAgICA8cHJvcGVydHk+CiAgICAgIDxwcm9wZXJ0eS1uYW1lPnBhcmVudElk
+      PC9wcm9wZXJ0eS1uYW1lPgogICAgICA8cHJvcGVydHktY2xhc3M+c3RyaW5nPC9wcm9wZXJ0eS1jbGFz
+      cz4KICAgICAgPHByb3BlcnR5LWV4dGVuc2lvbj4KICAgICAgICA8cmVxdWlyZWQ+dHJ1ZTwvcmVxdWly
+      ZWQ+CiAgICAgIDwvcHJvcGVydHktZXh0ZW5zaW9uPgogICAgPC9wcm9wZXJ0eT4KICAgIDxwcm9wZXJ0
+      eT4KICAgICAgPHByb3BlcnR5LW5hbWU+Zm9ybU5hbWU8L3Byb3BlcnR5LW5hbWU+CiAgICAgIDxwcm9w
+      ZXJ0eS1jbGFzcz5zdHJpbmc8L3Byb3BlcnR5LWNsYXNzPgogICAgICA8cHJvcGVydHktZXh0ZW5zaW9u
+      PgogICAgICAgIDxyZXF1aXJlZD50cnVlPC9yZXF1aXJlZD4KICAgICAgPC9wcm9wZXJ0eS1leHRlbnNp
+      b24+CiAgICA8L3Byb3BlcnR5PgogIDwvY29tcG9zaXRlLWNvbXBvbmVudD4KPC9mYWNlcy1jb25maWc+
+      CmY=
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,494 @@
+---
+class: 8
+flags: 0x0000
+unid: OFF9AC45D4329FA03B-ON003A012A802577F3
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVActiveDocs")
+    opaque: |
+      ZAAHAAoAAwBETlQABwAKAAMACTFTAAAAPgACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABMA
+      VGVhbVJvb21WQWN0aXZlRG9jcwDtBAMABwAQAAkACTBSNFM2UzhTAA==
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: HAACAABEAWYAAAAEAABmAAQABAAkMTA2JDEyMQ==
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxMDY=
+  - name: $Collation2
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAWYAAAAEACQxMDY=
+  - name: $Collation3
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxNDY=
+  - name: $Collation4
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEgGYAAAAEACQxNTE=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: dY
+  - name: $Formula
+    type: formula
+    data: |
+      REM {DNT Begin};
+       (form = "MainTopic" | form = "announcement" | form = "Event" | form = "IndStat" | form = "Status" | form="Meeting" | form="SubteamStatus" | form="ParticipantProfile" | form="Subteam") | @IsResponseDoc
+    opaque: |
+      DAgCAA4ABAAkMTA2aQADAAIANAAEACQxMTZsAK8AJAAKAAEAAACuABoAAQAAAAEAAQAlAAEAAQAlAJUD
+      rgAEALUDAwACAA4ABAAkMTIxaQADAAIAHAAMAFNhbWV0aW1lSW5mbwUABABmcm9tAwABACoAEwBQcml2
+      YXRlVHh0AOcOagCBZiUABAEACQBQUklWQVRFOiAAAwABACoAEwBFeHBpcmVkVHh0AOgOagCBZiUABAEA
+      CQBFWFBJUkVEOiAAAwABAFoAEwBBdXRob3JOYW1lAOkOagCBZiUABAUABABGcm9taAEeAa8AMAAUAAEA
+      CQBBbm9ueW1vdXMArgAcAAIABQAAAAAAAAAFAAQARnJvbbQCrgAEALUDAwACAPwABAAkMTQyBQAHAHJl
+      YWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQA5w5qAIFmJQAErgBCAAUACgBFeHBpcmVEYXRl
+      AQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQA6A5qAIFmJQAErgAMAAEAAACuAAQAtQUFAAcAU3ViamVj
+      dAABAAAACwKvACYAGgAFAAcAU3ViamVjdAABAAIAICAiAq4ADAABAAAArgAEALUDIgIBAAEAKAAiAgUA
+      EwBBdXRob3JOYW1lAOkOagCBZiUABCICAQABACAAIgJpAAEABABEMlMwVgIiAgEAAQApACICAwABACoA
+      EwBQcml2YXRlVHh0AFZ7SADjaiUAAAEACQBQUklWQVRFOiAAAwABACoAEwBFeHBpcmVkVHh0AFd7SADj
+      aiUAEAEACQBFWFBJUkVEOiAAAwABAGIADQBzdWJqAFh7SADjaiUAAAUABwBzdWJqZWN0AGgBHgEFAAcA
+      c3ViamVjdAABAAAACgIdAq8AJgASAAEACABVbnRpdGxlZK4AFAAFAAcAc3ViamVjdACuAAQAtQMDAAIA
+      lAAEACQxNDMFAAcAcmVhZGVycwABAAAACwKvAGAAHgAFABMAUHJpdmF0ZVR4dABWe0gA42olAAKuAEIA
+      BQAKAEV4cGlyZURhdGUBAAAACwKvACoAHgAFABMARXhwaXJlZFR4dABXe0gA42olAAKuAAwAAQAAAK4A
+      BAC1BQUADQBzdWJqAFh7SADjaiUA8SICAwACACAABAAkMTQ2AgAFAAAAAAAAAAUABABGcm9ttAIDAAEA
+      LgAVAF9tc2dBbm5vdW5jZQBVt1oAnIYlAAABAAwAQW5ub3VuY2VtZW50AwABACQAEgBfbXNnRXZlbnQA
+      VrdaAJyGJQABAAUARXZlbnQAAwABACYAEwBfbXNnU3RhdHVzAFe3WgCchiUAAAEABgBTdGF0dXMDAAEA
+      KAAUAF9tc2dNZWV0aW5nAFi3WgCchiUAAQAHAE1lZXRpbmcAAwACAHoBBAAkMTUxBQAEAGZvcm0BAAkA
+      TWFpblRvcGljAAoCbAAdAq8AUAESAAUABwBEb2NUeXBlAK4APgEFAAQAZm9ybQEADABhbm5vdW5jZW1l
+      bnQKAq8AIAEgAAUAFQBfbXNnQW5ub3VuY2UAVbdaAJyGJQAArgAAAQUABABmb3JtYQEBAAUAZXZlbnQA
+      CgKvAOYAHAAFABIAX21zZ0V2ZW50AFa3WgCchiUArgDKAAUABABmb3JtYQEBAAYAc3RhdHVzCgKvALAA
+      HgAFABMAX21zZ1N0YXR1cwBXt1oAnIYlAACuAJIABQAEAGZvcm1hAQEABwBtZWV0aW5nAAoCrwB2AB4A
+      BQAUAF9tc2dNZWV0aW5nAFi3WgCchiUArgBYAAUABABmb3JtAQANAFN1YnRlYW1TdGF0dXMAAQAHAElu
+      ZFN0YXQAHwIKAq8AKgAeAAUAEwBfbXNnU3RhdHVzAFe3WgCchiUAAK4ADAABAAAArgAEALUNAwACAKgA
+      BAAkMTUzBQAEAGZvcm0BAAYAU3RhdHVzCgKvAIYAEAABAAYAU3RhdHVzrgB2AAUABABmb3JtAQANAFN1
+      YnRlYW1TdGF0dXMACgKvAFAAEAABAAYAU3RhdHVzrgBAAAUABABmb3JtAQAHAEluZFN0YXQACgKvACAA
+      EAABAAYAU3RhdHVzrgAQAAUABABmb3JtrgAEALUDrgAEALUDrgAEALUDAwAFAFwAVwALAAQABAAEAAwA
+      BAAEAAQABAAIAAQACQAkMTA2JDExNiQxMjFTYW1ldGltZUluZm8kMTQyJDE0MyQxNDYkMTUxQWJzdHJh
+      Y3QkMTUzJENvbmZsaWN0AAQABAAHABAACQBETlQgQmVnaW4ABwAKAAMACTFTAAAA9AAFAAQAZm9ybQEA
+      CQBNYWluVG9waWMACgIFAAQAZm9ybQEADABhbm5vdW5jZW1lbnQKAh0CBQAEAGZvcm0BAAUARXZlbnQA
+      CgIdAgUABABmb3JtAQAHAEluZFN0YXQACgIdAgUABABmb3JtAQAGAFN0YXR1cwoCHQIFAAQAZm9ybQEA
+      BwBNZWV0aW5nAAoCHQIFAAQAZm9ybQEADQBTdWJ0ZWFtU3RhdHVzAAoCHQIFAAQAZm9ybQEAEgBQYXJ0
+      aWNpcGFudFByb2ZpbGUKAh0CBQAEAGZvcm0BAAcAU3VidGVhbQAKAh0CBABsAB0CAwAHAFoAUwAJMFJM
+      MVMzUzRTNVM2UzdTOFM5UzEwUzExUzEyUzEzUzE0UzE1UzE2UzE3UzE4UzE5UzIwUzIxUzIyUzI1UzI2
+      UzI5UzMwUzMzUzM0UzM4UzM5UwA=
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Revisions
+    type: time
+    data: "2019-11-05T09:50:08.05-05:00"
+  - name: $TITLE
+    type: text
+    data: xvwSearch|xvwSearch
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQALAJgAjkwAAFZDBQcEAAQAEAAAAEgAAQAACQAAAQCIAAAAAAABAAAgVkOAAAQAAABIAAAAEAABAAAJ
+      AAAAAAAAAAAAAgIAAABWQ4kABAAAABAAAAAIAAEAAAkAAAAAAAAAAAACAgAAAFZDCAAMAAwAHgAAADkA
+      AQAACgAAAAAIAAAAAAICAAAAVkOAAAQAAAAUAAcAEAABAAAKAAAAAAAAAAAAAgIAAABWQxAEBAAAADIC
+      AAANAAEAAAkAIAIAAAAAAAAAAgAAIFZDAAAEAAUApgEAAAYBAQANCQAgAAAAAAAAAAICAAAgVkMAAQQA
+      BgAsAAAAkAABAAAJAAAAAAgAAAAAAgIAAABWQwABBAAHAK4CAABQAAEAAAoAAAAAAAAAAAACAgAAAFZD
+      AAAIAAgAAAAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMAAAQABAC2AAAAUAABAAAKAAAAAAAAAAAAAgIA
+      AAAkMTA2RGF0ZRAAAgAOAAQAJDEwNmkAAwAkMTE2SAACADQABAAkMTE2bACvACQACgABAAAArgAaAAEA
+      AAABAAEAJQABAAEAJQCVA64ABAC1AwMABwASAAsACTRTNlMxMFMxMlMAJDEyMRAAAgAOAAQAJDEyMWkA
+      AwBTYW1ldGltZUluZm9TYW1ldGltZUluZm8eAAIAHAAMAFNhbWV0aW1lSW5mbwUABABmcm9tAwAkMTIy
+      FAACABIABAAkMTIyAQABACAAAwABBQEAAQAgJDE0MjICAQAqABMAUHJpdmF0ZVR4dADnDmoAgWYlAAQB
+      AAkAUFJJVkFURTogAAMABwAMAAUACTFTMlMAAQAqABMARXhwaXJlZFR4dADoDmoAgWYlAAQBAAkARVhQ
+      SVJFRDogAAMABwAOAAcACTBSMVMyUwABAFoAEwBBdXRob3JOYW1lAOkOagCBZiUABAUABABGcm9taAEe
+      Aa8AMAAUAAEACQBBbm9ueW1vdXMArgAcAAIABQAAAAAAAAAFAAQARnJvbbQCrgAEALUDAwAHABYAEAAJ
+      MFIxUzJTMTBTMTJTMTZTAgD8AAQAJDE0MgUABwByZWFkZXJzAAEAAAALAq8AYAAeAAUAEwBQcml2YXRl
+      VHh0AOcOagCBZiUABK4AQgAFAAoARXhwaXJlRGF0ZQEAAAALAq8AKgAeAAUAEwBFeHBpcmVkVHh0AOgO
+      agCBZiUABK4ADAABAAAArgAEALUFBQAHAFN1YmplY3QAAQAAAAsCrwAmABoABQAHAFN1YmplY3QAAQAC
+      ACAgIgKuAAwAAQAAAK4ABAC1AyICAQABACgAIgIFABMAQXV0aG9yTmFtZQDpDmoAgWYlAAQiAgEAAQAg
+      ACICaQABAAQARDJTMFYCIgIBAAEAKQAiAgMABwBWAE8ACTBSM1M0UzZTOFM5UzEwUzEyUzE0UzE2UzE3
+      UzIwUzIxUzIzUzI0UzI1UzI3UzI5UzMwUzMxUzMyUzMzUzM0UzM1UzM2UzQwUzQyUzQzUwAkMTQzVG9w
+      aWOmAQEAKgATAFByaXZhdGVUeHQAVntIAONqJQAAAQAJAFBSSVZBVEU6IAADAAcADAAFAAkxUzJTAAEA
+      KgATAEV4cGlyZWRUeHQAV3tIAONqJQAQAQAJAEVYUElSRUQ6IAADAAcADgAHAAkwUjFTMlMAAQBiAA0A
+      c3ViagBYe0gA42olAAAFAAcAc3ViamVjdABoAR4BBQAHAHN1YmplY3QAAQAAAAoCHQKvACYAEgABAAgA
+      VW50aXRsZWSuABQABQAHAHN1YmplY3QArgAEALUDAwAHAB4AGAAJMFIxUzJTOVMxMFMxMVMxMlMxNFMx
+      NlMCAJQABAAkMTQzBQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQAVntIAONqJQAC
+      rgBCAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQAV3tIAONqJQACrgAMAAEA
+      AACuAAQAtQUFAA0Ac3ViagBYe0gA42olAPEiAgMABwAiABwACTBSM1M0UzZTOFM5UzEwUzEyUzE0UzE2
+      UzE3UyQxNDZBdXRob3IsAAIAIAAEACQxNDYCAAUAAAAAAAAABQAEAEZyb220AgMABwAKAAMACTRTACQx
+      NTFEb2NUeXBlrgIBAC4AFQBfbXNnQW5ub3VuY2UAVbdaAJyGJQAAAQAMAEFubm91bmNlbWVudAMABwAM
+      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
+      b2wuRG9jVHlwZQAA
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xffbe
+        Flags: 0x0000000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0000408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)  | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          QgAAACwABQAEAGZvcm1oAR4BBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcAFAANAAk1UzJFNlMx
+          MFMxMVMA
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 71
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no assignees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all assignees --";
+          REM {END variables to translate};
+          
+          
+          listChat := AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xtitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xtitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fgMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGFzc2lnbmVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXNzaWduZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABYADwAJMFJSUjFTMlMzUzRTOFMACABQAAUABgBQZW9wbGUBAAAACgKvADgA
+          LAACAA0AAAAAAAAABQAGAHh0aXRsZQUACQB4Tm9Bc3NpZ24AsAPCAa4ADAABAAAArgAEALUDAwAHABgA
+          EgAJMFIzUzRTNlMxMlMxNFMxOFMBAEIABwBBc2tDaGF0AAIAEwAAAAAAAAAFAAYAeHRpdGxlBQAHAHhT
+          ZWxlY3QAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwAIAFIABQAHAEFz
+          a2NoYXQAXAEeAa8AOgAuAAIADQAAAAAAAAAFAAYAeHRpdGxlBQALAHhOb1NlbGVjdGVkALADwgGuAAwA
+          AQAAAK4ABAC1AwMABwAUAA4ACTBSOFMxNFMxNlMyMFMBAE4ACABDaGF0TGlzdAUABwBhc2tjaGF0AAUA
+          BgBBbGxUeHRHAq8AJAAQAAUABgBQZW9wbGWuABQABQAHAEFza0NoYXQArgAEALUDAwAHABYADwAJMFIx
+          UzJTOFMxMVMxM1MAAAAeAAIAJScAAAAAAAAFAAgAQ2hhdExpc3TtAgMABwAMAAUACTBSNFMA
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType2 |  @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          eAAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACIAHAAJNVM2UzdTOFM5UzEwUzJFMTFTMTJTMTZTMTdT
+        title: "Chat\\Chat with Assignee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 72
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no attendees on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all attendees --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok]; xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; listChat);
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIGF0dGVuZGVlcyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgYXR0ZW5kZWVzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAYABIA
+          CTBSM1M0UzZTMTJTMTRTMThTAQBCAAcAQXNrQ2hhdAACABMAAAAAAAAABQAGAHhUaXRsZQUABwB4U2Vs
+          ZWN0AAEAAAAFAAgAbGlzdENoYXSwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType != DefaultDocType3 | @IsResponseDoc | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          dgAAAFQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwALAh0CbAAdAgUA
+          BABmb3JtYQEBAAUARXZlTnQAYQEKAh0CAwAHACAAGgAJNVM2UzdTOFM5UzEwUzExUzEyUzE2UzE3Uw==
+        title: "Chat\\Chat with Attendee(s)"
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 73
+        Type: 1
+        data: |
+          REM {variables to translate};
+          xTitle := "Chat";
+          xNoAssign := "There are no reviewers on this document.";
+          xNoSelected := "No names were selected.";
+          xSelect := "Select name(s) to chat with";
+          AllTxt  := "-- Chat with all reviewers --";
+          REM {END variables to translate};
+          
+          listChat :=
+          AllTxt : @Name([Abbreviate]; People);
+          @If(People = ""; @Return(@Prompt([Ok];xTitle; xNoAssign)); "");
+          AskChat := @Prompt([OkCancelListMult]; xTitle; xSelect; ""; @Trim(listChat));
+          @If(!@IsText(Askchat); @Return(@Prompt([Ok]; xtitle; xNoSelected)); "");
+          ChatList := @If(@Contains(askchat; AllTxt); People; AskChat);
+          @Command([SendInstantMessage]; ChatList)
+        data_opaque: |
+          fAMHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAFgAGAHhUaXRsZQEABABDaGF0
+          AwAHAA4ABwAJMFIxUzJTAAEAPgAJAHhOb0Fzc2lnbgABACgAVGhlcmUgYXJlIG5vIHJldmlld2VycyBv
+          biB0aGlzIGRvY3VtZW50LgMABwAOAAcACTBSMVMyUwABADAACwB4Tm9TZWxlY3RlZAABABcATm8gbmFt
+          ZXMgd2VyZSBzZWxlY3RlZC4AAwAHAA4ABwAJMFIxUzJTAAEAMAAHAHhTZWxlY3QAAQAbAFNlbGVjdCBu
+          YW1lKHMpIHRvIGNoYXQgd2l0aAADAAcADgAHAAkwUjFTMlMAAQAwAAYAQWxsVHh0AQAdAC0tIENoYXQg
+          d2l0aCBhbGwgcmV2aWV3ZXJzIC0tAAMABwAQAAkACTBSMVMyRTJTAAcAIAAaAEVORCB2YXJpYWJsZXMg
+          dG8gdHJhbnNsYXRlBwAMAAUACTBSMVMAAQAyAAgAbGlzdENoYXQFAAYAQWxsVHh0AgAFAAAAAAAAAAUA
+          BgBQZW9wbGW0Ah8CAwAHABQADgAJMFJSMVMyUjNTNFM4UwgAUAAFAAYAUGVvcGxlAQAAAAoCrwA4ACwA
+          AgANAAAAAAAAAAUABgB4VGl0bGUFAAkAeE5vQXNzaWduALADwgGuAAwAAQAAAK4ABAC1AwMABwAWAA8A
+          CTBSM1M0UzZTMTRTMThTAAEARAAHAEFza0NoYXQAAgATAAAAAAAAAAUABgB4VGl0bGUFAAcAeFNlbGVj
+          dAABAAAABQAIAGxpc3RDaGF0XgGwBQMABwAYABEACTBSMVMyUzZTOFMxMFMxMlMACABSAAUABwBBc2tj
+          aGF0AFwBHgGvADoALgACAA0AAAAAAAAABQAGAHh0aXRsZQUACwB4Tm9TZWxlY3RlZACwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFAAOAAkwUjhTMTRTMTZTMjBTAQBOAAgAQ2hhdExpc3QFAAcAYXNrY2hhdAAFAAYA
+          QWxsVHh0RwKvACQAEAAFAAYAUGVvcGxlrgAUAAUABwBBc2tDaGF0AK4ABAC1AwMABwAWAA8ACTBSMVMy
+          UzhTMTFTMTNTAAAAHgACACUnAAAAAAAABQAIAENoYXRMaXN07QIDAAcADAAFAAkwUjRTAA==
+        hidewhen: "!@IsAvailable(form) | DocType = DefaultDocType2 | DocType = DefaultDocType3 | @LowerCase(form) = @LowerCase(\"EveNt\")"
+        hidewhen_opaque: |
+          nAAAAHQABQAEAGZvcm1oAR4BBQAHAERvY1R5cGUABQAPAERlZmF1bHREb2NUeXBlMgAKAh0CBQAHAERv
+          Y1R5cGUABQAPAERlZmF1bHREb2NUeXBlMwAKAh0CBQAEAGZvcm1hAQEABQBFdmVOdABhAQoCHQIDAAcA
+          JgAgAAk1UzZTN1M4UzlTMTBTMTFTMTJTMTNTMTRTMThTMTlT
+        title: "Chat\\Chat with Reviewer(s)"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

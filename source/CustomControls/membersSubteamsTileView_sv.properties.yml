@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFBC56F25571EBC723-ON004A35B180257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: membersSubteamsTileView_sv.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: membersSubteamsTileView_sv.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF892C7F639E27E7CB-ON0040595E80257BB0
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: strings_fr.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: 345CgQ
+  - name: $MimeCharSet
+    type: text
+    data: ISO-8859-1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: strings_fr.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

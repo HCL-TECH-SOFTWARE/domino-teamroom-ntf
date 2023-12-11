@@ -1,0 +1,460 @@
+---
+class: 8
+flags: 0x0000
+unid: OFBA745B1D0B5D6A8E-ON003DF375802577C2
+items:
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: FAABAABECGYHAAAHACRBdXRob3I=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $FormatNote
+    type: noteref
+    data:
+      - OF0683078BD5D385C2-ON006B7FDA85256657
+    signed: true
+  - name: $Formula
+    type: formula
+    data: "(form = \"IndStat\" & FileThisStatusDoc = \"0\")"
+    opaque: |
+      SAECACQABwAkQXV0aG9yAAIABQAAAAAAAAAFAAQAZnJvbbQCAwACACIACwAkUmVwb3J0RGF0ZQAFAAoA
+      UmVwb3J0RGF0ZQMAAgAcAAwAU2FtZXRpbWVJbmZvBQAEAGZyb20DAAIAHAAIACRTdWJqZWN0BQAHAFN1
+      YmplY3QAAwACAC4AFQAkTXVsdGlwbGVTdWJ0ZWFtTmFtZXMABQALAFN1YlRlYW1uYW1lAAMABQBYAFQA
+      BgAHAAsADAAIABUACQAkQXV0aG9yJFJlcG9ydERhdGVTYW1ldGltZUluZm8kU3ViamVjdCRNdWx0aXBs
+      ZVN1YnRlYW1OYW1lcyRDb25mbGljdAQABAAAAD4ABQAEAGZvcm0BAAcASW5kU3RhdAAKAgUAEQBGaWxl
+      VGhpc1N0YXR1c0RvYwABAAEAMAAKAhwCBAADAA==
+    signed: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: xvwStatusIndByAuthor
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAFACYAjgwAAFZDAwQHAAYAMAAAABcAAQANCQABAAAAAAAAAAICAAAAVkMABAsACwAkAAAAbgABAAAJ
+      AiABAIgAAAEAAAEAACBWQwgADAAMAB4AAAA5AAEAAAoAAAAACAAAAAACAgAAAFZDAAAIAAsAHgAAAGoA
+      AQANCQAgAAAAAAAAAAICAAAgVkMAABUAFAAwAAAAUAABAAAKAAAAAAAAAAAAAgIAAAAkQXV0aG9yQXV0
+      aG9yMAACACQABwAkQXV0aG9yAAIABQAAAAAAAAAFAAQAZnJvbbQCAwAHAAoAAwAJNFMAJFJlcG9ydERh
+      dGVXZWVrIGVuZGluZyQAAgAiAAsAJFJlcG9ydERhdGUABQAKAFJlcG9ydERhdGUDAFNhbWV0aW1lSW5m
+      b1NhbWV0aW1lSW5mbx4AAgAcAAwAU2FtZXRpbWVJbmZvBQAEAGZyb20DACRTdWJqZWN0S2V5IHRob3Vn
+      aHQeAAIAHAAIACRTdWJqZWN0BQAHAFN1YmplY3QAAwAkTXVsdGlwbGVTdWJ0ZWFtTmFtZXNNdWx0aXBs
+      ZVN1YnRlYW1OYW1lczAAAgAuABUAJE11bHRpcGxlU3VidGVhbU5hbWVzAAUACwBTdWJUZWFtbmFtZQAD
+      ACYAAQAAAAEBAAkBAAgKAQEECgAAPwCtKwIAAQABAQAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAP//AAAA
+      AAAAAAAAAAAAAABXQwEAAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MC
+      AAAJAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAA
+      AAAAAAAAAAQAAAAAAP//AAAAAAAAAAAAAAAAAABCACAAAAABAP///wABAO/v7wABAAAAAAAAAAAAAAAB
+      AAEA////AAEAqM/UAAAAAQCAAAAAAQAAAP8AAQAAAAAAAAAIAAAAAAABAFhDAAiAAgAAAAAAAQICAgEB
+      AQEHBAIAAAAAAAAAACAvLzpZQwEAiAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA
+      AAAAAAAAAAAALiwkYEMoAAIAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAFNhbWV0aW1lSW5mbwA=
+    signed: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000011f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; \"IndStat\")"
+        data_opaque: KgAAAB4AAgDoAwAAAAAAAAEABwBJbmRTdGF0AO0CAwAHAAoAAwAJNFMA
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 3
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAAAhADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Individual Status
+      - type: 0xffbe
+        Flags: 0x0000419f
+        IconIndex: 0
+        ShareId: 59
+        Type: 1
+        data: |
+          REM {variables to translate};
+          label := "Error";
+          message := "You must first select a document.  Note:  highlight bar cannot be on a category.";
+          REM {END variables to translate};
+          
+          @If(!@IsAvailable(form);
+          @Return(@Prompt([Ok]; label; message));
+          "");
+          
+          @Command([ToolsRunMacro]; "(SetStatusInactive)")
+        data_opaque: |
+          ggEHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAGAAFAGxhYmVsAAEABQBFcnJv
+          cgADAAcADgAHAAkwUjFTMlMAAQBkAAcAbWVzc2FnZQABAFAAWW91IG11c3QgZmlyc3Qgc2VsZWN0IGEg
+          ZG9jdW1lbnQuICBOb3RlOiAgaGlnaGxpZ2h0IGJhciBjYW5ub3QgYmUgb24gYSBjYXRlZ29yeS4DAAcA
+          DgAHAAkwUjFTMlMABwAgABoARU5EIHZhcmlhYmxlcyB0byB0cmFuc2xhdGUHAAwABQAJMFIxUwAIAEoA
+          BQAEAGZvcm1oAR4BrwA2ACoAAgANAAAAAAAAAAUABQBsYWJlbAAFAAcAbWVzc2FnZQCwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFgAPAAkwUlI4UjE0UzE2UzIwUgAAACoAAgCiDwAAAAAAAAEAEwAoU2V0U3RhdHVz
+          SW5hY3RpdmUpAO0CAwAHAAwABgAJMFJSNFM=
+        title: Set Status to Inactive
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)"
+        hidewhen_opaque: IAAAABIABQAEAGZvcm1oAR4BAwAHAAwABQAJMFMwRQA=
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0000011f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: "@Command([Compose]; \"IndStat\")"
+        data_opaque: KgAAAB4AAgDoAwAAAAAAAAEABwBJbmRTdGF0AO0CAwAHAAoAAwAJNFMA
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 3
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAAAhADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: New Individual Status
+      - type: 0xffbe
+        Flags: 0x0000419f
+        IconIndex: 0
+        ShareId: 59
+        Type: 1
+        data: |
+          REM {variables to translate};
+          label := "Error";
+          message := "You must first select a document.  Note:  highlight bar cannot be on a category.";
+          REM {END variables to translate};
+          
+          @If(!@IsAvailable(form);
+          @Return(@Prompt([Ok]; label; message));
+          "");
+          
+          @Command([ToolsRunMacro]; "(SetStatusInactive)")
+        data_opaque: |
+          ggEHABwAFgB2YXJpYWJsZXMgdG8gdHJhbnNsYXRlBwAKAAMACTFTAAEAGAAFAGxhYmVsAAEABQBFcnJv
+          cgADAAcADgAHAAkwUjFTMlMAAQBkAAcAbWVzc2FnZQABAFAAWW91IG11c3QgZmlyc3Qgc2VsZWN0IGEg
+          ZG9jdW1lbnQuICBOb3RlOiAgaGlnaGxpZ2h0IGJhciBjYW5ub3QgYmUgb24gYSBjYXRlZ29yeS4DAAcA
+          DgAHAAkwUjFTMlMABwAgABoARU5EIHZhcmlhYmxlcyB0byB0cmFuc2xhdGUHAAwABQAJMFIxUwAIAEoA
+          BQAEAGZvcm1oAR4BrwA2ACoAAgANAAAAAAAAAAUABQBsYWJlbAAFAAcAbWVzc2FnZQCwA8IBrgAMAAEA
+          AACuAAQAtQMDAAcAFgAPAAkwUlI4UjE0UzE2UzIwUgAAACoAAgCiDwAAAAAAAAEAEwAoU2V0U3RhdHVz
+          SW5hY3RpdmUpAO0CAwAHAAwABgAJMFJSNFM=
+        title: Set Status to Inactive
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000400b
+        IconIndex: 0
+        ShareId: 70
+        Type: 1
+        data: "@Command([SendInstantMessage]; From)"
+        data_opaque: JgAAABoAAgAlJwAAAAAAAAUABABGcm9t7QIDAAcACgADAAk0UwA=
+        hidewhen: "!@IsAvailable(form)"
+        hidewhen_opaque: IAAAABIABQAEAGZvcm1oAR4BAwAHAAwABQAJMFMwRQA=
+        title: "Chat\\Chat with Author"
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

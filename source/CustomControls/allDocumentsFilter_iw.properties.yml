@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFA15C2DE41D90995E-ON004088B180257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: allDocumentsFilter_iw.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: allDocumentsFilter_iw.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

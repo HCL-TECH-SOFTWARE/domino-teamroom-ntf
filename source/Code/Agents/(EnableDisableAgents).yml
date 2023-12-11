@@ -1,0 +1,195 @@
+---
+class: 512
+flags: 0x0000
+unid: OF43E0B2C330E2BA85-ON006B16DD802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      ' © Copyright HCL Technologies. 2019
+      Option Public
+      Option Declare
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      Declare Sub SetNewsletterAgent
+      Declare Sub SetReminderAgent
+      Declare Sub SetFilingAgent
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim db As notesdatabase
+      Dim FilingAgent As notesagent
+      Dim NewsletterAgent As notesagent
+      Dim ReminderAgent As notesagent
+      Dim DbProfile As NotesDocument
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	Dim session As New notessession
+      	
+      	Set db = session.currentdatabase
+      	Set DbProfile = db.GetProfileDocument( "TempVars")
+      	Set FilingAgent = db.getagent("AutoFileAgent")
+      	Set NewsletterAgent = db.getagent("Send Newsletters")
+      	Set ReminderAgent = db.getagent("SendReminder")
+      	
+      	If dbprofile.SetThisAgent(0) = "filing" Then
+      		Call SetFilingAgent
+      		Exit Sub
+      	End If
+      	
+      	If dbprofile.SetThisAgent(0) = "newsletter" Then
+      		Call SetNewsletterAgent		
+      		Exit Sub
+      	End If
+      	
+      	If dbprofile.SetThisAgent(0) = "reminder" Then
+      		Call SetReminderAgent		
+      		Exit Sub
+      	End If
+      	
+      End Sub
+      
+      
+      
+      '++LotusScript Development Environment:2:2:SetNewsletterAgent:1:8
+      Sub SetNewsletterAgent
+      	Dim fserver As Variant
+      	Fserver = dbprofile.NewsServer(0)
+      	
+      	If dbprofile.NewsletterEnabled(0) = "1" Then
+      		NewsletterAgent.IsEnabled  = True
+      		If Fserver <> "" Then
+      			NewsletterAgent.ServerName = Fserver
+      		End If
+      		Call NewsletterAgent.save
+      	Elseif dbprofile.NewsletterEnabled(0) = "0" Then
+      		NewsletterAgent.IsEnabled  = False
+      		Call  NewsletterAgent.save
+      	End If
+      End Sub
+      
+      
+      '++LotusScript Development Environment:2:2:SetReminderAgent:1:8
+      Sub SetReminderAgent
+      	Dim fserver As Variant
+      	Fserver = dbprofile.ReminderServer(0)
+      	
+      	If dbprofile.ReminderEnabled(0) = "1" Then
+      		ReminderAgent.IsEnabled  = True
+      		If Fserver <> "" Then
+      			ReminderAgent.ServerName = Fserver
+      		End If	
+      		Call ReminderAgent.save
+      	Elseif dbprofile.ReminderEnabled(0) = "0" Then
+      		ReminderAgent.IsEnabled  = False
+      		Call  ReminderAgent.save
+      	End If
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:SetFilingAgent:1:8
+      Sub SetFilingAgent
+      	Dim fserver As Variant
+      	Fserver = dbprofile.FilingServer(0)
+      	
+      	If dbprofile.FilingEnabled(0) = "1" Then
+      		FilingAgent.IsEnabled  = True
+      		If Fserver <> "" Then
+      			FilingAgent.ServerName = Fserver
+      		End If				
+      		Call FilingAgent.save
+      	Elseif dbprofile.FilingEnabled(0) = "0" Then
+      		FilingAgent.IsEnabled  = False
+      		Call FilingAgent.save
+      	End If
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHs
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      JjtiAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: Enables and disables filing agent.  Used in buttons in Advanced Options panel of the TeamRoom Setup
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (EnableDisableAgents)
+    signed: true
+remaining: []

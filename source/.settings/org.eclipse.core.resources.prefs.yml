@@ -1,0 +1,49 @@
+---
+class: 4
+flags: 0x0000
+unid: OF09247F8E247159C7-ON003E0417802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ".settings/org.eclipse.core.resources.prefs"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2010-10-20T12:17:22.81+01:00"
+        dst: true
+      - data: "2011-08-30T20:50:47.03-04:00"
+        dst: true
+      - data: "2011-09-15T09:41:35.54+01:00"
+        dst: true
+      - data: "2011-09-21T10:04:19.37+01:00"
+        dst: true
+      - data: "2011-09-21T10:04:30.63+01:00"
+        dst: true
+      - data: "2011-09-23T15:59:48.41+01:00"
+        dst: true
+      - data: "2011-09-23T15:59:51.50+01:00"
+        dst: true
+      - data: "2011-09-26T15:38:56.20+01:00"
+        dst: true
+      - data: "2011-09-26T15:39:07.80+01:00"
+        dst: true
+      - data: "2011-10-06T16:05:44.50+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:59.74+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: ".settings/org.eclipse.core.resources.prefs"
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

@@ -1,0 +1,108 @@
+---
+class: 512
+flags: 0x0000
+unid: OFBC42C391F5DBD6FA-ON006B16DA802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65412
+    opaque: |
+      gQKE/8ACAAAAALYCtgIHACgAIgC4IENvcHlyaWdodCBIQ0wgVGVjaG5vbG9naWVzLiAyMDE5BwAKAAMA
+      CTFTAAEAJgAGAEFsbFR4dAEAEwAtLSBDaGF0IHdpdGggYWxsIC0tAAMABwAQAAkACTBSMVMyRTJTAAEA
+      GAAIAERMR1RJVExFAQAEAENoYXQDAAcADgAHAAkwUjFTMlMAAQAyAAkARExHUFJPTVBUAAEAGwBTZWxl
+      Y3QgbmFtZShzKSB0byBjaGF0IHdpdGgAAwAHAA4ABwAJMFIxUzJTAAcAEAAJAEROVCBCZWdpbgAHAAwA
+      BQAJMFIxUwABAGgABwBhbGxMaXN0AAUABABmb3JtAQAHAFN1YlRlYU0AYwEKAq8APgAgAAIABQAAAAAA
+      AAAFAAkAU1RNZW1iZXJzALQCrgAeAAIABQAAAAAAAAAFAAYAUGVvcGxltAKuAAQAtQMDAAcAHgAXAAkw
+      UjFTMlM1UzZTMTFTMTVTMThTMjJTAAEAKAAIAGxpc3RDaGF0BQAGAEFsbFR4dAUABwBBbGxMaXN0AB8C
+      AwAHABQADQAJMFJSUjFTMlIzUzRTAAEARgAHAEFza0NoYXQAAgATAAAAAAAAAAUACABETEdUSVRMRQUA
+      CQBETEdQUk9NUFQAAQAAAAUACABsaXN0Q2hhdLAFAwAHABgAEQAJMFIxUzJTNlM4UzEwUzEyUwABAFAA
+      CABDaGF0TGlzdAUABwBhc2tjaGF0AAUABgBBbGxUeHRHAq8AJgASAAUABwBBbGxMaXN0AK4AFAAFAAcA
+      QXNrQ2hhdACuAAQAtQMDAAcAFgAQAAkwUlIxUzJTOFMxMVMxM1MIAB4AAgAlJwAAAAAAAAUACABDaGF0
+      TGlzdO0CAwAHAAwABQAJMFI0UwAAABAAAAAAAAAAAAAAAAMABwAKAAMACTBSAA==
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHs
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      Df5hAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65412
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: f3n
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $POID
+    type: time
+    data: "2003-10-22T09:16:26.66-04:00"
+    dst: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (chatWIthAll)
+    signed: true
+remaining: []

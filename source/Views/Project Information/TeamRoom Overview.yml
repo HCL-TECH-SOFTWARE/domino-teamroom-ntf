@@ -1,0 +1,585 @@
+---
+class: 8
+flags: 0x0000
+unid: OFF8C04EA6DFC434B7-ON003DF537802577C2
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVTeamOverview")
+    opaque: |
+      ZgAHAAoAAwBETlQABwAKAAMACTFTAAAAQAACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABUA
+      VGVhbVJvb21WVGVhbU92ZXJ2aWV3AO0EAwAHABAACQAJMFI0UzZTOFMA
+    signed: true
+  - name: $CIAOTime
+    type: time
+    data: "1997-02-14T11:16:52.95-05:00"
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: JAADAABEAGYAAAADAAhmBwMAAwAAZgAGAAMAJDE5JDM1JDQw
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $Formula
+    type: formula
+    data: |
+      REM {Begin DNT};
+      Flist := "ParticipantProfile" : "Subteam" : "Event";
+        form = "Mission" | (@IsMember(form; Flist) & Status = "1")
+    opaque: |
+      TAcBACIADgBzb3J0MQBywVQAJIMlAAEABwBNaXNzaW9uAAMAAQAsAA4Ac29ydDIAc8FUACSDJQABABIA
+      UGFydGljaXBhbnRQcm9maWxlAwABACIADgBzb3J0MwB0wVQAJIMlAAEABwBTdWJ0ZWFtAAMAAgCsAAMA
+      JDE5AAUABABmb3JtBQAOAHNvcnQxAHLBVAAkgyUACgKvAIIAEAAAAAAAAAAAAPA/rgByAAUABABmb3Jt
+      BQAOAHNvcnQyAHPBVAAkgyUACgKvAFIAEAAAAAAAAAAAAABArgBCAAUABABmb3JtBQAOAHNvcnQzAHTB
+      VAAkgyUACgKvACIAEAAAAAAAAAAAAAhArgASAAAAAAAAAADAWECuAAQAtQcDAAEAMAATAE1pc3Npb25U
+      eHQAaspUACSDJQAAAQAQAC0gVGVhbVJvb20gU2V0dXADAAEANAATAFByb2ZpbGVUeHQAa8pUACSDJQAA
+      AQAUAFRlYW0gTWVtYmVyIFByb2ZpbGVzAwABACgAEwBTdWJ0ZWFtVHh0AGzKVAAkgyUAAAEACABTdWJ0
+      ZWFtcwMAAQAwABEARXZlbnRUeHQAbcpUACSDJQAAAQARAE1pbGVzdG9uZXMvRXZlbnRzAAMAAgAAAQMA
+      JDM1AAUABABmb3JtAQAHAE1pc3Npb24ACgKvANwAHgAFABMATWlzc2lvblR4dABqylQAJIMlAACuAL4A
+      BQAEAGZvcm0BAAUARXZlbnQACgKvAKYAHAAFABEARXZlbnRUeHQAbcpUACSDJQAArgCKAAUABABmb3Jt
+      AQASAFBhcnRpY2lwYW50UHJvZmlsZQoCrwBmAB4ABQATAFByb2ZpbGVUeHQAa8pUACSDJQAArgBIAAUA
+      BABmb3JtAQAHAFN1YnRlYW0ACgKvAC4AHgAFABMAU3VidGVhbVR4dABsylQAJIMlAACuABAABQAEAGZv
+      cm2uAAQAtQkDAAEAPgAUAEJsYW5rVE5UZXh0APnNVAAkgyUAAQAdAFRFQU1ST09NIFNFVFVQIGZvciBh
+      IE5ldyBUZWFtAAMAAQBAAA8AVE5UZXh0APrNVAAkgyUAAAEAFQBURUFNUk9PTSBTRVRVUCBmb3I6ICAA
+      BQAIAFRlYW1uYW1lIgIDAAEAKgATAEV4cGlyZWRUeHQA+81UACSDJQAAAQAJAEVYUElSRUQ6IAADAAEA
+      VAAMAEV4cAD8zVQAJIMlAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQA+81U
+      ACSDJQAArgAMAAEAAACuAAQAtQMDAAEAagAUAE1pc3Npb25UZXh0AP3NVAAkgyUABQAIAFRlYW1OYW1l
+      AQAAAAoCrwA6AB4ABQAUAEJsYW5rVE5UZXh0APnNVAAkgyUArgAcAAUADwBUTlRleHQA+s1UACSDJQAA
+      rgAEALUDAwABAEgADgBFdlR4dAD+zVQAJIMlAAUADABFdmVudFN1bW1hcnkBAAIAICgiAgUACQBFdmVu
+      dERhdGUAVgEiAgEAAQApACICAwACACQBAwAkNDAABQAMAEV4cAD8zVQAJIMlAAUABABmb3JtAQAHAE1p
+      c3Npb24ACgKvAO4AHgAFABQATWlzc2lvblRleHQA/c1UACSDJQCuANAABQAEAGZvcm0BABMAUGFydGlj
+      aXBhbnQgUHJvZmlsZQAKAgUABABmb3JtAQASAFBhcnRpY2lwYW50UHJvZmlsZQoCHQKvAIgAGgACAAUA
+      AAAAAAAABQADAFdobwC0Aq4AbgAFAAQAZm9ybQEABwBTdWJ0ZWFtAAoCrwBUABAABQAGAFNUTmFtZa4A
+      RAAFAAQAZm9ybQEABQBFdmVudAAKAq8ALAAYAAUADgBFdlR4dAD+zVQAJIMlAK4AFAAFAAcAU3ViamVj
+      dACuAAQAtQkiAgMAAgCSAAMAJDMzAAUABABmb3JtAQATAFBhcnRpY2lwYW50IFByb2ZpbGUAAQASAFBh
+      cnRpY2lwYW50UHJvZmlsZR8CCgKvAEoAEAAFAAUAUGhvbmUArgA6AAUABABmb3JtAQAHAFN1YnRlYW0A
+      CgKvACAAFAAFAAkAU1RNZW1iZXJzAK4ADAABAAAArgAEALUFAwAFAC4AKQAGAAMAAwADAAMACQAEACQx
+      OSQzNSQ0MCQzMyRDb25mbGljdCRSRUYABAAEAAcAEAAJAEJlZ2luIEROVAAHAAoAAwAJMVMAAQA+AAUA
+      Rmxpc3QAAQASAFBhcnRpY2lwYW50UHJvZmlsZQEABwBTdWJ0ZWFtAB8CAQAFAEV2ZW50AB8CAwAHABYA
+      DwAJMFIxUzJTM1M0UzVTNlMAAABIAAUABABmb3JtAQAHAE1pc3Npb24ACgIFAAQAZm9ybQUABQBGbGlz
+      dAB0AgUABgBTdGF0dXMBAAEAMQAKAhwCBAAdAgMABwAmAB8ACTBSTDFTMkUyUzNTNFM1UzEwUzEyUzEz
+      UzE0UzE1UwA=
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: /C
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: "Project Information\\TeamRoom Overview|TeamOverview"
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      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
+      AAcAFgAQAAkwUjFTMlM1UzZTOFMxMFMBAEgADgBFdlR4dAD+zVQAJIMlAAUADABFdmVudFN1bW1hcnkB
+      AAIAICgiAgUACQBFdmVudERhdGUAVgEiAgEAAQApACICAwAHABwAFQAJMFIxUzJTM1M0UzVTNlMxMFMx
+      MVMAAgAkAQMAJDQwAAUADABFeHAA/M1UACSDJQAFAAQAZm9ybQEABwBNaXNzaW9uAAoCrwDuAB4ABQAU
+      AE1pc3Npb25UZXh0AP3NVAAkgyUArgDQAAUABABmb3JtAQATAFBhcnRpY2lwYW50IFByb2ZpbGUACgIF
+      AAQAZm9ybQEAEgBQYXJ0aWNpcGFudFByb2ZpbGUKAh0CrwCIABoAAgAFAAAAAAAAAAUAAwBXaG8AtAKu
+      AG4ABQAEAGZvcm0BAAcAU3VidGVhbQAKAq8AVAAQAAUABgBTVE5hbWWuAEQABQAEAGZvcm0BAAUARXZl
+      bnQACgKvACwAGAAFAA4ARXZUeHQA/s1UACSDJQCuABQABQAHAFN1YmplY3QArgAEALUJIgIDAAcATABG
+      AAkwUlIxUzJTNVM2UzhTMTBTMTFTMTJTMTNTMTRTMTVTMTZTMThTMjJTMjVTM0UyNlMyN1MyOVMzMVMz
+      MlMzM1MzNVMzN1MkMzNQaG9uZSAoZm9yIFN1YnRlYW1zOiAgU3VidGVhbSBNZW1iZXJzKdAABwAQAAkA
+      QmVnaW4gRE5UAAcACgADAAkxUwACAJIAAwAkMzMABQAEAGZvcm0BABMAUGFydGljaXBhbnQgUHJvZmls
+      ZQABABIAUGFydGljaXBhbnRQcm9maWxlHwIKAq8ASgAQAAUABQBQaG9uZQCuADoABQAEAGZvcm0BAAcA
+      U3VidGVhbQAKAq8AIAAUAAUACQBTVE1lbWJlcnMArgAMAAEAAACuAAQAtQUDAAcAIgAcAAkwUjNTNFM1
+      UzZTOFMxMFMxMVMxMlMxNFMxNlMmAAEAAAABAQAJAQALCgEBBAoAAD8ArSsCAQEAAQAAAAAAAAAAAFdD
+      AgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      //8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAA
+      AABCAAAAAAABAP///wABAO/v7wABAAAAAAAAAAAAAAABAAEA////AAEAqM/UAAAAAQCAAIAAAQAAAP8A
+      AQAAAAAAAAAIAAAAAAABAA==
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: S
+    signed: true
+  - name: $HTMLDocumentStyles
+    signed: true
+    type: opaque
+    type_num: 1
+    opaque: 0ggBAAAA/wDSCAEA/wAAANIIAQCAAIAA
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0010411f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: |
+          REM {notes only};
+          REM {Begin DNT};
+          @Command([Compose]; "ParticipantProfile")
+        data_opaque: |
+          bAAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAcAEAAJAEJlZ2luIEROVAAHAAwABQAJMFIxUwAAACgA
+          AgDoAwAAAAAAAAEAEgBQYXJ0aWNpcGFudFByb2ZpbGXtAgMABwAMAAUACTBSNFMA
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: "New\\Team Member"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010411f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: |
+          REM {notes only};
+          REM {Begin DNT};
+          @Command([Compose]; "Subteam")
+        data_opaque: |
+          YgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAcAEAAJAEJlZ2luIEROVAAHAAwABQAJMFIxUwAAAB4A
+          AgDoAwAAAAAAAAEABwBTdWJ0ZWFtAO0CAwAHAAwABQAJMFI0UwA=
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: "New\\Subteam"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010411f
+        IconIndex: 0
+        ShareId: 0
+        Type: 1
+        data: |
+          REM {notes only};
+          REM {Begin DNT};
+          @Command([Compose]; "Event")
+        data_opaque: |
+          YAAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAcAEAAJAEJlZ2luIEROVAAHAAwABQAJMFIxUwAAABwA
+          AgDoAwAAAAAAAAEABQBFdmVudADtAgMABwAMAAUACTBSNFMA
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        title: "New\\Event"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xffbe
+        Flags: 0x0010211f
+        IconIndex: 0
+        ShareId: 0
+        Type: 7
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        opaque: ""
+        title: "New\\Team Member"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xfff9
+        ActionLength: 293
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P84Afn/JgEgTgAAAAAAAAAAdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9uLnBhdGhuYW1lOw1m
+          aWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5kZXhPZignbnNmJykr
+          NCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJQYXJ0aWNpcGFudFBy
+          b2ZpbGU/T3BlbkZvcm0mdz0xIiwic2Vjb25kYXJ5X3dpbmRvdyIsInRvb2xiYXI9bm8sbG9jYXRpb249
+          bm8sc2Nyb2xsYmFycz15ZXMsZGlyZWN0b3JpZXM9bm8scmVzaXphYmxlPXllcyxoZWlnaHQ9NDAwLHdp
+          ZHRoPTQ1MCIpDQAA
+      - type: 0xff66
+        ActionLength: 305
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: |
+          Zf9EAWb/MgEgTgAAAAAAAAAALy9CZWdpbiBETlQNdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9u
+          LnBhdGhuYW1lOw1maWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5k
+          ZXhPZignbnNmJykrNCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJQ
+          YXJ0aWNpcGFudFByb2ZpbGU/T3BlbkZvcm0mdz0xIiwic2Vjb25kYXJ5X3dpbmRvdyIsInRvb2xiYXI9
+          bm8sbG9jYXRpb249bm8sc2Nyb2xsYmFycz15ZXMsZGlyZWN0b3JpZXM9bm8scmVzaXphYmxlPXllcyxo
+          ZWlnaHQ9NDAwLHdpZHRoPTQ1MCIpDQB1
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0010211f
+        IconIndex: 0
+        ShareId: 0
+        Type: 7
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        opaque: ""
+        title: "New\\Subteam"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xfff9
+        ActionLength: 282
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P8sAfn/GgEgTgAAAAAAAAAAdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9uLnBhdGhuYW1lOw1m
+          aWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5kZXhPZignbnNmJykr
+          NCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJTdWJ0ZWFtP09wZW5G
+          b3JtJnc9MSIsInNlY29uZGFyeV93aW5kb3ciLCJ0b29sYmFyPW5vLGxvY2F0aW9uPW5vLHNjcm9sbGJh
+          cnM9eWVzLGRpcmVjdG9yaWVzPW5vLHJlc2l6YWJsZT15ZXMsaGVpZ2h0PTQ1MCx3aWR0aD00NTAiKQ0A
+      - type: 0xff66
+        ActionLength: 294
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: |
+          Zf84AWb/JgEgTgAAAAAAAAAALy9CZWdpbiBETlQNdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9u
+          LnBhdGhuYW1lOw1maWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5k
+          ZXhPZignbnNmJykrNCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJT
+          dWJ0ZWFtP09wZW5Gb3JtJnc9MSIsInNlY29uZGFyeV93aW5kb3ciLCJ0b29sYmFyPW5vLGxvY2F0aW9u
+          PW5vLHNjcm9sbGJhcnM9eWVzLGRpcmVjdG9yaWVzPW5vLHJlc2l6YWJsZT15ZXMsaGVpZ2h0PTQ1MCx3
+          aWR0aD00NTAiKQ0A
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0010211f
+        IconIndex: 0
+        ShareId: 0
+        Type: 7
+        hidewhen: |
+          db := @Subset(@DbName;-1);
+          svr := @Subset(@DbName;1);
+          access := @TextToNumber(@V4UserAccess(svr : db));
+          REM {hide when access is less than Editor};
+          @Subset(access; 1) < 4
+        hidewhen_opaque: |
+          8gABABoAAgBkYosAAAAAAAAAAADwPxABawIDAAcADAAFAAkxUzJTAAEAGgADAHN2cgCLAAAAAAAAAAAA
+          8D9rAgMABwAOAAcACTBSMVMyUwABACIABgBhY2Nlc3MFAAMAc3ZyAAUAAgBkYh8C6gFYAQMABwASAAsA
+          CTBSMVMyUzdTOFMABwAqACQAaGlkZSB3aGVuIGFjY2VzcyBpcyBsZXNzIHRoYW4gRWRpdG9yBwAMAAUA
+          CTBSMVMAAAAoAAUABgBhY2Nlc3MAAAAAAAAAAPA/awIAAAAAAAAAABBADgIDAAcAEAAJAAkwUjRTNlM3
+          UwA=
+        opaque: ""
+        title: "New\\Event"
+      - type: 0xfff6
+        opaque: 9v8xAAAAAAADABMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAG5ldy5naWZ8bmV3LmdpZg==
+      - type: 0xfff9
+        ActionLength: 280
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xffdc
+        opaque: |
+          3P8qAfn/GAEgTgAAAAAAAAAAdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9uLnBhdGhuYW1lOw1m
+          aWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5kZXhPZignbnNmJykr
+          NCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJFdmVudD9PcGVuRm9y
+          bSZ3PTEiLCJzZWNvbmRhcnlfd2luZG93IiwidG9vbGJhcj1ubyxsb2NhdGlvbj1ubyxzY3JvbGxiYXJz
+          PXllcyxkaXJlY3Rvcmllcz1ubyxyZXNpemFibGU9eWVzLGhlaWdodD00MDAsd2lkdGg9NDUwIikNAA==
+      - type: 0xff66
+        ActionLength: 292
+        ActionType: 4
+        EventType: 1
+        Flags: 0x00000000
+        Reserved: AAAAAAAAAAAAAAAAAAA=
+        SignatureLength: 0
+      - type: 0xff65
+        opaque: |
+          Zf82AWb/JAEgTgAAAAAAAAAALy9CZWdpbiBETlQNdmFyIHBhdGhuYW1lID0gd2luZG93LmxvY2F0aW9u
+          LnBhdGhuYW1lOw1maWxlbmFtZSA9IHBhdGhuYW1lLnN1YnN0cmluZygwLChwYXRobmFtZS5sYXN0SW5k
+          ZXhPZignbnNmJykrNCkpIA0NdmFyIG5ld1dpbmRvdyA9IHdpbmRvdy5vcGVuKGZpbGVuYW1lICArICJF
+          dmVudD9PcGVuRm9ybSZ3PTEiLCJzZWNvbmRhcnlfd2luZG93IiwidG9vbGJhcj1ubyxsb2NhdGlvbj1u
+          byxzY3JvbGxiYXJzPXllcyxkaXJlY3Rvcmllcz1ubyxyZXNpemFibGU9eWVzLGhlaWdodD00MDAsd2lk
+          dGg9NDUwIikNAA==
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 213
+        wPlatform: 1
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0000419f
+        IconIndex: 0
+        ShareId: 59
+        Type: 1
+        data: |
+          label := "Error";
+          message := "You must first select a document.  Note:  highlight bar cannot be on a category.";
+          REM {Begin DNT};
+          
+          @If(!@IsAvailable(form);
+          @Return(@Prompt([Ok]; label; message));
+          "");
+          
+          @Command([ToolsRunMacro]; "(SetStatusInactive)")
+        data_opaque: |
+          SgEBABgABQBsYWJlbAABAAUARXJyb3IAAwAHAAwABQAJMVMyUwABAGQABwBtZXNzYWdlAAEAUABZb3Ug
+          bXVzdCBmaXJzdCBzZWxlY3QgYSBkb2N1bWVudC4gIE5vdGU6ICBoaWdobGlnaHQgYmFyIGNhbm5vdCBi
+          ZSBvbiBhIGNhdGVnb3J5LgMABwAOAAcACTBSMVMyUwAHABAACQBCZWdpbiBETlQABwAMAAUACTBSMVMA
+          CABKAAUABABmb3JtaAEeAa8ANgAqAAIADQAAAAAAAAAFAAUAbGFiZWwABQAHAG1lc3NhZ2UAsAPCAa4A
+          DAABAAAArgAEALUDAwAHABYADwAJMFJSOFIxNFMxNlMyMFIAAAAqAAIAog8AAAAAAAABABMAKFNldFN0
+          YXR1c0luYWN0aXZlKQDtAgMABwAMAAYACTBSUjRT
+        title: Set Status to Inactive
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xffbe
+        Flags: 0x0000219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0000019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

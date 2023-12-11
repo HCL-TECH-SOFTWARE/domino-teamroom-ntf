@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF7E763CA6AADEFD79-ON004088C380257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: editableSubteamProfile_iw.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: editableSubteamProfile_iw.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

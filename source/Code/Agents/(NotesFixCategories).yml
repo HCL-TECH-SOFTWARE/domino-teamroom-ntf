@@ -1,0 +1,178 @@
+---
+class: 512
+flags: 0x0000
+unid: OF2C5DAEC741E64E86-ON006B16E3802577C2
+items:
+  - name: $AssistAction
+    type: action
+    code_type: 65413
+    data: |
+      '++LotusScript Development Environment:2:5:(Options):0:74
+      ' © Copyright HCL Technologies. 2019
+      Option Public
+      Use "wStringResource"
+      Option Declare
+      
+      '++LotusScript Development Environment:2:5:(Forward):0:1
+      Declare Sub Initialize
+      Declare Sub MapCategories
+      
+      '++LotusScript Development Environment:2:5:(Declarations):0:10
+      Dim oldcat As Variant
+      Dim currentcat As Variant
+      Dim db As notesdatabase
+      Dim selected As Integer
+      
+      '++LotusScript Development Environment:2:2:Initialize:1:10
+      Sub Initialize
+      	Dim s As New notessession
+      	Dim uiwork As New notesuiworkspace
+      	Dim uidoc As notesuidocument
+      	Dim note As notesdocument
+      	
+      	Set db =  s.currentdatabase	
+      	Set uidoc  = uiwork.currentdocument
+      	Set note = uidoc.document
+      	
+      	oldcat = note.getitemvalue("OldCat")
+      	currentcat = note.getitemvalue("CurrentCat")
+      	selected = Ubound(oldcat)
+      	
+      	If oldcat(0) = "" Then
+      		Messagebox getstring(33), 16, getstring(37)
+      		Exit Sub
+      	Elseif currentcat(0) = "" Then
+      		Messagebox getstring(34), 16, getstring(37)
+      		Exit Sub
+      	End If
+      	
+      	MapCategories
+      	
+      	If selected = 0 Then
+      		Msgbox getstring(35), 64, getstring(38)
+      	Else
+      		Msgbox getstring(36), 64, getstring(38)
+      	End If
+      	
+      	Call uidoc.fieldsettext("OldCat", "")
+      	Call uidoc.fieldsettext("CurrentCat", "")
+      	Call uidoc.refresh
+      End Sub
+      
+      '++LotusScript Development Environment:2:2:MapCategories:1:8
+      Sub MapCategories
+      	Dim View As NotesView
+      	Dim Item As NotesItem
+      	Dim i As Integer
+      	Dim cats As Variant
+      	Dim Doc As NotesDocument
+      	
+      	Set View=Db.GetView("($All)")
+      	Set Doc= View.GetFirstDocument
+      	
+      	While Not(doc Is Nothing)
+      		cats=Doc.GetItemValue("Categories")
+      		i = 0		
+      		
+      		Forall x In cats
+      			Forall y In OldCat
+      				If Lcase(x) = Lcase(y) Then
+      					cats(i) = CurrentCat(0)
+      					Set item = doc.replaceitemvalue("Categories", cats)
+      				End If
+      			End Forall
+      			i= i+1
+      		End Forall
+      		Call Doc.Save( True, True)        		
+      		Set Doc=View.GetNextdocument(Doc)
+      	Wend
+      	
+      End Sub
+    dwFlags: 0x00000000
+    signed: true
+    nonsummary: true
+  - name: $AssistDocCount
+    type: number
+    data: 0
+    signed: true
+  - name: $AssistFlags
+    type: text
+    data: EHs
+    signed: true
+  - name: $AssistInfo
+    type_num: 17
+    type: opaque
+    opaque: |
+      AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistLastRun
+    type: time
+    signed: true
+  - name: $AssistQuery
+    type_num: 15
+    type: opaque
+    opaque: gQYAAAAA
+    signed: true
+    nonsummary: true
+  - name: $AssistRunInfo
+    type: object
+    obj_type: 0x0008
+    obj_class: 0x0200
+    obj_privs: 0x0000
+    opaque: |
+      AAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      0TViAA6EJYZoy2AADoQlhgAAAAAAAAAAAAAAAAAAAAAAAAAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+      qqqqqqqqqqqqqqqq
+  - name: $AssistTrigger
+    type: text
+    data: "4"
+    signed: true
+  - name: $AssistType
+    type: number
+    data: 65413
+    signed: true
+  - name: $Comment
+    type: text
+    data: "This is run via the 'Map Categories' button in the map cat. form"
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: fL3
+  - name: $FlagsExt
+    type: text
+    data: ""
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $Restricted
+    type: number
+    data: 1
+    signed: true
+  - name: $TITLE
+    type: text
+    data: (NotesFixCategories)
+    signed: true
+remaining: []

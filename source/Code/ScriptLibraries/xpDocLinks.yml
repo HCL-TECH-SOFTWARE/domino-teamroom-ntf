@@ -1,0 +1,70 @@
+---
+class: 512
+flags: 0x2000
+unid: OF5489C3CF1ADEF1F4-ON0034F58180257906
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $Flags
+    type: text
+    data: h534Q
+  - name: $PublicAccess
+    type: text
+    data: "1"
+    signed: true
+  - name: $TITLE
+    type: text
+    data: xpDocLinks
+    signed: true
+  - name: $JavaScriptLibrary
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: |
+      +f8gAAAAAAAWAAQA2gkAAAAAAAAAAAAAAAAAAAAAAADc/+wJ+f/aCSBOAAAAAAAAAAAvLyC4IENvcHly
+      aWdodCBIQ0wgVGVjaG5vbG9naWVzLiAyMDE5DQoNCmZ1bmN0aW9uIGluc2VydExpbmtzKCl7DQoJdmFy
+      IGxpbmtzPWRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJhIik7DQoJdmFyIG51bUxpbmtzPWxp
+      bmtzLmxlbmd0aDsNCglmb3IgKHZhciBpPTA7aTxudW1MaW5rczsgaSsrKSB7DQoJCXZhciBsaW5rID0g
+      bGlua3NbaV07DQoJCWlmKGxpbmshPW51bGwpew0KCQkJdmFyIGNsYXNzbmFtZSA9IGxpbmsuZ2V0QXR0
+      cmlidXRlKCJjbGFzcyIpOw0KCQkJdmFyIGhyZWY9bGluay5nZXRBdHRyaWJ1dGUoImhyZWYiKTsNCgkJ
+      CWlmKGlzRG9taW5vTGluayhjbGFzc25hbWUpKXsNCgkJCQl2YXIgbmV3YW5jaG9yID0gZG9jdW1lbnQu
+      Y3JlYXRlRWxlbWVudCgiYSIpOw0KCQkJCW5ld2FuY2hvci5zZXRBdHRyaWJ1dGUoImhyZWYiLCAibm90
+      ZXM6Ly8iK2xpbmsuZ2V0QXR0cmlidXRlKCJocmVmIikpOw0KCQkJCW5ld2FuY2hvci5zZXRBdHRyaWJ1
+      dGUoImNsYXNzIiwieHBhZ2VUZW1wTGluayIpOw0KCQkJCXZhciBzb21ldGV4dCA9IGRvY3VtZW50LmNy
+      ZWF0ZVRleHROb2RlKCJOb3RlcyBMaW5rIik7DQoJCQkJdmFyIHNlcGVyYXRvcj1kb2N1bWVudC5jcmVh
+      dGVUZXh0Tm9kZSgiIHwgIik7DQoJCQkJbmV3YW5jaG9yLmFwcGVuZENoaWxkKHNvbWV0ZXh0KTsNCgkJ
+      CQl0cnl7DQoJCQkJCWluc2VydEFmdGVyKG5ld2FuY2hvciwgbGluayk7DQoJCQkJCWluc2VydEFmdGVy
+      KHNlcGVyYXRvcixsaW5rKTsNCgkJCQkJbnVtTGlua3M9bnVtTGlua3MrMTsJCQ0KCQkJCX1jYXRjaChl
+      KXtjb25zb2xlLmxvZyhlKTt9DQoJCQkgfWVsc2V7DQoJCQkJaWYoaXNYUGFnZXNOb3Rlc0xpbmsoaHJl
+      ZixjbGFzc25hbWUpKXsNCgkJCQkJdmFyIG5ld2FuY2hvciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQo
+      ImEiKTsNCgkJCQkJbmV3YW5jaG9yLnNldEF0dHJpYnV0ZSgiaHJlZiIsIGxpbmsuZ2V0QXR0cmlidXRl
+      KCJocmVmIikucmVwbGFjZSgibm90ZXM6Ly8iLCIiKSk7DQoJCQkJCXZhciBzb21ldGV4dCA9IGRvY3Vt
+      ZW50LmNyZWF0ZVRleHROb2RlKCJXZWIgTGluayIpOw0KCQkJCQl2YXIgc2VwZXJhdG9yPWRvY3VtZW50
+      LmNyZWF0ZVRleHROb2RlKCIgfCAiKTsNCgkJCQkJbmV3YW5jaG9yLmFwcGVuZENoaWxkKHNvbWV0ZXh0
+      KTsNCgkJCQkJdHJ5ew0KCQkJCQkJaW5zZXJ0QWZ0ZXIobmV3YW5jaG9yLCBsaW5rKTsNCgkJCQkJCWlu
+      c2VydEFmdGVyKHNlcGVyYXRvcixsaW5rKTsNCgkJCQkJCW51bUxpbmtzPW51bUxpbmtzKzE7DQoJCQkJ
+      CX1jYXRjaChlKXtjb25zb2xlLmxvZyhlKTt9DQoJCQkJCWlmKGxpbmsuZmlyc3RDaGlsZCE9bnVsbCl7
+      DQoJCQkJCQl2YXIgdGV4dEVsZW1lbnQ9bGluay5maXJzdENoaWxkOw0KCQkJCQkJaWYodGV4dEVsZW1l
+      bnQuZmlyc3RDaGlsZCE9bnVsbCl7DQoJCQkJCQkJdmFyIHVuZGVybGluZVRhZz10ZXh0RWxlbWVudC5m
+      aXJzdENoaWxkOw0KCQkJCQkJCWlmKHVuZGVybGluZVRhZy50YWdOYW1lPT0iVSIpew0KCQkJCQkJCQl1
+      bmRlcmxpbmVUYWcuaW5uZXJIVE1MPSJOb3RlcyBMaW5rIjsNCgkJCQkJCQl9DQoJCQkJCQl9DQoJCQkJ
+      CX0NCgkJCQl9DQoJCQl9DQoJCX0NCgl9DQp9DQoNCmZ1bmN0aW9uIGlzRG9taW5vTGluayhjbGFzc25h
+      bWUpew0KCWlmKGNsYXNzbmFtZT09bnVsbCkNCgkJcmV0dXJuIGZhbHNlOw0KCXZhciBmaXJzdFBhcnQ9
+      Y2xhc3NuYW1lLnN1YnN0cmluZygxMiwwKTsNCglpZihmaXJzdFBhcnQ9PSgiZG9taW5vLWxpbmstIikp
+      ew0KCQlyZXR1cm4gdHJ1ZTsNCgl9DQoJcmV0dXJuIGZhbHNlOwkNCn0NCg0KZnVuY3Rpb24gaXNYUGFn
+      ZXNOb3Rlc0xpbmsobm90ZXNMaW5rLGNsYXNzbmFtZSl7DQoJaWYobm90ZXNMaW5rPT1udWxsKQ0KCQly
+      ZXR1cm4gZmFsc2U7DQoJaWYoY2xhc3NuYW1lPT0ieHBhZ2VUZW1wTGluayIpDQoJCXJldHVybiBmYWxz
+      ZTsNCgl2YXIgZmlyc3RQYXJ0PSAvbm90ZXM6XC9cL1wvLy50ZXN0KG5vdGVzTGluayk7DQoJaWYoZmly
+      c3RQYXJ0PT1mYWxzZSkNCgkJcmV0dXJuIGZhbHNlOw0KCXZhciBzZWNvbmRQYXJ0PS9cLm5zZi8udGVz
+      dChub3Rlc0xpbmspOw0KCWlmKHNlY29uZFBhcnQ9PWZhbHNlKQ0KCQlyZXR1cm4gZmFsc2U7DQoJdmFy
+      IHRoaXJkUGFydD0vXD9SZWRpcmVjdC8udGVzdChub3Rlc0xpbmspOw0KCWlmKHRoaXJkUGFydD09ZmFs
+      c2UpDQoJCXJldHVybiBmYWxzZTsNCglpZihmaXJzdFBhcnQgJiYgc2Vjb25kUGFydCAmJnRoaXJkUGFy
+      dCkNCgkJcmV0dXJuIHRydWU7DQoNCglyZXR1cm4gZmFsc2U7DQp9DQoNCmZ1bmN0aW9uIGluc2VydEFm
+      dGVyKG5ld0VsZW1lbnQsdGFyZ2V0RWxlbWVudCkgew0KCXZhciBwYXJlbnQgPSB0YXJnZXRFbGVtZW50
+      LnBhcmVudE5vZGU7DQoJaWYocGFyZW50Lmxhc3RjaGlsZCA9PSB0YXJnZXRFbGVtZW50KSB7CQ0KCQlw
+      YXJlbnQuYXBwZW5kQ2hpbGQobmV3RWxlbWVudCk7DQoJfSBlbHNlIHsNCgkJcGFyZW50Lmluc2VydEJl
+      Zm9yZShuZXdFbGVtZW50LCB0YXJnZXRFbGVtZW50Lm5leHRTaWJsaW5nKTsNCgl9DQp9AA==
+remaining: []

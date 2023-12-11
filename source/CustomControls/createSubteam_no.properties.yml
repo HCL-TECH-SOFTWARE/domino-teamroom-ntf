@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFAD8121DE5480AE69-ON0049B0AC80257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: createSubteam_no.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: createSubteam_no.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

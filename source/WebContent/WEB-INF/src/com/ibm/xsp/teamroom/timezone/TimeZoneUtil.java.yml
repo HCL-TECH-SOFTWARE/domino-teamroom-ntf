@@ -1,0 +1,38 @@
+---
+class: 4
+flags: 0x0000
+unid: OF00ADF4B3E0FC39E1-ON0035A909802577F3
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: WEB-INF/src/com/ibm/xsp/teamroom/timezone/TimeZoneUtil.java
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $FlagsExt
+    type: text
+    data: w
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2010-12-08T09:46:06.86-00:00"
+      - data: "2011-08-30T20:50:51.51-04:00"
+        dst: true
+      - data: "2011-10-06T16:05:42.45+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:57.69+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: WEB-INF/src/com/ibm/xsp/teamroom/timezone/TimeZoneUtil.java
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

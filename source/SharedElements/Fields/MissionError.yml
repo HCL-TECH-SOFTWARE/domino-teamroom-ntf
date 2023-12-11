@@ -1,0 +1,98 @@
+---
+class: 1024
+flags: 0x0000
+unid: OF255BFB65EDF9DFB9-ON003DF858802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "6"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: MissionError
+  - name: $BODY
+    type: composite
+    signed: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x0794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00dd
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xff8a
+        opaque: |
+          iv/CAYABAAUAMAIAAAAAAAACAQAICJIBAAAAAAAADAAAAAAAkgEHABwAFgBWYXJpYWJsZXMgdG8gdHJh
+          bnNsYXRlBwAKAAMACTFTAAEAYgAFAEVycm9yAAEAUABUaGUgVGVhbVJvb20gU2V0dXAgaGFzIG5vdCB5
+          ZXQgYmVlbiBjb21wbGV0ZWQuICBTb21lIGZpZWxkIGRhdGEgd2lsbCBiZSBtaXNzaW5nLgMABwAOAAcA
+          CTBSMVMyUwAHACAAGgBFbmQgdmFyaWFibGVzIHRvIHRyYW5zbGF0ZQcADAAFAAkwUjFTAAEAHgAEAFZp
+          ZXcBAA0ATWlzc2lvbkxvb2t1cAADAAcADgAIAAkwUlIxUzJTAQA4AAYATG9va3VwAQAAAAEABwBOb0Nh
+          Y2hlAB8CAQAAAAUABABWaWV3AAAAAAAAAADwP6oEAwAHABwAFQAJMFIxUzJTNVM2UzhTMTBTMTJTMkUA
+          AAA8AAUABgBMb29rdXABAAcATWlzc2lvbgALAq8AHAAQAAUABQBFcnJvcgCuAAwAAQAAAK4ABAC1AwMA
+          BwASAAsACTBSM1M0UzZTOFMATWlzc2lvbkVycm9y
+      - type: 0x00de
+        Signature: 0xff8a
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

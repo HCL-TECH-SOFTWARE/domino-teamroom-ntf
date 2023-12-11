@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF4E23B2293813ECC1-ON003FA4C380257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: setupBasics_nl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: setupBasics_nl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

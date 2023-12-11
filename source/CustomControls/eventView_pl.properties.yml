@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF64B27EDBB8687F5A-ON0049BF5380257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: eventView_pl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: eventView_pl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

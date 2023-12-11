@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OFC4F36AB79FBA529F-ON004C819680257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: homeTeamRoomPurpose_nl.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: homeTeamRoomPurpose_nl.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

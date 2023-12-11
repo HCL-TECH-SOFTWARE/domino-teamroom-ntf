@@ -1,0 +1,28 @@
+---
+class: 4
+flags: 0x0000
+unid: OF6E6483895D99EBF3-ON00504EDA80257917
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 9.0.1
+    signed: true
+  - name: $FileNames
+    type: text
+    data: statusReports.xsp
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4K
+  - name: $Revisions
+    type: time
+    data: "2013-09-10T14:26:04.51+01:00"
+    dst: true
+  - name: $TITLE
+    type: text
+    data: statusReports.xsp
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

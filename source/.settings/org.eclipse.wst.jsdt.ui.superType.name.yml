@@ -1,0 +1,33 @@
+---
+class: 4
+flags: 0x0000
+unid: OFE55E92150A0B145B-ON0061B78285257830
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ".settings/org.eclipse.wst.jsdt.ui.superType.name"
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2012-09-05T06:15:32.44-04:00"
+        dst: true
+      - data: "2012-10-27T10:29:18.46-04:00"
+        dst: true
+      - data: "2013-04-23T19:58:01.02-04:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: ".settings/org.eclipse.wst.jsdt.ui.superType.name"
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

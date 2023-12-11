@@ -1,0 +1,39 @@
+---
+class: 4
+flags: 0x0000
+unid: OF81E059880BA13901-ON004411F880257793
+items:
+  - name: $DesignerVersion
+    type: text
+    data: 8.5.3
+    signed: true
+  - name: $FileNames
+    type: text
+    data: ReadMe.txt
+    signed: true
+  - name: $Flags
+    type: text
+    data: ~C4g
+  - name: $MimeType
+    type: text
+    data: text/plain
+    signed: true
+  - name: $Revisions
+    type: time
+    data:
+      - data: "2010-10-20T12:16:37.44+01:00"
+        dst: true
+      - data: "2011-08-30T20:50:44.31-04:00"
+        dst: true
+      - data: "2011-10-06T16:05:26.44+01:00"
+        dst: true
+      - data: "2011-10-14T08:39:46.29+01:00"
+        dst: true
+  - name: $TITLE
+    type: text
+    data: ReadMe.txt
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

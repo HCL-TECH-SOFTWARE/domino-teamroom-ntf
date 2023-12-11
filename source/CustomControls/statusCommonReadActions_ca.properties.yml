@@ -1,0 +1,20 @@
+---
+class: 4
+flags: 0x0000
+unid: OF02FDB0D3C2B2991C-ON003CE38680257BB0
+items:
+  - name: $FileNames
+    type: text
+    data: statusCommonReadActions_ca.properties
+    signed: true
+  - name: $Flags
+    type: text
+    data: gC~4;2
+  - name: $TITLE
+    type: text
+    data: statusCommonReadActions_ca.properties
+  - name: $FileData
+    type: composite
+    signed: true
+    nonsummary: true
+remaining: []

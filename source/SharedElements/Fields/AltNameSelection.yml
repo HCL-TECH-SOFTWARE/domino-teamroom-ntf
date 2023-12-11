@@ -1,0 +1,136 @@
+---
+class: 1024
+flags: 0x0000
+unid: OF45D7B5943A1C8BCC-ON003DF8F0802577C2
+items:
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $Fields
+    type: text
+    data: AltNameSelection
+  - name: $Flags
+    type: text
+    data: ""
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: AltNameSelection
+  - name: AltNameSelection
+    type: iou
+    type_num: 0
+    nonsummary: true
+    ph: true
+  - name: $BODY
+    type: composite
+    signed: true
+    data:
+      - type: 0x0081
+      - type: 0xff82
+        FirstLineLeftMargin: 1440
+        Flags: 0x0100
+        Flags2: 0x8794
+        JustifyMode: 0
+        LeftMargin: 1440
+        LineSpacing: 0
+        PABID: 1
+        ParagraphSpacingAfter: 0
+        ParagraphSpacingBefore: 0
+        RightMargin: 0
+        Tab:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        TabTypes: 0x00000000
+        Tabs: 0
+        data:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0x00000001
+          - 0x00000004
+      - type: 0x0083
+        PABID: 1
+      - type: 0xff85
+        FontID: 0xa000001
+      - type: 0x00dd
+        Signature: 0xfff7
+        Version: 0
+      - type: 0xfff7
+        opaque: 9/8kAAEAAIAAAEALgAQAAAAAAAAAAGQAAAAAAAAAAAAAAAAA
+      - type: 0xfffe
+        opaque: |
+          /v9UAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAuLCQA
+      - type: 0xffb0
+        opaque: sP8sAAAAAoCCAAAAAAAAAAAAAAAUAAAAFAAAABIAAQAIAHNpemUgPSA0AwA=
+      - type: 0xff8a
+        opaque: |
+          iv+4A4ICAQUCIAAACAAAAAACAQAACQAA8AEAAAAAEABDAFAB8AEBAOoACABnZXRGaWVsZAUABABmb3Jt
+          YQEBAAkAbWFpbnRvcGljAAoCrwC+ABIABQAHAHBlb3BsZTEArgCsAAUABABmb3JtYQEBAAcAc3VidGVh
+          bQAKAq8AkAAUAAUACQBTVE1lbWJlcnMArgB8AAUABABmb3JtYQEBAAwAJHJlcGxpY2F0aW9uCgKvAFwA
+          FAAFAAoAQXV0aG9yTGlzdK4ASAAFAAQAZm9ybWEBAQAPACgkc3Vic2NyaXB0aW9uKQAKAq8AJAAYAAUA
+          DgBQcm9maWxlQXV0aG9yc64ADAABAAAArgAEALUJAwAHADYAMAAJMVMyUzhTOVMxMVMxM1MxN1MxOFMy
+          MlMyNlMyN1MyOVMzMVMzNVMzNlMzOFM0MFIAAKQABQAQAEFsdE5hbWVTZWxlY3Rpb24BAAAACgIFABAA
+          UHJpTmFtZVNlbGVjdGlvbgEAAAAKAhwCrwBmABIABQAIAGdldEZpZWxkrgBUAAUADgBBbHROYW1lRGlz
+          cGxheQEAAQAxAAoCrwA2ABoABQAQAEFsdE5hbWVTZWxlY3Rpb26uABwABQAQAFByaU5hbWVTZWxlY3Rp
+          b26uAAQAtQUDAAcAKgAjAAkwUjJSM1M0UzVTNlM3UzhTMTBTMTJSMTNTMTRTMTZTMThTAEFsdE5hbWVT
+          ZWxlY3Rpb25TZWxlY3QgdGhlIFRlYW0gTWVtYmVycyB0byB3aG9tIHlvdSBhcmUgZGlyZWN0aW5nIHRo
+          aXMgaW5mb3JtYXRpb24uAABOAQoABAABADwABwBQTG9va3VwAAEAAAABAAcAbm9jYWNoZQAfAgEAAAAB
+          AAYAUHJpQWx0AAAAAAAAAADwP6oEAwAHABoAEwAJMVMyUzJFNVM2UzhTMTBTMTJTAAEAHAAFAGlzTWFj
+          ALwAYQEBAAMAbWFjAEcCAwAHABIACwAJMFIxUzJTOVMyRQABAFgAAgBzcAUABQBJc01hYwCvAEIACgAB
+          AAAArgA4APsABQEBAAUATm90ZXMACgKvACQACgABAAAArgAaAAEAAQD/AAAAAAAAAAAAREBkAq4ABAC1
+          BQMABwAgABkACTBSMVMyUzZTOFM5UzEwUzEyUzE0UzE4UwAAADoABQAHAFBMb29rdXAAAQAAAAoCrwAg
+          AAwABQACAHNwrgAUAAUABwBQTG9va3VwAK4ABAC1AwMABwASAAwACTBSUjNTNFM2UzhTAA==
+      - type: 0xff7a
+        ID: People1_1
+        reserved: AAAAAAAAAAAAAA==
+      - type: 0x00d2
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+      - type: 0x00d2
+        Color:
+          Flags: 0x0009
+          rgb: 0xffffff
+      - type: 0x00de
+        Signature: 0xfff7
+        Version: 0
+      - type: 0xff85
+        FontID: 0xa000001
+  - name: $HTMLCode
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+  - name: $INFO
+    signed: true
+    nonsummary: true
+    type: opaque
+    type_num: 1
+    opaque: hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+remaining: []

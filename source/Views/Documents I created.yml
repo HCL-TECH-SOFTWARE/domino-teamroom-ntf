@@ -1,0 +1,486 @@
+---
+class: 8
+flags: 0x0000
+unid: OF40D8BFD666D2CD45-ON003DF5B5802577C2
+items:
+  - name: $AppHelpFormula
+    type: formula
+    data: |
+      REM {DNT};
+      @Command([OpenHelpDocument]; [ClientHelp]; "(Help)"; "TeamRoomVpwCreated")
+    opaque: |
+      YgAHAAoAAwBETlQABwAKAAMACTFTAAAAPAACAL0bAAAAAAAAAgC9AAAAAAAAAAEABgAoSGVscCkBABIA
+      VGVhbVJvb21WcHdDcmVhdGVk7QQDAAcAEAAJAAkwUjRTNlM4UwA=
+    signed: true
+  - name: $Collation
+    type_num: 2
+    type: opaque
+    opaque: HAACAABEAWYAAAAEAABmAAQABAAkMTA2JDEyMQ==
+  - name: $Collation1
+    type_num: 2
+    type: opaque
+    opaque: EQABAABEAGYAAAAEACQxMDY=
+  - name: $Collation2
+    type_num: 2
+    type: opaque
+    opaque: FAABAABEAGYAAAAHAERvY1R5cGU=
+  - name: $Comment
+    type: text
+    data: ""
+    signed: true
+  - name: $DesignerVersion
+    type: text
+    data: "7"
+    signed: true
+  - name: $Flags
+    type: text
+    data: p
+  - name: $Formula
+    type: formula
+    data: |
+      LCName := @LowerCase(@Name([Abbreviate]; @UserName));
+      LCFrom := @LowerCase(@Name([Abbreviate]; From));
+       form = "MainTopic" | form = "IndStat" & (LCFrom = LCName) | @IsResponseDoc
+    opaque: |
+      FAQCACQABAAkMTA2bACvABQACgABAAAArgAKAGkArgAEALUDAwACADQABAAkMTE2bACvACQACgABAAAA
+      rgAaAAEAAAABAAEAJQABAAEAJQCVA64ABAC1AwMAAgAOAAQAJDEyMWkAAwABACoAEwBQcml2YXRlVHh0
+      ALfgaQCBZiUABAEACQBQUklWQVRFOiAAAwABACoAEwBFeHBpcmVkVHh0ALjgaQCBZiUABAEACQBFWFBJ
+      UkVEOiAAAwABAFoAEwBBdXRob3JOYW1lALngaQCBZiUABAUABABGcm9taAEeAa8AMAAUAAEACQBBbm9u
+      eW1vdXMArgAcAAIABQAAAAAAAAAFAAQARnJvbbQCrgAEALUDAwACAPwABAAkMTQyBQAHAHJlYWRlcnMA
+      AQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQAt+BpAIFmJQAErgBCAAUACgBFeHBpcmVEYXRlAQAAAAsC
+      rwAqAB4ABQATAEV4cGlyZWRUeHQAuOBpAIFmJQAErgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAABAAAA
+      CwKvACYAGgAFAAcAU3ViamVjdAABAAIAICAiAq4ADAABAAAArgAEALUDIgIBAAEAKAAiAgUAEwBBdXRo
+      b3JOYW1lALngaQCBZiUABCICAQABACAAIgJpAAEABABEMlMwVgIiAgEAAQApACICAwABACoAEwBQcml2
+      YXRlVHh0AO0NQgAbaSUAAgEACQBQUklWQVRFOiAAAwABACoAEwBFeHBpcmVkVHh0AO4NQgAbaSUAAgEA
+      CQBFWFBJUkVEOiAAAwACAI4ABAAkMTQzBQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVU
+      eHQA7Q1CABtpJQADrgBCAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQA7g1C
+      ABtpJQADrgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAAiAgMABQBAADwACAAEAAQABAAEAAQABwAJAAQA
+      JDEwNiQxMTYkMTIxJDE0MiQxNDNEb2NUeXBlJENvbmZsaWN0JFJFRgQABAABAB4ABgBMQ05hbWUCAAUA
+      AAAAAAAA9AC0AmEBAwAHAA4ABwAJMVMyUzhTAAEAJAAGAExDRnJvbQIABQAAAAAAAAAFAAQARnJvbbQC
+      YQEDAAcAEAAJAAkwUjFTMlM4UwAAAFQABQAEAGZvcm0BAAkATWFpblRvcGljAAoCBQAEAGZvcm0BAAcA
+      SW5kU3RhdAAKAh0CBQAGAExDRnJvbQUABgBMQ05hbWUKAgQAHAJsAB0CAwAHACgAIgAJMFJMMVMyUzNT
+      NFM1UzZTN1M4UzlTMTFTMTJTMTRTMTVT
+    signed: true
+    nonsummary: true
+  - name: $FormulaClass
+    type: text
+    data: "1"
+    signed: true
+  - name: $Index
+    type: text
+    data: /L
+    signed: true
+  - name: $LANGUAGE
+    type: text
+    data: en
+    signed: true
+  - name: $TITLE
+    type: text
+    data: Documents I created|PersDocsICreated
+    signed: true
+  - name: $VIEWFORMAT
+    type_num: 5
+    type: opaque
+    opaque: |
+      AQAGAJAAjEwAAFZDBQUEAAQAMgAAAEgAAQAACQAAAQCIAAAAAAABAAAgVkOAAAQAAABIAAAAEAABAAAJ
+      AAAAAAAAAAAAAgIAAABWQ4kABAAAABAAAAAIAAEAAAkAAAAAAAAAAAACAgAAAFZDEAQEAAAAMgIAAA0A
+      AQAACQAgAgAAAAAAAAACAAAgVkMAAAQABQAgAQAAHgEBAAAJACAAAAAAAAAAAgIAACBWQwABBwAEAAAA
+      AADlAAEAAAkAAAAAAAAAAAACAgAAACQxMDZEYXRlMgACACQABAAkMTA2bACvABQACgABAAAArgAKAGkA
+      rgAEALUDAwAHAAwABQAJNFM2UwAkMTE2SAACADQABAAkMTE2bACvACQACgABAAAArgAaAAEAAAABAAEA
+      JQABAAEAJQCVA64ABAC1AwMABwASAAsACTRTNlMxMFMxMlMAJDEyMRAAAgAOAAQAJDEyMWkAAwAkMTQy
+      MgIBACoAEwBQcml2YXRlVHh0ALfgaQCBZiUABAEACQBQUklWQVRFOiAAAwAHAAwABQAJMVMyUwABACoA
+      EwBFeHBpcmVkVHh0ALjgaQCBZiUABAEACQBFWFBJUkVEOiAAAwAHAA4ABwAJMFIxUzJTAAEAWgATAEF1
+      dGhvck5hbWUAueBpAIFmJQAEBQAEAEZyb21oAR4BrwAwABQAAQAJAEFub255bW91cwCuABwAAgAFAAAA
+      AAAAAAUABABGcm9ttAKuAAQAtQMDAAcAFgAQAAkwUjFTMlMxMFMxMlMxNlMCAPwABAAkMTQyBQAHAHJl
+      YWRlcnMAAQAAAAsCrwBgAB4ABQATAFByaXZhdGVUeHQAt+BpAIFmJQAErgBCAAUACgBFeHBpcmVEYXRl
+      AQAAAAsCrwAqAB4ABQATAEV4cGlyZWRUeHQAuOBpAIFmJQAErgAMAAEAAACuAAQAtQUFAAcAU3ViamVj
+      dAABAAAACwKvACYAGgAFAAcAU3ViamVjdAABAAIAICAiAq4ADAABAAAArgAEALUDIgIBAAEAKAAiAgUA
+      EwBBdXRob3JOYW1lALngaQCBZiUABCICAQABACAAIgJpAAEABABEMlMwVgIiAgEAAQApACICAwAHAFYA
+      TwAJMFIzUzRTNlM5UzEwUzEyUzE0UzJFMTZTMTdTMjBTMjFTMjNTMjRTMjVTMjdTMjlTMzBTMzFTMzJT
+      MzNTMzRTMzVTMzZTNDBTNDJTNDNTACQxNDNUb3BpYyABAQAqABMAUHJpdmF0ZVR4dADtDUIAG2klAAIB
+      AAkAUFJJVkFURTogAAMABwAMAAUACTFTMlMAAQAqABMARXhwaXJlZFR4dADuDUIAG2klAAIBAAkARVhQ
+      SVJFRDogAAMABwAOAAcACTBSMVMyUwACAI4ABAAkMTQzBQAHAHJlYWRlcnMAAQAAAAsCrwBgAB4ABQAT
+      AFByaXZhdGVUeHQA7Q1CABtpJQADrgBCAAUACgBFeHBpcmVEYXRlAQAAAAsCrwAqAB4ABQATAEV4cGly
+      ZWRUeHQA7g1CABtpJQADrgAMAAEAAACuAAQAtQUFAAcAU3ViamVjdAAiAgMABwAiABwACTBSM1M0UzZT
+      OFM5UzEwUzEyUzE0UzE2UzE3U0RvY1R5cGVUeXBlJgABAAAAAQEACQEACAoBAQQKAAA/AK0rBAEBAAEB
+      AAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MCAAAJ
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAgAACQAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABXQwIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA
+      AAAAAAAAAAAAAAAAV0MCAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdD
+      AgAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wABAO/v
+      7wABAAAAAAAAAAAAAAABAAEA////AAEAqM/UAAAAAQCAAAAAAQAAAP8AAQAAAAAAAAAIAAAAAAABAA==
+    signed: true
+    nonsummary: true
+  - name: $WebFlags
+    type: text
+    data: pS
+    signed: true
+  - name: $V5ACTIONS
+    type: composite
+    signed: true
+    nonsummary: true
+    data:
+      - type: 0x00bd
+        BackColor: 214
+        BorderStyle: 1
+        BorderWidth: 0
+        BtnHeight: 8
+        FontID: 0x09000002
+        HeightSpc: 5
+        LineColor: 0
+        LineStyle: 1
+        ShareID: 0x00000000
+        dwFlags: 0x000018c1
+      - type: 0xff79
+        BackColor:
+          Flags: 0x0001
+          rgb: 0x78b4bc
+        BtnBorderDisplay: 3
+        BtnTextJustify: 0
+        BtnWidthStyle: 1
+        ButtonColor:
+          Flags: 0x0001
+          rgb: 0xc4dee1
+        FontColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        LineColor:
+          Flags: 0x0001
+          rgb: 0x000000
+        Spare:
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+          - 0x00000000
+        barFontID: 0x09000002
+        barHeight:
+          Flags: 0x0000
+          Length:
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 0
+            - 19
+            - 64
+          Reserved: 0
+          Units: 5
+        dwFlags: 0x00000003
+        wAppletHeight: 34
+        wBarBackgroundRepeat: 0
+        wBtnInternalMargin: 0
+        wBtnWidthAbsolute: 0
+        wSpare: 0x0000
+        wThemeSetting: 0
+      - type: 0xfffc
+        BorderFlags: 0
+        BorderStyle: 0
+        BorderWidthBottom: 1
+        BorderWidthLeft: 0
+        BorderWidthRight: 0
+        BorderWidthTop: 0
+        Color:
+          Flags: 0x0001
+          rgb: 0x000000
+        DropShadowWidth: 0
+        Flags: 0x00000000
+        InnerWidthBottom: 0
+        InnerWidthLeft: 0
+        InnerWidthRight: 0
+        InnerWidthTop: 0
+        OuterWidthBottom: 0
+        OuterWidthLeft: 0
+        OuterWidthRight: 0
+        OuterWidthTop: 0
+        dwSpare: 0x00000000
+        wSpares:
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+          - 0x0000
+      - type: 0x0059
+        opaque: WSABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AABOfA==
+        title: Categori_ze
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAADCg==
+        title: _Send Document
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA9fA==
+        title: _Move To Folder...
+      - type: 0xffbe
+        Flags: 0x0000019d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AAA+fA==
+        title: _Remove From Folder
+      - type: 0x0059
+        opaque: WSABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AQAECg==
+        title: _Forward
+      - type: 0xffbe
+        Flags: 0x0000419d
+        IconIndex: 0
+        ShareId: 0
+        Type: 5
+        opaque: AgACCg==
+        title: _Edit Document
+      - type: 0xffbe
+        Flags: 0x0001009b
+        IconIndex: 0
+        ShareId: 35
+        Type: 1
+        data: "@PostedCommand([Compose];\"MainTopic\")"
+        data_opaque: LgAAACAAAgDoAwAAAAAAAAEACQBNYWluVG9waWMAsQIDAAcADAAFAAkwUzBFAA==
+        title: New Document
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001000b
+        IconIndex: 0
+        ShareId: 36
+        Type: 1
+        data: |
+          @SetProfileField("TempVars"; "viewtitle"; @Subset(@ViewTitle; -1));
+          @PostedCommand([Compose];"Response")
+        data_opaque: |
+          agAIADIAAQAIAFRlbXBWYXJzAQAJAHZpZXd0aXRsZQCdAAAAAAAAAAAA8D8QAWsC+AMDAAcADgAIAAk0
+          UzZTMTBTAAAeAAIA6AMAAAAAAAABAAgAUmVzcG9uc2WxAgMABwAKAAMACTBSAA==
+        hidewhen: |
+          REM {hide from web if it's in a view};
+          @ClientType != "Notes" & !@IsAvailable(form)
+        hidewhen_opaque: |
+          bAAKAAQABwAmAB8AaGlkZSBmcm9tIHdlYiBpZiBpdCdzIGluIGEgdmlldwAHAAoAAwAJMVMAAAAkAPsA
+          BQEBAAUATm90ZXMACwIFAAQAZm9ybWgBHgEcAgMABwASAAsACTBSMVMyUzNTNFMA
+        title: New Response
+      - type: 0xffbe
+        Flags: 0x0001408b
+        IconIndex: 0
+        ShareId: 37
+        Type: 1
+        data: |
+          REM {notes only};
+          @PostedCommand([Compose];"ResponseToResponse")
+        data_opaque: |
+          TgAHABAACgBub3RlcyBvbmx5BwAKAAMACTFTAAAAKAACAOgDAAAAAAAAAQASAFJlc3BvbnNlVG9SZXNw
+          b25zZbECAwAHAAoAAwAJMFIA
+        title: New Response to Response
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 55
+        Type: 1
+        data: "@Command([MoveToTrash])"
+        data_opaque: IAAAABIAAgBMHQAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Move to Trash"
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 56
+        Type: 1
+        data: "@Command([EmptyTrash])"
+        data_opaque: IAAAABIAAgD9BwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: "Delete\\Empty Trash"
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 12
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 1
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 2
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 11
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 20
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 9
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 8
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 10
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 3
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 6
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 7
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 5
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xff5f
+        dwReserved: 0x00000000
+        wActionType: 7
+        wEventId: 4
+        wPlatform: 2
+        wReserved: 0
+      - type: 0xffbe
+        Flags: 0x0001219e
+        IconIndex: 0
+        ShareId: 44
+        Type: 1
+        data: |
+          REM {Web only - used in Views};
+          @Command([ViewShowSearchBar])
+        data_opaque: |
+          RgAHAB4AGABXZWIgb25seSAtIHVzZWQgaW4gVmlld3MHAAoAAwAJMVMAAAASAAIAkBcAAAAAAADtAQMA
+          BwAKAAMACTBSAA==
+        title: Search
+      - type: 0xffbe
+        Flags: 0x0001019f
+        IconIndex: 0
+        ShareId: 60
+        Type: 1
+        data: "@Command([HelpUsingDatabase])"
+        data_opaque: IAAAABIAAgCkFwAAAAAAAO0BAwAHAAwABQAJMFMwRQA=
+        title: Database Help
+remaining: []

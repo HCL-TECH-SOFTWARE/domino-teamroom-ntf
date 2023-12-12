@@ -2,9 +2,6 @@
 
 To build the application from the source see the latest on [Source Code Integration](https://help.hcltechsw.com/dom_designer/14.0.0/basic/wn_sourcecodeutilitytool.html) in Domino. See the [Releases](https://github.com/HCL-TECH-SOFTWARE/domino-teamroom-ntf/releases) for the application download.
 
-# Note
-We follow [The Grand Unified Theory of Documentation](https://documentation.divio.com)
-
 ## Issues
 For issues please use the [GitHub issue tracker](https://github.com/HCL-TECH-SOFTWARE/domino-teamroom-ntf/issues)
 

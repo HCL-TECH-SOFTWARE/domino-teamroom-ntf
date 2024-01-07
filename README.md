@@ -1,5 +1,7 @@
 # HCL Domino Teamroom
 
+![Screenshot Discussion](docs/assets/images/png/screenshot.png)
+
 To build the application from the source see the latest on [Source Code Integration](https://help.hcltechsw.com/dom_designer/14.0.0/basic/wn_sourcecodeutilitytool.html) in Domino. See the [Releases](https://github.com/HCL-TECH-SOFTWARE/domino-teamroom-ntf/releases) for the application download.
 
 ## Issues

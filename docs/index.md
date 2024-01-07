@@ -23,7 +23,7 @@ has_children: false
 
 Property | Value
 ---|---
-Filename | teamr12_EN.ntf
+Filename | teamrm12_EN.ntf
 Templatename | StdR12TeamRoom
 Template version | 12.0.1
 Signed by | Open Source Template/Domino Development

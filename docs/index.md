@@ -35,12 +35,18 @@ TeamRoom is a HCL Notes application designed to support processes that help peop
 
 TeamRoom is a tool for information sharing and collaboration.  However, the work of a TeamRoom-based team is not fundamentally different than it was "before groupware."  By creating a shared context for team work, TeamRoom does what many good tools do: creates leverage, both for the individuals on the team and for the team as a whole.  Because the technology is built on a Notes groupware "sharing" platform, this context is richer and the leverage is greater than is typically possible with "sending" tools like Email.  Notes also makes it possible for TeamRoom to support teams whose members who are geographically distributed, and who are sometimes unable to be connected to their computer network.
 
-- Examples of work made easier and more efficient by TeamRoom include:
+Examples of work made easier and more efficient by TeamRoom include:
 - Raising & discussing issues and concerns
 - Creating (collaborative) product:  memos, presentations, other "deliverables"
 - Brainstorming (which, hopefully, leads to resolution and action)
 - Preparing for meetings:  one can present and share information in the TeamRoom before the meeting, so that meeting time can be focused on decision making
 - Tracking meeting agendas and resulting action items.
+
+## Also works on the web
+
+![Screenshot Teamroom](assets/images/png/screenshot2.png)
+![Screenshot Teamroom](assets/images/png/screenshot4.png)
+
 
 
 ## Where to find more information?
